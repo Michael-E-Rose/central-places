@@ -1,29 +1,36 @@
-<footer class="footer" id="footer">
-	<div class="container">
-		<div class="row">
-		  <div class="col-xs-4">
-		  	<ul>
-		        <li><a href="{{ url_for('index') }}">Start</a></li>
-		        <li><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank">The Paper</a></li>
-		        <li {% if this_site == 'rankings' %}class='active'{% endif %}><a href="{{ url_for('rankings', rtype='comwith', time='late', ranking='occurrence') }}">The Rankings</a></li>
-		        <li {% if this_site == 'networks' %}class='active'{% endif %}><a href="{{ url_for('networks', net_type='comwith', time='late') }}">The Networks (Graph view)</a></li>
-		        <li {% if this_site == 'rings' %}class='active'{% endif %}><a href="{{ url_for('rings',time='late') }}">The Networks (Ring view)</a></li>
-		        <li {% if this_site == 'about' %}class='active'{% endif %}><a href="{{ url_for('about') }}">About</a></li>
-		  	</ul>
-		  </div>
-		  <div class="col-xs-4">
-		  	<ul>
-		  		<li><span class="glyphicon glyphicon-map-marker"></span> University of Cape Town</li>
-		  		<li><span class="glyphicon glyphicon-map-marker" style="color: #006699;"></span> Private Bag X1</li> 
-		  		<li><span class="glyphicon glyphicon-map-marker" style="color: #006699;"></span> Rondebosch 7700</li> 
-		  		<li><span class="glyphicon glyphicon-map-marker" style="color: #006699;"></span> South Africa</li>
-		  		<li><span class="glyphicon glyphicon-map-marker" style="color: #006699;"></span></li>
-		  		<li><span class="glyphicon glyphicon-envelope"></span><a href="mailto:contact@central-places.net"> contact@central-places.net</a></li>
-		    </ul>
-		  </div>
-		  <div class="col-xs-4">
-		      <p>Last update: 2016-05-03</p>
-		  </div>
-		</div>
-	</div>
-</footer>
+<div id="footer">
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
+          <ul>
+          <li><a href="{{ url_for('index') }}">Start</a></li>
+          <li><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank">The Paper</a></li>
+          <li {% if this_site == 'rankings' %}class='active'{% endif %}><a href="{{ url_for('rankings', rtype='comwith', time='late', ranking='occurrence') }}">The Rankings</a></li>
+          <li {% if this_site == 'networks' %}class='active'{% endif %}><a href="{{ url_for('networks', net_type='comwith', time='late') }}">The Networks (Graph view)</a></li>
+          <li {% if this_site == 'rings' %}class='active'{% endif %}><a href="{{ url_for('rings', time='late') }}">The Networks (Ring view)</a></li>
+          <li {% if this_site == 'about' %}class='active'{% endif %}><a href="{{ url_for('about') }}">About</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-4">
+          <ul>
+            <address class="vcard">
+              <div class="adr">
+                <div class="org">University of Cape Town</div>
+                <div class="street-address">Private Bag X1</div>
+                <div class="locality">Rondebosch 7701</div>
+                <div class="country-name">South Africa</div>
+              </div>
+            </address>
+            <li>
+              <a href="mailto:contact@central-places.net"><span class="glyphicon glyphicon-envelope"></span> contact@central-places.net</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-4">
+          <p>Last update: 2016-05-03</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
