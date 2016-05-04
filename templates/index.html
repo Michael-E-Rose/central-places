@@ -6,13 +6,13 @@
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="Academics collaborate informally by discussing their work with colleagues. We study the social network among financial economists and rank them according to their centrality in the network."/>
   <meta property="og:url" content="{{ url_for('index') }}"/>
-  <meta property="og:site_name" content="www.Central-Places.net"/>
-  <meta property="og:image" content="{{ url_for('static', filename='images/all-late_rankflow.png') }}"/>
+  <meta property="og:site_name" content="www.central-places.net"/>
   <meta property="fb:app_id" content="966242223397117"/>
   <meta property="twitter:title" content="www.Central-Places.net"/>
   <meta property="twitter:image" content="{{ url_for('static', filename='images/all-late_rankflow.png') }}"/>
   <meta property="twitter:description" content="Academics collaborate informally by discussing their work with colleagues. We study the social network among financial economists and to understand the flow of information."/>
   <title>www.central-places.net: collaboration in financial economics</title>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/places_style.css') }}">
@@ -20,60 +20,93 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
   <script src="{{ url_for('static', filename='js/google.tracking.js') }}"></script>
+
   <style type="text/css">
-    body{
-      padding-top: 0px;
+    html, body {
+      height: 100%;
+    }
+
+    #wrap {
+      min-height: 100%;
+    }
+
+    #logo {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+
+    #main {
+      overflow:auto;
+      padding-bottom: 150px;  /* must be same height as the footer */
+    }
+
+    #footer {
+      position: relative;
+      margin-top: -150px;  /* negative value of footer height */
+      height: 150px;
+      clear:both;
+    } 
+
+    /*Opera Fix*/
+    body:before {
+      content:"";
+      height:100%;
+      float:left;
+      width:0;
+      margin-top:-32767px;/
     }
   </style>
 </head>
 
 <body>
-<div class="container">
+<div class="container" id="wrap">
 
-
-  <div class="row">  
-    <div class="col-xs-4"></div>
-    <div class="col-xs-4">
-      <img alt="logo" height="100px" src="{{ url_for('static', filename='images/logo_full.png') }}">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-4">
-      <h2><span class="glyphicon glyphicon-flash"></span> The Paper</h2>
-      <p>In <a href="http://www.co-georg.de">Co-Pierre Georg</a> and <a href="http://www.michael-e-ro.se">Michael E. Rose</a>: <i>"Mirror, Mirror, on the Wall, Who is the Most Central of Them All?"</i> (<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank">SSRN</a>) we create the social network of informal collaboration based on acknowledgments from more than 2,700 published research papers from six financial economics journals.</p>
-      <p><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank" class="btn btn-success">Our paper on SSRN &raquo;</a></p>
-    </div>
-    <div class="col-xs-4">
-      <h2><span class="glyphicon glyphicon-list"></span> The Rankings</h2>
-      <p>Who are the most central financial economists of our time? We provide rankings according to two centrality measures compared to the number of times they are acknowledged. We look at two samples (1998-2000 and 2009-2011) and both the network of informal collaboration and the network of formal collaboration.</p>
-      <p><a href="{{ url_for('rankings', rtype='comwith', time='late', ranking='occurrence') }}" class="btn btn-success">To the Rankings &raquo;</a></p>
-    </div>
-    <div class="col-xs-4">
-      <h2><span class="glyphicon glyphicon-random"></span> The Networks</h2>
-      <p>How does the social network of informal collaboration actually look like? Find out who knows whom and where you have been acknowledged.</p>
-      <p><a href="{{ url_for('networks', net_type='comwith', time='late') }}" class="btn btn-success">See the Networks (Graph view) &raquo;</a></p>
-      <p><a href="{{ url_for('rings', time='late', focus='RENE_M_STULZ') }}" class="btn btn-success">See the Networks (Ring view) &raquo;</a></p>
-    </div>
+  <div class="row" id="logo">
+    <img alt="logo" height="200px" src="{{ url_for('static', filename='images/logo_full.png') }}">
   </div>
 
   <br>
-  <br>
 
-  <div class="row">
-    <div class="col-xs-4">
-      <h2><span class="glyphicon glyphicon-user"></span> About</h2>
-      <p>Find out who we are, why we set up this website and contact us.</p>
-      <p><a href="{{ url_for('about') }}" class="btn btn-success">Find out &raquo;</a></p>
+  <div id="main">
+    <div class="row">
+      <div class="col-xs-4">
+        <h2><span class="glyphicon glyphicon-flash"></span> The Paper</h2>
+        <p>In <a href="http://www.co-georg.de">Co-Pierre Georg</a> and <a href="http://www.michael-e-ro.se">Michael E. Rose</a>: <i>"Mirror, Mirror, on the Wall, Who is the Most Central of Them All?"</i> (<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank">SSRN</a>) we create the social network of informal collaboration based on acknowledgments from more than 2,700 published research papers from six financial economics journals.</p>
+        <p><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank" class="btn btn-success">Our paper on SSRN &raquo;</a></p>
+      </div>
+      <div class="col-xs-4">
+        <h2><span class="glyphicon glyphicon-list"></span> The Rankings</h2>
+        <p>Who are the most central financial economists of our time? We provide rankings according to two centrality measures compared to the number of times they are acknowledged. We look at two samples (1998-2000 and 2009-2011) and both the network of informal collaboration and the network of formal collaboration.</p>
+        <p><a href="{{ url_for('rankings', rtype='comwith', time='late', ranking='occurrence') }}" class="btn btn-success">To the Rankings &raquo;</a></p>
+      </div>
+      <div class="col-xs-4">
+        <h2><span class="glyphicon glyphicon-random"></span> The Networks</h2>
+        <p>How does the social network of informal collaboration actually look like? Find out who knows whom and where you have been acknowledged.</p>
+        <p><a href="{{ url_for('networks', net_type='comwith', time='late') }}" class="btn btn-success">See the Networks (Graph view) &raquo;</a></p>
+        <p><a href="{{ url_for('rings', time='late', focus='RENE_M_STULZ') }}" class="btn btn-success">See the Networks (Ring view) &raquo;</a></p>
+      </div>
     </div>
-    <div class="col-xs-4">
-      <h2><span class="glyphicon glyphicon-education"></span> The Institute</h2>
-      <p>We are affiliated with The African Insitute of Financial Markets and Risk Management (AIFMRM), South Africa's leading finance and risk institute, based at the University of Cape Town.</p>
-      <p><a href="http://aifmrm.uct.ac.za" class="btn btn-success" target="_blank">Learn about AIFMRM &raquo;</a></p>
-    </div>
-    <div class="col-xs-4">
-      <h2><span class="glyphicon glyphicon-comment"></span> Feedback</h2>
-      <p>Do you have a suggestion to improve the website or did you find a typo? We are happy to hear from you!</p>
-      <p><a href="https://github.com/Michael-E-Rose/central-places" class="btn btn-success">Fork the site on GitHub &raquo;</a></p>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <h2><span class="glyphicon glyphicon-user"></span> About</h2>
+        <p>Find out who we are, why we set up this website and contact us.</p>
+        <p><a href="{{ url_for('about') }}" class="btn btn-success">Find out &raquo;</a></p>
+      </div>
+      <div class="col-xs-4">
+        <h2><span class="glyphicon glyphicon-education"></span> The Institute</h2>
+        <p>We are affiliated with The African Insitute of Financial Markets and Risk Management (AIFMRM), South Africa's leading finance and risk institute, based at the University of Cape Town.</p>
+        <p><a href="http://aifmrm.uct.ac.za" class="btn btn-success" target="_blank">Learn about AIFMRM &raquo;</a></p>
+      </div>
+      <div class="col-xs-4">
+        <h2><span class="glyphicon glyphicon-comment"></span> Feedback</h2>
+        <p>Do you have a suggestion to improve the website or did you find a typo? We are happy to hear from you!</p>
+        <p><a href="https://github.com/Michael-E-Rose/central-places" class="btn btn-success">Fork the site on GitHub &raquo;</a></p>
+      </div>
     </div>
   </div>
 
