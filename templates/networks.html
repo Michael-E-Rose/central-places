@@ -59,7 +59,7 @@
       <p>For computational reasons, only the giant component is shown and all links that occur only once and which at the same time have a weight smaller than 1 have been removed. Nodes are color-coded: yellow nodes are pure authors (author that are not acknowledged in the dataset), blue nodes are pure commenters (nodes that are acknowledged but have not authored a paper in the dataset) and red nodes are commenting authors. Node positions according to an adapted Fruchterman-Reingold algorithm. Visualization using vis.js.</p>
       <p>You can:</p>
        <ul>
-        <li>Hover over a mouse to see metrics</li>
+        <li>Hover over a node to see metrics</li>
         <li>Highlight the social neighborhood on click (indirect neighbors colored in black)</li>
         <li>Move nodes</li>
         <li><div id="dropdown"></div></li>
@@ -72,16 +72,8 @@
       <script src="{{ url_for('static', filename='js/dropdown.js') }}">
       </script>
 
-      <h1>Network with community detection ({% if time=='early' %}1998-2000{% elif time=='late' %}2009-2011{% endif %})</h1>
-      <p>(For computational reasons, we only show all nodes with rank 100 or higher according to the number of times acknowledged Edge size corresponds to degree and while color groups nodes belonging to the same modularity. It can be understood as community detection based on density connections between nodes. See V. Blondel, J-L Guillaume, R. Lambiotte and E. Lefebvre: "Fast unfolding of communities in large networks", <i>Journal of Statistical Mechanics: Theory and Experiment</i> 2008, 2008 for details.)</p>
-      <img src="{{ url_for('static', filename='images/all-' + time + '-reduced.png') }}">
-      <br>
-      <ul class="nav nav-pills">
-        <li class="active"><a href="{{ url_for('static', filename='images/all-' + time + '-reduced.png') }}">.png</a></li>
-        <li><a href="{{ url_for('static', filename='images/all-' + time + '-reduced.pdf') }}">.pdf</a></li>
-        <li><a href="{{ url_for('static', filename='images/all-' + time + '-reduced.svg') }}">.svg</a></li>
-      </ul>
     {% endif %}
+    <br>
     </div>
   </div>
 
