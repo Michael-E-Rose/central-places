@@ -39,7 +39,7 @@ if __name__ == '__main__':
     ranking_folder = IC + "211_centralities/comwith_network"
     network_folder = IC + "210_network_data/comwith_network"
     positions_folder = IC + "213_node_positions"
-    output_folder = "../static/js"
+    output_folder = "../static/"
 
     # Templates
     text_tmplte = Template(
@@ -56,8 +56,8 @@ if __name__ == '__main__':
         ranking_file = "%s/all-%s.csv" % (ranking_folder, tp)
         network_file = "%s/all-%s.gexf" % (network_folder, tp)
         positions_file = "%s/comwith_all-%s.csv" % (positions_folder, tp)
-        output_file = {'graph': "%s/all-%s-network.js" % (output_folder, tp),
-                       'ring': "%s/all-%s-ring.js" % (output_folder, tp)}
+        output_file = {'graph': "%sjs/all-%s-network.js" % (output_folder, tp),
+                       'ring': "%sjson/all-%s-ring.json" % (output_folder, tp)}
 
         with open(ranking_file, 'r') as inf:
             reader = csv.DictReader(inf)
@@ -117,6 +117,5 @@ if __name__ == '__main__':
         drops = ["journal", "year", "jel", "title", "id"]
         ring['links'] = compress(ring['links'], drops)
         ring['links'] = replace_enumeration(ring['links'], id_mapping)
-        r = "data = " + json.dumps(ring)  # Create real .js file
-        with open(output_file['ring'], 'w') as ouf:
-            ouf.write(r.encode('utf-8'))
+        with open(output_file["ring"], 'w') as ouf:
+            ouf.write(json.dumps(ring))

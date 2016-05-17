@@ -51,30 +51,34 @@
       <h1>Interactive Network in ring representation {% if time=='early' %}(1998-2000){% else %}(2009-2011){% endif %}</h1>
       <p>The ring representation shows the first and second neighbors of the node in focus, as well as connections between first neighbors. For computational reasons, not more than 40 random primary connections are displayed. Nodes are color-coded according to how often they have been acknowledged. Visualization using d3plus.js.</p>
       <div id="ring_viz"></div>
-      <script src="{{ url_for('static', filename='js/all-' + time + '-ring.js') }}"></script>
       <script>
-      // instantiate d3plus
-      var visualization = d3plus.viz()
-        .container("#ring_viz")
-        .type("rings")
+      d3.json("{{ url_for('static', filename='json/all-' + time + '-ring.json') }}", function(error, data) {
 
-        // Nodes
-        .data(data.nodes)
-        .id("id")
-        .text("label")
-        .color("occurrence")
+        if (error) throw error;
 
-        // Links
-        .edges(data.links)
-        .edges({
-          "limit": 40
-        })
+        // instantiate d3plus
+        var visualization = d3plus.viz()
+          .container("#ring_viz")
+          .type("rings")
 
-        // Draw
-        .focus("{{focus}}")
-        .height(700)
-        .width(1000)
-        .draw()
+          // Nodes
+          .data(data.nodes)
+          .id("id")
+          .text("label")
+          .color("occurrence")
+
+          // Links
+          .edges(data.links)
+          .edges({
+            "limit": 40
+          })
+
+          // Draw
+          .focus("{{focus}}")
+          .height(700)
+          .width(1000)
+          .draw()
+      })
       </script>
     </div>
   </div>
