@@ -1,112 +1,77 @@
 #!/usr/bin/env python2.7
 """Generate html for website to display the network rankings."""
 
-import csv
-from collections import OrderedDict
+import sys
 from itertools import product
-from string import Template
+
+import pandas as pd
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+pd.set_option('display.max_colwidth', -1)
 
 
-def get_aff(aff_list):
-    """Return unique affiliation(s) from pandas series."""
-    a = [aff for aff in aff_list if aff != '']
-    if len(a) > 0:
-        return "; ".join(set(a))
-    else:
-        return ""
-
-
-def get_linktext(node, nw, tp):
-    """"Return string with link depending on network definition."""
-    if nw == "comwith":
-        t = Template("<a href=\"{{url_for('rings',time='$tp',"
-                     "focus='$link')}}\">$text</a>")
-        return t.substitute(tp=tp, text=node,
-                            link=node.replace(" ", "_").replace("'", ""))
-    else:
-        return node
-
-def get_ranking_html(rank_dct, nw, tp, measure):
-    """Return html for ranking list."""
-    header = """
-<thead>
-    <tr>
-        <th>Rank</th>
-        <th>Name</th>
-        <th>Affiliation (on published papers)</th>
-        <th>Value</th>
-    </tr>
-</thead>
-<tbody>
-"""
-    t = Template('<td>$rank</td><td>$text</td><td>$aff</td><td>$val</td>')
-    table = []
-    for node, sub in rank_dct.items():
-        # Get elements
-        rank = sub[measure + '_rank']
-        text = get_linktext(node, nw, tp)
-        aff = sub["affiliation"][tp]
-        value = round_if_needed(rank_dct[node][measure], measure)
-        # Combine elements
-        entry = t.substitute(rank=rank, text=text, aff=aff, val=value)
-        table.append('<tr>' + entry + '</tr>')
-    return header + '\n'.join(table) + "\n</tbody>"
-
-
-def round_if_needed(num, meas):
-    """Return value with precision depending on measure."""
-    if meas == "occurrence":
-        return int(num)
-    else:
-        return round(float(num), 4)
-
+def linkfy(name, tp):
+    """Return link for comwith ranking."""
+    label = name.replace(" ", "_").replace("'", "")
+    s = u"<a href=\"{{url_for('rings',time='%s',focus='%s')}}\">%s</a>" % (tp, label, name)
+    return s
 
 
 if __name__ == '__main__':
     # VARIABLES
     IC = "../../InformalCollaboration/Code/"  # relative path of IC repository
-    networks = ["comwith", "auth"]
+    networks = ["auth", "comwith"]
     input_folder = IC + "211_centralities/"
-    affiliation_file = IC + "112_node_lists/all-all_authors.csv"
+    affiliation_file = IC + "214_node_lists/all-all_all.csv"
     output_folder = "../templates/rankings/"
 
-    year_map = {"early": range(1998, 2000+1),
-                "late": range(2009, 2011+1)}
-    timepoints = year_map.keys()
+    timepoints = ['early', 'late']
+    measures = ["occurrence", "betweenness", "eigenvector"]
 
+    AFF_LABEL = 'Affiliation (on last published paper)'
+
+    # READ IN
+    # DataFrame for affiliations
+    aff_df = pd.read_csv(affiliation_file, encoding='utf-8', index_col=0,
+                         usecols=['name', 'affiliation'])
+    aff_df['affiliation'].fillna(u"", inplace=True)
+    aff_df['affiliation'] = aff_df['affiliation'].apply(
+        lambda x: x.split('; ')[-1])  # use affiliation of last-published paper
+    aff_df.rename(columns={'affiliation': AFF_LABEL},
+                  inplace=True)
+
+    # CREATE RANKING
     combs = product(timepoints, networks)
     for (tp, nw) in combs:
-        input_file = input_folder + nw + "_network/all-" + tp + ".csv"
+        # Read in
+        input_file = "{}{}_network/all-{}.csv".format(input_folder, nw, tp)
+        rank_df = pd.read_csv(input_file, encoding='utf-8')
 
-        keeps = ["node", "occurrence", "betweenness", "eigenvector"]
+        # Merge data
+        rank_df = rank_df.merge(aff_df, 'left', left_on='node',
+                                right_index=True)
+        rank_df[measures] = rank_df[measures].fillna(0)
+        rank_df.rename(columns={'node': 'Name'}, inplace=True)
 
-        # READ IN
-        with open(input_file, 'r') as f:
-            reader = csv.DictReader(f)
-            ranks = {row.pop("node"): row for row in reader}
-        with open(affiliation_file, 'r') as f:
-            reader = csv.DictReader(f)
-            affs = {row.pop("author"): row for row in reader}
-        # Remove unneccessary information; merge affiliations
-        for author, subdict in ranks.items():
-            for key in subdict.keys():
-                if not any(variable in key for variable in keeps):
-                    del subdict[key]
-            subdict["affiliation"] = d = dict.fromkeys(timepoints, "")
-            if author in affs:
-                for tp, years in year_map.items():
-                    cur_affs = [affs[author][str(y)] for y in year_map[tp]]
-                    d.update({tp: get_aff(cur_affs)})
+        # Create column with links
+        if nw == "comwith":
+            rank_df['Name'] = rank_df['Name'].apply(
+                lambda x: linkfy(x, tp))
 
-        # SORT AND WRITE OUT
-        for measure in keeps[1:]:
-            reduced_dict = {key: subdict for key, subdict in ranks.items()
-                            if subdict[measure + '_rank'] != ""}
-            od = OrderedDict(sorted(reduced_dict.iteritems(),
-                             key=lambda kv: int(kv[1][measure + '_rank'])))
+        # Sort and write out
+        for measure in measures[:1]:
+            rank_meas = measure + '_rank'
 
-            out_text = get_ranking_html(od, nw, tp, measure)
+            temp = rank_df.sort_values([rank_meas, 'Name'])
+            temp.rename(columns={rank_meas: 'Rank', measure: 'Value'},
+                        inplace=True)
+            temp['Rank'].fillna("-", axis='index', inplace=True)
+            temp['Rank'] = temp['Rank'].apply(lambda x: str(x).split('.')[0])
+
             output_file = '{}all-{}_{}_{}.html'.format(output_folder, nw,
                                                        tp, measure)
-            with open(output_file, 'w') as ouf:
-                ouf.write(out_text)
+            temp[['Rank', 'Name', AFF_LABEL, 'Value']].to_html(
+                output_file, index=False, escape=False,
+                classes="table table-hover", na_rep="",
+                float_format=lambda x: '%10.3f' % x)
