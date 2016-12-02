@@ -72,19 +72,19 @@
     <div class="row">
       <div class="col-xs-4">
         <h2><span class="glyphicon glyphicon-flash"></span> The Paper</h2>
-        <p>In <a href="http://www.co-georg.de">Co-Pierre Georg</a> and <a href="http://www.michael-e-ro.se">Michael E. Rose</a>: <i>"Mirror, Mirror, on the Wall, Who is the Most Central of Them All?"</i> (<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank">SSRN</a>) we create the social network of informal collaboration based on acknowledgments from more than 2,700 published research papers from six financial economics journals.</p>
-        <p><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank" class="btn btn-success">Our paper on SSRN &raquo;</a></p>
+        <p>With the dataset advertised here, we researched the information flow in financial economics. Find out what we found out.</p>
+        <p><a href="{{ url_for('bibliography') }}" class="btn btn-success">See our papers &raquo;</a></p>
       </div>
       <div class="col-xs-4">
         <h2><span class="glyphicon glyphicon-list"></span> The Rankings</h2>
-        <p>Who are the most central financial economists of our time? We provide rankings according to two centrality measures compared to the number of times they are acknowledged. We look at two samples (1998-2000 and 2009-2011) and both the network of informal collaboration and the network of formal collaboration.</p>
+        <p>Who are the most central financial economists of our time? We provide rankings according to two centrality measures compared to the number of times they are acknowledged.</p>
         <p><a href="{{ url_for('rankings', rtype='comwith', time='late', ranking='occurrence') }}" class="btn btn-success">To the Rankings &raquo;</a></p>
       </div>
       <div class="col-xs-4">
         <h2><span class="glyphicon glyphicon-random"></span> The Networks</h2>
         <p>How does the social network of informal collaboration actually look like? Find out who knows whom and where you have been acknowledged.</p>
-        <p><a href="{{ url_for('networks', net_type='comwith', time='late') }}" class="btn btn-success">See the Networks (Graph view) &raquo;</a></p>
-        <p><a href="{{ url_for('rings', time='late', focus='RENE_M_STULZ') }}" class="btn btn-success">See the Networks (Ring view) &raquo;</a></p>
+        <p><a href="{{ url_for('networks', net_type='comwith', time='late') }}" class="btn btn-success">See the Graph view &raquo;</a></p>
+        <p><a href="{{ url_for('rings', time='late', focus='RENE_M_STULZ') }}" class="btn btn-success">See the Ring view &raquo;</a></p>
       </div>
     </div>
 

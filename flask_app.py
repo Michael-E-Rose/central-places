@@ -19,6 +19,11 @@ def index(this_site):
     return render_template('index.html', this_site='index')
 
 
+@app.route('/bibliography')
+def bibliography():
+    return render_template('bibliography.html')
+
+
 @app.route('/rankings')
 def rankings():
     rtype = request.args.get('rtype', default='comwith')

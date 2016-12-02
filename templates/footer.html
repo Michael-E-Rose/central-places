@@ -5,7 +5,7 @@
         <div class="col-xs-4">
           <ul>
           <li><a href="{{ url_for('index') }}">Start</a></li>
-          <li><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank">The Paper</a></li>
+          <li><a href="{{ url_for('bibliography') }}">The Papers</a></li>
           <li {% if this_site == 'rankings' %}class='active'{% endif %}><a href="{{ url_for('rankings', rtype='comwith', time='late', ranking='occurrence') }}">The Rankings</a></li>
           <li {% if this_site == 'networks' %}class='active'{% endif %}><a href="{{ url_for('networks', net_type='comwith', time='late') }}">The Networks (Graph view)</a></li>
           <li {% if this_site == 'rings' %}class='active'{% endif %}><a href="{{ url_for('rings', time='late') }}">The Networks (Ring view)</a></li>
@@ -28,7 +28,7 @@
           </ul>
         </div>
         <div class="col-xs-4">
-          <p>Last update: 2016-07-18</p>
+          <p>Last update: 2016-12-02</p>
         </div>
       </div>
     </div>

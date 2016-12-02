@@ -16,7 +16,7 @@
     <div id="navbarCollapse" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="{{ url_for('index') }}"><span class="glyphicon glyphicon-home"></span> Start</a></li>
-        <li><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" target="_blank"><span class="glyphicon glyphicon-flash"></span> The Paper</a></li>
+        <li><a href="{[ url_for('bibliography') }}"><span class="glyphicon glyphicon-flash"></span> The Papers</a></li>
         <li {% if this_site == 'rankings' %}class='active'{% endif %}><a href="{{ url_for('rankings', rtype='comwith', time='late', ranking='occurrence') }}"><span class="glyphicon glyphicon-list"></span> The Rankings</a></li>
         <li {% if this_site == 'networks' %}class='active'{% endif %}><a href="{{ url_for('networks', net_type='comwith', time='late') }}"><span class="glyphicon glyphicon-random"></span> The Networks (Graph view)</a></li>
         <li {% if this_site == 'rings' %}class='active'{% endif %}><a href="{{ url_for('rings', time='late', focus='RENE_M_STULZ') }}"><span class="glyphicon glyphicon-random"></span> The Networks (Ring view)</a></li>
