@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 """Generate html for website to display the network rankings."""
 
 import sys
@@ -6,8 +6,6 @@ from itertools import product
 
 import pandas as pd
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
 pd.set_option('display.max_colwidth', -1)
 
 
@@ -33,7 +31,7 @@ if __name__ == '__main__':
 
     # READ IN
     # DataFrame for affiliations
-    aff_df = pd.read_csv(affiliation_file, encoding='utf-8', index_col=0,
+    aff_df = pd.read_csv(affiliation_file, index_col=0,
                          usecols=['name', 'affiliation'])
     aff_df['affiliation'].fillna(u"", inplace=True)
     aff_df['affiliation'] = aff_df['affiliation'].apply(
