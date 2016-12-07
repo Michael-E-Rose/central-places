@@ -34,12 +34,12 @@ def replace_enumeration(d, mapping):
 
 if __name__ == '__main__':
     # VARIABLES
-    IC = "../../InformalCollaboration/Code/"  # relative path of IC repository
-    timepoints = ["early", "late"]
-    ranking_folder = IC + "211_centralities/comwith_network"
-    network_folder = IC + "210_network_data/comwith_network"
-    positions_folder = IC + "213_node_positions"
+    ranking_folder = "centralities"
+    network_folder = "networks"
+    positions_folder = "positions"
     output_folder = "../static/"
+
+    YEARS = ['2011', '2008', '2005', '2002', '1999']
 
     # Templates
     text_tmplte = Template(
@@ -51,13 +51,13 @@ if __name__ == '__main__':
                            'x:$x,y:$y,value:1,group:"$group"}')
     edge_tmplte = Template('{from:$fr,to:$to}')
 
-    for tp in timepoints:
+    for y in YEARS:
         # READ IN
-        ranking_file = "%s/all-%s.csv" % (ranking_folder, tp)
-        network_file = "%s/all-%s.gexf" % (network_folder, tp)
-        positions_file = "%s/comwith_all-%s.csv" % (positions_folder, tp)
-        output_file = {'graph': "%sjs/all-%s-network.js" % (output_folder, tp),
-                       'ring': "%sjson/all-%s-ring.json" % (output_folder, tp)}
+        ranking_file = "{}/com_{}.csv".format(ranking_folder, y)
+        network_file = "{}/com_{}.gexf" .format(network_folder, y)
+        positions_file = "{}/com_{}.csv".format(positions_folder, y)
+        output_file = {'graph': "{}js/{}-network.js".format(output_folder, y),
+                       'ring': "{}json/{}-ring.json".format(output_folder, y)}
 
         with open(ranking_file, 'r') as inf:
             reader = csv.DictReader(inf)
@@ -66,27 +66,37 @@ if __name__ == '__main__':
             reader = csv.DictReader(inf)
             pos = {row["node"]: eval(row['positions']) for row in reader}
 
-        # MERGE AND REDUCE DATA
-        # H is for ring view
+        # GENERATE RING VIEW
         H = nx.read_gexf(network_file)
         id_mapping = {}  # needed to replace numeric id's in json object
         for idx, (node, data) in enumerate(H.nodes(data=True)):
             id_mapping[idx] = node
-            data["occurrence"] = data.get("occurrence", 0)
-        # G is for graph view
+            data["thanks"] = data.get("thanks", 0)
+
+        # Write out
+        ring = json_graph.node_link_data(H)
+        drops = ["journal", "year", "jel", "title", "id"]
+        ring['links'] = compress(ring['links'], drops)
+        ring['links'] = replace_enumeration(ring['links'], id_mapping)
+        with open(output_file["ring"], 'w') as ouf:
+            ouf.write(json.dumps(ring))
+
+        # GENERATE GRAPH VIEW
+        # Performs reduction and manual code generation
         G = giant(H)
         # remove edges representing one-time collaboration having weight < 1
         for sourc, tar, data in G.edges(data=True):
-            if data["weight"] < 1 and len(data["journal"].split(';')) == 1:
+            if data["weight"] < 1 and len(data['journal'].split(";")) == 1:
                 G.remove_edge(sourc, tar)
+        G = giant(G)  # remove solo nodes
         G = nx.convert_node_labels_to_integers(G, label_attribute="name")
         # add groups, scaled positions and text
         for node, data in G.nodes(data=True):
             name = data['name']
             # Groups (compressed)
-            if data["occurrence"] == 0:
+            if data["thanks"] == 0:
                 data["group"] = "a"  # pure author
-            elif 'affiliation' not in data:
+            elif 'papers' not in data:
                 data["group"] = "c"  # pure commenter
             else:
                 data["group"] = "b"  # commenting author
@@ -96,13 +106,12 @@ if __name__ == '__main__':
             data["y"] = y*10
             # Text
             data['text'] = text_tmplte.substitute(
-                name=name, thanks_v=data["occurrence"],
-                thanks_r=ranks[name]["occurrence_rank"],
+                name=name, thanks_v=data["thanks"],
+                thanks_r=ranks[name]["thanks_rank"],
                 betw_r=ranks[name]["betweenness_rank"],
                 eig_r=ranks[name]["eigenvector_rank"])
 
-        # WRITE OUT
-        # Graph view // Generate manually for vis.js's expectations
+        # Write out
         nodes = [node_tmplte.substitute(id=node, label=data["name"],
                                         title=data['text'], x=data["x"],
                                         y=data["y"], group=data["group"])
@@ -112,10 +121,3 @@ if __name__ == '__main__':
             ','.join(nodes), ','.join(edges))
         with open(output_file['graph'], 'w') as ouf:
             ouf.write(out_text)
-        # Ring view
-        ring = json_graph.node_link_data(H)
-        drops = ["journal", "year", "jel", "title", "id"]
-        ring['links'] = compress(ring['links'], drops)
-        ring['links'] = replace_enumeration(ring['links'], id_mapping)
-        with open(output_file["ring"], 'w') as ouf:
-            ouf.write(json.dumps(ring))

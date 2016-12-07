@@ -76,16 +76,19 @@ if __name__ == '__main__':
              "com": nx.Graph(name="com" + year)}
         # Build subset
         mask = df[['year']].isin(r).all(1)
-        subset = df[mask]
+        sub = df[mask]
 
         # Update networks in G row-wise
-        subset.apply(build_network, axis=1)
+        sub.apply(build_network, axis=1)
 
         # Add node attributes
-        for key, label in [('auth', 'papers'), ('com', 'thanks')]:
-            names = [a for l in subset[key] for a in l]
-            count = Counter(names)
-            nx.set_node_attributes(G[key], label, count)
+        authors = [a for l in sub["auth"] for a in l]
+        papers = Counter(authors)
+        nx.set_node_attributes(G["auth"], "papers", papers)
+        nx.set_node_attributes(G["com"], "papers", papers)
+        coms = [a for l in sub["com"] + sub['phd'] + sub['dis'] for a in l]
+        thanks = Counter(coms)
+        nx.set_node_attributes(G["com"], "thanks", thanks)
 
         # Write out
         for nwname, nw in G.items():
