@@ -26,14 +26,14 @@ def bibliography():
 
 @app.route('/rankings')
 def rankings():
-    rtype = request.args.get('rtype', default='comwith')
-    rtypes = ['comwith', 'auth']
-    time = request.args.get('time', default='late')
-    times = ['late', 'early']
-    ranking = request.args.get('ranking', default='occurrence')
-    rankings = ['occurrence', 'betweenness', 'eigenvector']
-    if rtype in rtypes and time in times and ranking in rankings:
-        return render_template('rankings.html', rtype=rtype, time=time,
+    rtype = request.args.get('rtype', default='com')
+    rtypes = ['com', 'auth']
+    year = request.args.get('year', default='2011')
+    years = ['2011', '2008', '2005', '2002', '1999']
+    ranking = request.args.get('ranking', default='thanks')
+    rankings = ['thanks', 'papers', 'betweenness', 'eigenvector']
+    if rtype in rtypes and year in years and ranking in rankings:
+        return render_template('rankings.html', rtype=rtype, year=year,
                                ranking=ranking, this_site='rankings')
     else:
         return abort(404)
@@ -41,12 +41,10 @@ def rankings():
 
 @app.route('/networks')
 def networks():
-    net_type = request.args.get('net_type', default='comwith')
-    net_types = ['comwith']
-    time = request.args.get('time', default='late')
-    times = ['late', 'early']
-    if net_type in net_types and time in times:
-        return render_template('networks.html', net_type=net_type, time=time,
+    year = request.args.get('year', default='2011')
+    years = ['2011', '2008', '2005', '2002', '1999']
+    if year in years:
+        return render_template('networks.html', year=year,
                                this_site='networks')
     else:
         return abort(404)
@@ -55,10 +53,10 @@ def networks():
 @app.route('/rings')
 def rings():
     focus = request.args.get('focus', default="RENE_M_STULZ").replace("_", " ")
-    time = request.args.get('time', default='late')
-    times = ['late', 'early']
-    if time in times:
-        return render_template('rings.html', focus=focus, time=time,
+    year = request.args.get('year', default='2011')
+    years = ['2011', '2008', '2005', '2002', '1999']
+    if year in years:
+        return render_template('rings.html', focus=focus, year=year,
                                this_site='rings')
     else:
         return abort(404)

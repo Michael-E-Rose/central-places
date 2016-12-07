@@ -37,16 +37,19 @@
   <div class="jumbotron">
     <div class="row">
       <div class="col-xs-12">
-        <h3>The Social Network of Informal Collaboration {% if time=='early' %}(1998-2000){% else %}(2009-2011){% endif %}</h3>
+        <h3>The Social Network of Intellectual Collaboration {% if year=='2011' %}(2009-2011){% elif year=='2008'%}(2008-2006){% elif year=='2005'%}(2005-2003){% elif year=='2002'%}(2002-2000){% elif year=='1999'%}(1999-1997){% endif %}</h3>
         <p>We assume a weighted but undirected link between two researchers whenever one acknowledges the other on a published research paper. The weight corresponds to the inverse number of authors. Additionally, we assume an undirected link of weight 1 between every pair of authors. Weights are additive.<br/>
         <br/>
-        We have used 750 acknowledgments from 887 published research papers for the early sample and 1,531 acknowledgments from 1,895 published research papers for the late sample. The set of journals is the same in the early (1998-2000) and late (2009-2011) sample: The Journal of Finance, The Review of Financial Studies, the Journal of Financial Economics, the Journal of Financial Intermediation, the Journal of Money, Credit & Banking, and the Journal of Banking and Finance. More details can be found in our paper.<br />
+        We have used all acknowledgments from all published research articles published in six journals: The Journal of Finance, The Review of Financial Studies, the Journal of Financial Economics, the Journal of Financial Intermediation, the Journal of Money, Credit & Banking, and the Journal of Banking and Finance.<br />
         </p>
       </div>
 
       <p>
-        <a href="{{ url_for('networks', net_type='comwith', time='early') }}" class="btn btn-success">Early sample (1998-2000) &raquo;</a>
-        <a href="{{ url_for('networks', net_type='comwith', time='late') }}" class="btn btn-success">Late sample (2009-2011) &raquo;</a>
+        <a href="{{ url_for('networks', year='1999') }}" class="btn btn-success">1997-1999 &raquo;</a>
+        <a href="{{ url_for('networks', year='2002') }}" class="btn btn-success">2000-2002 &raquo;</a>
+        <a href="{{ url_for('networks', year='2005') }}" class="btn btn-success">2003-2005 &raquo;</a>
+        <a href="{{ url_for('networks', year='2008') }}" class="btn btn-success">2006-2008 &raquo;</a>
+        <a href="{{ url_for('networks', year='2011') }}" class="btn btn-success">2009-2011 &raquo;</a>
       </p>
 
     </div>
@@ -54,25 +57,23 @@
 
   <div class="row">
     <div class="col-xs-12">
-    {% if net_type=='comwith' %}
-      <h1>Interactive Network ({% if time=='early' %}1998-2000{% elif time=='late' %}2009-2011{% endif %})</h1>
-      <p>For computational reasons, only the giant component is shown and all links that occur only once and which at the same time have a weight smaller than 1 have been removed. Nodes are color-coded: yellow nodes are pure authors (author that are not acknowledged in the dataset), blue nodes are pure commenters (nodes that are acknowledged but have not authored a paper in the dataset) and red nodes are commenting authors. Node positions according to an adapted Fruchterman-Reingold algorithm. Visualization using vis.js.</p>
-      <p>You can:</p>
-       <ul>
-        <li>Hover over a node to see metrics</li>
-        <li>Highlight the social neighborhood on click (indirect neighbors colored in black)</li>
-        <li>Move nodes</li>
-        <li><div id="dropdown"></div></li>
-      </ul>
-      <div id="mynetwork"></div>
-      <script src="{{ url_for('static', filename='js/all-' + time + '-network.js') }}">
-      </script>
-      <script src="{{ url_for('static', filename='js/vis.draw.highlighted.network.js') }}">
-      </script>
-      <script src="{{ url_for('static', filename='js/dropdown.js') }}">
-      </script>
+    <h1>Interactive Network</h1>
+    <p>For computational reasons, we show the giant component only and remove links that occur only once and which at the same year have a weight smaller than 1 have been removed (i.e. one-time co-author ties remain). Nodes are color-coded: red nodes are pure authors (author that are not acknowledged in the dataset), blue nodes are pure commenters (nodes that are acknowledged but have not authored a paper in the dataset) and yellow nodes are commenting authors. Node positions according to an adapted Fruchterman-Reingold algorithm. Visualization using vis.js.</p>
+    <p>You can:</p>
+     <ul>
+      <li>Hover over a node to see metrics</li>
+      <li>Highlight the social neighborhood on click (indirect neighbors colored in black)</li>
+      <li>Move nodes</li>
+      <li><div id="dropdown"></div></li>
+    </ul>
+    <div id="mynetwork"></div>
+    <script src="{{ url_for('static', filename='js/' + year + '-network.js') }}">
+    </script>
+    <script src="{{ url_for('static', filename='js/vis.draw.highlighted.network.js') }}">
+    </script>
+    <script src="{{ url_for('static', filename='js/dropdown.js') }}">
+    </script>
 
-    {% endif %}
     <br>
     </div>
   </div>
