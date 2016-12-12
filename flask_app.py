@@ -26,12 +26,12 @@ def bibliography():
 
 @app.route('/rankings')
 def rankings():
-    rtype = request.args.get('rtype', default='com')
     rtypes = ['com', 'auth']
-    year = request.args.get('year', default='2011')
     years = ['2011', '2008', '2005', '2002', '1999']
-    ranking = request.args.get('ranking', default='thanks')
     rankings = ['thanks', 'papers', 'betweenness', 'eigenvector']
+    rtype = request.args.get('rtype', default='com')
+    year = request.args.get('year', default='2011')
+    ranking = request.args.get('ranking', default='thanks')
     if rtype in rtypes and year in years and ranking in rankings:
         return render_template('rankings.html', rtype=rtype, year=year,
                                ranking=ranking, this_site='rankings')
