@@ -52,7 +52,7 @@ def networks():
 
 @app.route('/rings')
 def rings():
-    focus = request.args.get('focus', default="RENE_M_STULZ").replace("_", " ")
+    focus = request.args.get('focus', default="MATTHEW_SPIEGEL").replace("_", " ")
     year = request.args.get('year', default='2011')
     years = ['2011', '2008', '2005', '2002', '1999']
     if year in years:
@@ -69,4 +69,4 @@ def about():
 
 # Launch for Testing
 if __name__ == '__main__':
-    app.run(port=8000)
+    app.run(port=7000)
