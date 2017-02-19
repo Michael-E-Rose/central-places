@@ -2,7 +2,7 @@
 """Source code for website."""
 
 from flask import abort, Flask, render_template, request
-from flask.ext.bootstrap import Bootstrap
+from flask_bootstrap import Bootstrap
 
 
 # Intitialization
