@@ -34,38 +34,36 @@
     <div class="col-xs-12">
       <h1>Interactive Network in ring representation</h1>
       <p>The ring representation shows the first and second neighbors of the node in focus, as well as connections between first neighbors. For computational reasons, not more than 40 random primary connections are displayed. Nodes are color-coded according to how often they have been acknowledged. Visualization using d3plus.js.</p>
-      <div id="ring_viz"></div>
-      <script>
-      d3.json("{{ url_for('static', filename='json/' + year + '-ring.json') }}", function(error, data) {
-
-        if (error) throw error;
-
-        // instantiate d3plus
-        var visualization = d3plus.viz()
-          .container("#ring_viz")
-          .type("rings")
-
-          // Nodes
-          .data(data.nodes)
-          .id("id")
-          .text("label")
-          .color("thanks")
-
-          // Links
-          .edges(data.links)
-          .edges({
-            "limit": 40
-          })
-
-          // Draw
-          .focus("{{focus}}")
-          .height(700)
-          .width(1000)
-          .draw()
-      })
-      </script>
     </div>
   </div>
+  <div id="ring_viz"></div>
+  <script>
+  d3.json("{{ url_for('static', filename='json/' + year + '-ring.json') }}", function(error, data) {
+
+    if (error) throw error;
+
+    // instantiate d3plus
+    var visualization = d3plus.viz()
+      .container("#ring_viz")
+      .type("rings")
+
+      // Nodes
+      .data(data.nodes)
+      .id("id")
+      .text("label")
+      .color("thanks")
+
+      // Links
+      .edges({
+        "value": data.links,
+        "limit": 40
+      })
+
+      // Draw
+      .focus("{{focus}}")
+      .draw()
+  })
+  </script>
   
   {% include 'footer.html' %}
   
