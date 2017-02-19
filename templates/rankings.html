@@ -13,12 +13,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <style type="text/css">
-    body{
-    }
-    .bs-example{
+    tab {
       margin: 20px;
     }
-    select{
+    select {
       width: 75%;
     }
   </style>
@@ -136,7 +134,7 @@
   });
   </script>
 
-  <div class="bs-example">
+  <div class="tab">
     <table class="table table-hover">
       {% include 'rankings/' + rtype + '_' + year + '_' + ranking + '.html' %}
     </table>
