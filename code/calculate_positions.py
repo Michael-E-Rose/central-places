@@ -1,32 +1,34 @@
 #!/usr/bin/env python3
-"""Calculate node positions for a given network."""
+# Author:   Michael E. Rose <michael.ernst.rose@gmail.com>
+"""Calculates node positions for all networks."""
 
 from glob import glob
 import pandas as pd
 
 import networkx as nx
 
+SOURCE_FOLDER = "./networks/"
+TARGET_FOLDER = "./positions/"
 
-if __name__ == '__main__':
-    # VARIABLES
-    in_folder = "./networks/"
-    out_folder = "./positions/"
 
-    files = glob(in_folder + "*.gexf")
-
-    # COMPUTE
+def main():
     print(">>> Now working on:")
-    for file in files:
+    for file in glob(SOURCE_FOLDER + "*.gexf"):
         # Read in
         identifier = file.split("/")[-1][:-5]
         print("... {}".format(identifier))
         H = nx.read_gexf(file)
 
         # Compute positions
-        node_positions = nx.nx_agraph.pygraphviz_layout(H, prog="neato")
-        s = pd.Series(node_positions, name="positions")
-        s.index.name = "node"
+        node_positions = nx.nx_agraph.pygraphviz_layout(H)
+        df = pd.DataFrame(node_positions).T
+        df.columns = ['x', 'y']
+        df.index.name = "node"
 
         # Write out
-        out_file = "{}{}.csv".format(out_folder, identifier)
-        s.to_csv(out_file, header=True)
+        out_file = "{}{}.csv".format(TARGET_FOLDER, identifier)
+        df.to_csv(out_file, header=True)
+
+
+if __name__ == '__main__':
+    main()
