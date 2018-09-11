@@ -1,60 +1,59 @@
 #!/usr/bin/env python3
-"""Generate html for website to display the network rankings."""
+# Author:   Michael E. Rose <michael.ernst.rose@gmail.com>
+"""Generates html for website to display the network rankings."""
 
-from itertools import product
+from glob import glob
+from os.path import basename, splitext
 
 import pandas as pd
+
+SOURCE_FOLDER = "centralities/"
+TARGET_FOLDER = "../templates/rankings/"
 
 pd.set_option('display.max_colwidth', -1)
 
 
 def linkfy(name, y):
-    """Return link for comwith ranking."""
+    """Return link for ring view."""
     label = name.replace(" ", "_").replace("'", "")
     s = u"<a href=\"{{url_for('rings',year='%s',focus='%s')}}\">%s</a>" % (y, label, name)
     return s
 
 
-if __name__ == '__main__':
-    # VARIABLES
-    networks = ["auth", "com"]
-    input_folder = "centralities/"
-    output_folder = "../templates/rankings/"
-
-    YEARS = ['2011', '2008', '2005', '2002', '1999']
-
-    # CREATE RANKING
-    combs = product(YEARS, networks)
-    for (y, nw) in combs:
+def main():
+    for file in glob(SOURCE_FOLDER + "*.csv"):
+        nw, year = splitext(basename(file))[0].split("_")
         if nw == "auth":
             measures = ["papers", "betweenness", "eigenvector"]
-        else:
+        elif nw == "com":
             measures = ["thanks", "betweenness", "eigenvector"]
+        else:
+            measures = ["thanks", "papers", "betweenness", "eigenvector"]
 
         # Read in
-        input_file = "{}{}_{}.csv".format(input_folder, nw, y)
-        df = pd.read_csv(input_file, encoding='utf-8')
-
-        df[measures] = df[measures].fillna(0)
-        df.rename(columns={'node': 'Name'}, inplace=True)
+        df = pd.read_csv(file).rename(columns={'node': 'Name'})
 
         # Create column with links
-        if nw == "com":
-            df['Name'] = df['Name'].apply(lambda x: linkfy(x, y))
+        if nw == "both":
+            df['Name'] = df['Name'].apply(lambda x: linkfy(x, year))
 
         # Sort and write out
         for measure in measures:
             rank_meas = measure + '_rank'
-
-            temp = df.sort_values([rank_meas, 'Name'])
-            temp = temp.rename(columns={rank_meas: 'Rank', measure: 'Value'})
-            temp['Rank'] = temp['Rank'].fillna("-").astype(str)
-            temp['Rank'] = temp['Rank'].apply(lambda x: x.split('.')[0])
+            temp = (df.dropna(subset=[measure])
+                      .sort_values([rank_meas, 'Name'])
+                      .rename(columns={rank_meas: 'Rank', measure: 'Value'}))
+            temp['Rank'] = (temp['Rank'].fillna("-").astype(str)
+                                        .apply(lambda x: x.split('.')[0]))
             if measure in ('thanks', 'papers'):
                 temp['Value'] = temp['Value'].astype(int)
-            output_file = '{}{}_{}_{}.html'.format(output_folder, nw,
-                                                   y, measure)
+            output_file = '{}{}_{}_{}.html'.format(TARGET_FOLDER, nw,
+                                                   year, measure)
             temp[['Rank', 'Name', 'Value']].to_html(
                 output_file, index=False, escape=False,
                 classes="table table-hover", na_rep="",
                 float_format=lambda x: '%10.3f' % x)
+
+
+if __name__ == '__main__':
+    main()
