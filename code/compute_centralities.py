@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""Compute a number of centralities for all nodes of a given network."""
+# Author:   Michael E. Rose <michael.ernst.rose@gmail.com>
+"""Computes centralities for all nodes for all networks."""
 
 import operator
 from glob import glob
 
 import networkx as nx
 import pandas as pd
+
+SOURCE_FOLDER = "./networks/"
+TARGET_FOLDER = "./centralities/"
 
 
 def giant(G):
@@ -33,16 +37,9 @@ def get_ranks(d):
     return res
 
 
-if __name__ == '__main__':
-    # VARIABLES
-    in_folder = "./networks/"
-    out_folder = "./centralities/"
-
-    files = glob(in_folder + "*.gexf")
-
-    # COMPUTE
+def main():
     print(">>> Now working on:")
-    for file in files:
+    for file in glob(SOURCE_FOLDER + "*.gexf"):
         # Read in
         identifier = file.split("/")[-1][:-5]
         print("... {}".format(identifier))
@@ -55,16 +52,16 @@ if __name__ == '__main__':
         df = pd.DataFrame(index=sorted(H.nodes()))
 
         # number of neighbors (H)
-        degree = nx.degree(H)
+        degree = dict(nx.degree(H))
         df["degree"] = pd.Series(degree)
         df["degree_rank"] = pd.Series(get_ranks(degree)).astype(object)
         # betweenness centrality (G)
-        betweenness = nx.betweenness_centrality(G, weight=None)
+        betweenness = dict(nx.betweenness_centrality(G, weight="weight"))
         df["betweenness"] = pd.Series(betweenness)
         df["betweenness_rank"] = pd.Series(get_ranks(betweenness)).astype(object)
         # eigenvector centrality (G) - may fail in small networks
         try:
-            eigenvector = nx.eigenvector_centrality(G, weight=None)
+            eigenvector = dict(nx.eigenvector_centrality(G, weight="weight"))
             df["eigenvector"] = pd.Series(eigenvector)
             df["eigenvector_rank"] = pd.Series(get_ranks(eigenvector)).astype(object)
         except:
@@ -72,13 +69,20 @@ if __name__ == '__main__':
             df["eigenvector_rank"] = ""
         # number of papers authored or times acknowledged (H)
         if network == "auth":
-            att_name = "papers"
+            attrs = ["papers"]
         elif network == "com":
-            att_name = "thanks"
-        attr = nx.get_node_attributes(H, att_name)
-        df[att_name] = pd.Series(attr)
-        df[att_name + "_rank"] = pd.Series(get_ranks(attr)).astype(object)
+            attrs = ["thanks"]
+        else:
+            attrs = ["thanks", "papers"]
+        for att_name in attrs:
+            attr = nx.get_node_attributes(H, att_name)
+            df[att_name] = pd.Series(attr)
+            df[att_name + "_rank"] = pd.Series(get_ranks(attr)).astype(object)
 
         # WRITE OUT
-        out_file = "{}{}.csv".format(out_folder, identifier)
+        out_file = "{}{}.csv".format(TARGET_FOLDER, identifier)
         df.to_csv(out_file, index_label="node")
+
+
+if __name__ == '__main__':
+    main()

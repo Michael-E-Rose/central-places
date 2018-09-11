@@ -1,0 +1,2763 @@
+node,degree,degree_rank,betweenness,betweenness_rank,eigenvector,eigenvector_rank,papers,papers_rank
+"(James) Huang Z., Zhijian",1,1726,,,,,1.0,704
+"Abaffy, József",4,185,,,,,1.0,704
+"Abhyankar, Abhay H.",3,352,,,,,2.0,256
+"Abou-Zied, Khaled",1,1726,,,,,1.0,704
+"Acemoglu, Daron",2,743,0.0,305,,,1.0,704
+"Acharya, Viral V.",7,35,0.06768068061962185,48,,,6.0,8
+"Adam, Alexandre",2,743,,,,,1.0,704
+"Adam, Tim R.",2,743,0.0,305,,,2.0,256
+"Adams, Brian J.",2,743,,,,,1.0,704
+"Adams, John C.",1,1726,0.0,305,,,1.0,704
+"Adams, Mike B.",2,743,,,,,1.0,704
+"Adams, Renée Birgit",1,1726,,,,,2.0,256
+"Admati, Anat R.",1,1726,,,,,1.0,704
+"Adrian, Tobias",2,743,,,,,3.0,97
+"Agarwal, Vikas",2,743,0.0,305,,,1.0,704
+"Agarwal, Vineet",1,1726,,,,,1.0,704
+"Aggarwal, Rajesh K.",1,1726,,,,,1.0,704
+"Aggarwal, Reena",5,96,0.38940192088741793,2,,,2.0,256
+"Aghion, Philippe",1,1726,0.0,305,,,1.0,704
+"Aguerrevere, Felipe L.",0,2582,,,,,1.0,704
+"Aguiar-Conraria, Luís",1,1726,,,,,1.0,704
+"Agusman, Agusman",3,352,,,,,1.0,704
+"Ahmed, Shaista",2,743,,,,,1.0,704
+"Ahn, Dong Hyun",2,743,0.0,305,,,1.0,704
+"Ahn, Seung Chan",1,1726,,,,,1.0,704
+"Ahn, SungYoon",1,1726,,,,,1.0,704
+"Akhigbe, Aigbe O.",2,743,,,,,2.0,256
+"Akram, Qaisar Farooq",3,352,,,,,2.0,256
+"Aktas, Nihat",2,743,,,,,1.0,704
+"Alavi, Arash",2,743,,,,,1.0,704
+"Albuquerque, Rui",5,96,,,,,3.0,97
+"Alessandrini, Pietro",2,743,,,,,1.0,704
+"Alevy, Jonathan E.",2,743,,,,,1.0,704
+"Alexander, Carol O.",4,185,,,,,4.0,29
+"Alexander, Gordon J.",5,96,,,,,4.0,29
+"Ali, Ashiq",2,743,0.0,305,,,1.0,704
+"Alizadeh, Amir H.",2,743,,,,,1.0,704
+"Allayannis, George",2,743,,,,,1.0,704
+"Allen, Linda",2,743,0.0067681505568185085,167,,,2.0,256
+"Almazan, Andres",2,743,,,,,1.0,704
+"Almeida, Caio",1,1726,,,,,3.0,97
+"Almeida, Heitor V.",3,352,0.008335745338785014,156,,,3.0,97
+"Alpanda, Sami",1,1726,,,,,1.0,704
+"Altavilla, Carlo",1,1726,,,,,1.0,704
+"Amihud, Yakov",2,743,,,,,1.0,704
+"Amit, Raphael Raffi",1,1726,,,,,1.0,704
+"Amromin, Gene",1,1726,,,,,1.0,704
+"Anderson, Bing",3,352,,,,,1.0,704
+"Anderson, Evan W.",2,743,,,,,1.0,704
+"Anderson, Ronald C.",2,743,,,,,1.0,704
+"Andrade, Sandro C.",2,743,,,,,1.0,704
+"Andricopoulos, Ari D.",3,352,,,,,1.0,704
+"Andrikopoulos, Andreas",0,2582,,,,,1.0,704
+"Andrés, Pablo De",1,1726,,,,,1.0,704
+"Ang, Andrew",6,51,,,,,4.0,29
+"Angelelli, Enrico",2,743,,,,,1.0,704
+"Angerer, Xiaohong",1,1726,,,,,1.0,704
+"Annaert, Jan",2,743,,,,,1.0,704
+"Antell, Jan",1,1726,,,,,1.0,704
+"Antoniou, Antonios",2,743,,,,,1.0,704
+"Apilado, Vincent P.",1,1726,,,,,1.0,704
+"Aragon, George O.",0,2582,,,,,1.0,704
+"Arena, Marco",0,2582,,,,,1.0,704
+"Armenter, Roc",0,2582,,,,,1.0,704
+"Armesto, Michelle T.",3,352,,,,,1.0,704
+"Arquette, Gregory C.",2,743,,,,,1.0,704
+"Aruoba, S. Boraǧan",0,2582,,,,,1.0,704
+"Asaftei, Gabriel",0,2582,,,,,1.0,704
+"Ascari, Guido",1,1726,,,,,1.0,704
+"Asdrubali, Pierfederico",1,1726,,,,,2.0,256
+"Asem, Ebenezer",0,2582,,,,,1.0,704
+"Ashcraft, Adam B.",0,2582,,,,,2.0,256
+"Ashton, John K.",1,1726,,,,,1.0,704
+"Atanassov, Julian",1,1726,0.0,305,,,1.0,704
+"Auer, Raphael A.",1,1726,,,,,1.0,704
+"Aunon-Nerin, Daniel",1,1726,,,,,1.0,704
+"Autore, Don M.",4,185,,,,,2.0,256
+"Avouyi-Dovi, Sanvi",1,1726,,,,,1.0,704
+"Avramov, Doron",3,352,,,,,2.0,256
+"Axelson, Ulf",3,352,,,,,3.0,97
+"Ayyagari, Meghana",2,743,3.0694560348383255e-05,287,,,1.0,704
+"Aït-Sahalia, Yacine",1,1726,,,,,1.0,704
+"Aşçıoğlu, Aslı",2,743,,,,,1.0,704
+"Aǧca, Şenay",1,1726,,,,,1.0,704
+"Baba, Naohiko",1,1726,0.0,305,,,1.0,704
+"Babenko, Ilona",1,1726,,,,,2.0,256
+"Bacchetta, Philippe",1,1726,,,,,1.0,704
+"Back, Kerry",2,743,0.003389830508474576,202,,,2.0,256
+"Backé, Peter",1,1726,,,,,1.0,704
+"Bae, Gil",2,743,,,,,1.0,704
+"Baele, Lieven",2,743,,,,,1.0,704
+"Bailey, Warren",3,352,0.0,305,,,1.0,704
+"Baker, Edward",3,352,,,,,1.0,704
+"Baker, Malcolm P.",5,96,0.10388865486905827,33,,,3.0,97
+"Bakshi, Gurdip S.",2,743,,,,,1.0,704
+"Balachandran, Balasingham",2,743,,,,,1.0,704
+"Balfoussia, Hiona",1,1726,,,,,1.0,704
+"Bali, Turan G.",7,35,0.03686224856838652,75,,,6.0,8
+"Baliga, Sandeep",1,1726,,,,,1.0,704
+"Ballestra, Luca Vincenzo",2,743,,,,,1.0,704
+"Balvers, Ronald J.",1,1726,,,,,2.0,256
+"Banerjee, Prithviraj S.",2,743,,,,,1.0,704
+"Banerjee, Shantanu",2,743,0.0,305,,,1.0,704
+"Banerjee, Snehal",2,743,0.0033783200483439324,235,,,1.0,704
+"Banerji, Sanjay",2,743,,,,,1.0,704
+"Bansal, Ravi",2,743,0.0,305,,,1.0,704
+"Baptista, Alexandre M.",2,743,,,,,3.0,97
+"Bar-Yosef, Sasson",3,352,,,,,1.0,704
+"Baranchuk, Nina",1,1726,,,,,1.0,704
+"Barber, Brad M.",6,51,0.08403403259378628,39,,,4.0,29
+"Barberis, Nicholas C.",1,1726,0.0,305,,,1.0,704
+"Barbosa, Andreza",1,1726,,,,,1.0,704
+"Barclay, Michael J.",2,743,,,,,1.0,704
+"Bargeron, Leonce L.",3,352,0.0008431412045696526,267,,,1.0,704
+"Barone-Adesi, Giovanni",2,743,,,,,1.0,704
+"Barron, John M.",2,743,,,,,1.0,704
+"Barros, Carlos P.",2,743,,,,,1.0,704
+"Barry, Christopher B.",3,352,,,,,1.0,704
+"Barth, James R.",3,352,,,,,1.0,704
+"Bartolini, Leonardo",2,743,,,,,1.0,704
+"Bartram, So¨hnke M.",5,96,,,,,4.0,29
+"Barucci, Emilio",1,1726,,,,,1.0,704
+"Baruch, Shmuel",4,185,0.19410640810945845,17,,,3.0,97
+"Basak, Suleyman",2,743,,,,,2.0,256
+"Basistha, Arabinda",1,1726,,,,,1.0,704
+"Bassett, Gilbert W.",2,743,,,,,1.0,704
+"Basu, Devraj",2,743,,,,,1.0,704
+"Basu, Nilanjan",2,743,,,,,1.0,704
+"Bates, Thomas W.",4,185,0.14221210227461945,24,,,2.0,256
+"Bates, Timothy M.",1,1726,,,,,1.0,704
+"Battalio, Robert H.",2,743,,,,,1.0,704
+"Bauer, Gregory H.",2,743,,,,,1.0,704
+"Bauer, Keldon J.",2,743,,,,,2.0,256
+"Bauer, Rob M.M.J.",2,743,,,,,1.0,704
+"Bebchuk, Lucian A.",2,743,,,,,1.0,704
+"Beber, Alessandro",2,743,0.0,305,,,1.0,704
+"Beccalli, Elena",0,2582,,,,,1.0,704
+"Becerra, Manuel",1,1726,,,,,1.0,704
+"Becher, David A.",2,743,0.0,305,,,1.0,704
+"Becht, Marco",3,352,,,,,1.0,704
+"Beck, Thorsten",5,96,0.06922758450471053,47,,,3.0,97
+"Becker, Bo",0,2582,,,,,1.0,704
+"Becker, Ralf",3,352,,,,,2.0,256
+"Bedendo, Mascia",1,1726,,,,,1.0,704
+"Beechey, Meredith J.",2,743,,,,,1.0,704
+"Behr, Patrick",1,1726,,,,,1.0,704
+"Beijnen, Christine",1,1726,,,,,1.0,704
+"Beine, Michel",5,96,,,,,2.0,256
+"Bekaert, Geert",9,8,,,,,6.0,8
+"Bell, Adrian R.",2,743,,,,,1.0,704
+"Bellini, Fabio",1,1726,,,,,1.0,704
+"Ben Omrane, Walid",1,1726,,,,,1.0,704
+"Ben-Abdallah, Ramzi",2,743,,,,,1.0,704
+"Ben-Ameur, Hatem",2,743,,,,,1.0,704
+"Benati, Luca",0,2582,,,,,1.0,704
+"Beneish, Messod Daniel",3,352,,,,,1.0,704
+"Benfratello, Luigi",2,743,,,,,1.0,704
+"Benigno, Pierpaolo",0,2582,,,,,1.0,704
+"Benmelech, Efraim",1,1726,,,,,2.0,256
+"Bennedsen, Morten",2,743,,,,,1.0,704
+"Benson, Karen Leigh",1,1726,,,,,1.0,704
+"Benth, Fred Espen",2,743,,,,,1.0,704
+"Benzoni, Luca",2,743,2.8776150326609306e-06,301,,,1.0,704
+"Berardi, Michele",0,2582,,,,,1.0,704
+"Berger, Allen N.",11,4,0.135393068220537,25,,,7.0,4
+"Berger, David W.",2,743,,,,,1.0,704
+"Bergin, Paul R.",1,1726,,,,,1.0,704
+"Bergman, Nittai K.",3,352,,,,,3.0,97
+"Bergstresser, Daniel",2,743,0.0,305,,,1.0,704
+"Berk, Jonathan B.",1,1726,,,,,1.0,704
+"Berkelaar, Arjan B.",1,1726,,,,,1.0,704
+"Berkman, Henk",6,51,,,,,2.0,256
+"Berlemann, Michael",1,1726,,,,,1.0,704
+"Bernal, Oscar",3,352,,,,,1.0,704
+"Bernardo, Antonio E.",2,743,,,,,1.0,704
+"Bernhardt, Dan",2,743,,,,,2.0,256
+"Berrada, Tony",2,743,,,,,1.0,704
+"Bertocchi, Marida",4,185,,,,,1.0,704
+"Bertocco, Giancarlo",0,2582,,,,,1.0,704
+"Bertrand, Marianne",4,185,0.00831630744439009,157,,,2.0,256
+"Bessembinder, Hendrik",5,96,0.0067681505568185085,167,,,2.0,256
+"Betton, Sandra",2,743,,,,,1.0,704
+"Bhamra, Harjoat S.",1,1726,0.0,305,,,1.0,704
+"Bharath, Sreedhar T.",7,35,0.046375119983287146,63,,,4.0,29
+"Bhattacharya, Utpal",1,1726,,,,,1.0,704
+"Bhojraj, Sanjeev",5,96,0.011257230007769636,134,,,2.0,256
+"Bianchi, Michele Leonardo",3,352,,,,,1.0,704
+"Białkowski, Jȩdrzej",4,185,,,,,2.0,256
+"Bierbrauer, Michael",3,352,,,,,1.0,704
+"Bilbiie, Florin O.",2,743,,,,,1.0,704
+"Billett, Matthew T.",3,352,,,,,2.0,256
+"Billingsley, Randall S.",2,743,,,,,1.0,704
+"Bindseil, Ulrich",4,185,,,,,2.0,256
+"Birge, John R.",1,1726,,,,,1.0,704
+"Bizjak, John M.",3,352,4.891945555523582e-05,284,,,2.0,256
+"Blake, Christopher R.",2,743,,,,,1.0,704
+"Blanchard, Olivier Jean",1,1726,,,,,1.0,704
+"Blanchet-Scalliet, Christophette",4,185,,,,,1.0,704
+"Bloomfield, Robert J.",5,96,0.020177836609018444,108,,,3.0,97
+"Blum, Jürg M.",0,2582,,,,,1.0,704
+"Board, Simon A.",0,2582,,,,,1.0,704
+"Bodnaruk, Andriy",4,185,,,,,3.0,97
+"Boehme, Rodney D.",3,352,0.0,305,,,1.0,704
+"Boehmer, Ekkehart",5,96,,,,,3.0,97
+"Bohl, Martin T.",2,743,,,,,1.0,704
+"Boháček, Radim",1,1726,,,,,1.0,704
+"Bollen, Nicolas P.B.",3,352,,,,,3.0,97
+"Bollerslev, Tim",2,743,,,,,1.0,704
+"Bolt, Wilko",1,1726,,,,,1.0,704
+"Bolton, Patrick",2,743,0.0,305,,,1.0,704
+"Bonaccorsi di Patti, Emilia",1,1726,,,,,1.0,704
+"Bond, Philip",3,352,0.003389830508474576,202,,,2.0,256
+"Bonfim, Diana",0,2582,,,,,1.0,704
+"Bongaerts, Dion",1,1726,,,,,1.0,704
+"Bonin, John P.",1,1726,,,,,1.0,704
+"Boone, Audra L.",4,185,,,,,4.0,29
+"Boot, Arnoud W. A.",2,743,0.0,305,,,1.0,704
+"Bortolotti, Bernardo",4,185,,,,,2.0,256
+"Borzekowski, Ron",2,743,,,,,1.0,704
+"Bos, Jaap W.B.",6,51,0.003389830508474576,202,,,2.0,256
+"Bottazzi, Laura",2,743,,,,,2.0,256
+"Boubaker, Sabri",1,1726,,,,,1.0,704
+"Boubakri, Narjess",4,185,,,,,2.0,256
+"Boudoukh, Jacob",5,96,0.0033783200483439324,235,,,3.0,97
+"Bougheas, Spiros",2,743,,,,,1.0,704
+"Boulatov, Alex",3,352,0.0,305,,,1.0,704
+"Bourgeon, Jean Marc",2,743,,,,,1.0,704
+"Bouwman, Christa H.S.",3,352,0.0067681505568185085,167,,,2.0,256
+"Boyle, Phelim P.",3,352,0.0,305,,,1.0,704
+"Boz, Emine",0,2582,,,,,1.0,704
+"Bradford, William D.",1,1726,,,,,1.0,704
+"Bradley, Daniel J.",5,96,0.013490259273114442,130,,,2.0,256
+"Brandt, Michael W.",6,51,0.040033380334378865,69,,,3.0,97
+"Branger, Nicole",2,743,,,,,1.0,704
+"Brau, James C.",2,743,,,,,1.0,704
+"Braun, Matías",2,743,,,,,2.0,256
+"Brav, Alon",3,352,,,,,1.0,704
+"Brav, Omer",0,2582,,,,,1.0,704
+"Bremer, Marc",2,743,,,,,1.0,704
+"Breton, Michèle",2,743,,,,,1.0,704
+"Breuer, Wolfgang",3,352,,,,,2.0,256
+"Brick, Ivan E.",1,1726,0.0,305,,,1.0,704
+"Bris, Arturo",8,19,0.3613651405714943,3,,,4.0,29
+"Brissimis, Sophocles N.",2,743,,,,,1.0,704
+"Broadie, Mark N.",3,352,,,,,3.0,97
+"Brockman, Paul D.",4,185,0.01014647060516244,137,,,3.0,97
+"Brooks, Chris S.",5,96,,,,,2.0,256
+"Brophy, David J.",2,743,0.0,305,,,1.0,704
+"Brown, Christine Ann D.",1,1726,,,,,1.0,704
+"Brown, Craig R.",3,352,,,,,1.0,704
+"Brown, Gregory W.",3,352,,,,,2.0,256
+"Brown, James R.",2,743,,,,,2.0,256
+"Brown, Jeffrey",4,185,,,,,2.0,256
+"Brown, Martin",6,51,,,,,3.0,97
+"Brown, Stephen J.C.",3,352,0.0,305,,,1.0,704
+"Brown, William O.",2,743,,,,,1.0,704
+"Brunnermeier, Markus K.",2,743,0.003389830508474576,202,,,2.0,256
+"Brusco, Sandro",1,1726,,,,,1.0,704
+"Buch, Claudia M.",1,1726,,,,,1.0,704
+"Bucht, Charlotte",3,352,,,,,1.0,704
+"Bullard, James B.",2,743,,,,,2.0,256
+"Bunkanwanicha, Pramuan",1,1726,,,,,1.0,704
+"Buraschi, Andrea",1,1726,,,,,1.0,704
+"Burdekin, Richard C.K.",2,743,,,,,1.0,704
+"Burns, Natasha",3,352,0.01496272832385841,115,,,2.0,256
+"Butler, Alexander W.",2,743,,,,,2.0,256
+"Byoun, Soku",0,2582,,,,,1.0,704
+"Caballero, Ricardo J.",1,1726,0.0,305,,,1.0,704
+"Cabolis, Christos",1,1726,0.0,305,,,1.0,704
+"Caggese, Andrea",0,2582,,,,,1.0,704
+"Cahan, Jared M.",2,743,,,,,1.0,704
+"Cahan, Rochester H.",2,743,,,,,1.0,704
+"Cahan, Steven F.",2,743,,,,,1.0,704
+"Cai, Hongbin",2,743,,,,,1.0,704
+"Cai, Jie",3,352,,,,,2.0,256
+"Cai, Jun",3,352,0.0,305,,,1.0,704
+"Cai, Kelly Nianyun",2,743,0.0,305,,,1.0,704
+"Cai, Yijie",2,743,,,,,1.0,704
+"Calanog, Victor",2,743,,,,,1.0,704
+"Calcagnini, Giorgio",2,743,,,,,1.0,704
+"Calcagno, Riccardo",1,1726,,,,,1.0,704
+"Calvet, Laurent Emmanuel",1,1726,,,,,1.0,704
+"Campbell, John Y.",5,96,0.01014647060516244,137,,,3.0,97
+"Campello, Murillo",4,185,0.05063708282227061,58,,,3.0,97
+"Candelon, Bertrand",2,743,,,,,1.0,704
+"Canova, Fabio",2,743,,,,,1.0,704
+"Canzoneri, Matthew B.",3,352,,,,,2.0,256
+"Cao, Charles Q.",4,185,,,,,2.0,256
+"Cao, H. Henry",1,1726,,,,,1.0,704
+"Cao, Jerry",1,1726,0.0,305,,,1.0,704
+"Capistrán, Carlos",1,1726,,,,,1.0,704
+"Caprio, Gerard Jr",2,743,0.0009064487352881931,260,,,1.0,704
+"Caprio, Lorenzo",1,1726,,,,,1.0,704
+"Carbó, Santiago",6,51,0.007624098729390603,161,,,3.0,97
+"Cardak, Buly A.",1,1726,,,,,1.0,704
+"Carey, Mark",1,1726,0.0,305,,,1.0,704
+"Carletti, Elena",4,185,,,,,2.0,256
+"Carlin, Bruce I.",4,185,,,,,4.0,29
+"Carline, Nicholas F.",2,743,,,,,1.0,704
+"Carling, Kenneth",3,352,,,,,1.0,704
+"Carlson, Murray",2,743,0.0,305,,,1.0,704
+"Carow, Kenneth A.",4,185,,,,,3.0,97
+"Carpenter, Robert E.",1,1726,,,,,1.0,704
+"Carpenter, Seth B.",1,1726,,,,,1.0,704
+"Carr, Peter P.",2,743,,,,,4.0,29
+"Cartea, Álvaro",3,352,,,,,2.0,256
+"Carter, Sara",3,352,,,,,1.0,704
+"Casamatta, Catherine",1,1726,,,,,1.0,704
+"Casares, Miguel",0,2582,,,,,1.0,704
+"Caskey, Judson A.",0,2582,,,,,1.0,704
+"Castiglionesi, Fabio",1,1726,,,,,2.0,256
+"Caudill, Steven B.",2,743,,,,,1.0,704
+"Cerasi, Vittoria",2,743,,,,,1.0,704
+"Cerutti, Eugenio",2,743,0.0,305,,,1.0,704
+"Cespa, Giovanni",0,2582,,,,,1.0,704
+"Chabi-Yo, Fousseni",2,743,,,,,2.0,256
+"Chaboud, Alain P.",2,743,,,,,1.0,704
+"Chacko, George C.",6,51,0.026796351184138586,99,,,2.0,256
+"Chae, Joon",2,743,,,,,1.0,704
+"Chaieb, Ines",1,1726,0.0,305,,,1.0,704
+"Chakrabarty, Bidisha",3,352,,,,,1.0,704
+"Chakravorti, Sujit",1,1726,,,,,1.0,704
+"Chalmers, John M.R.",2,743,0.0,305,,,1.0,704
+"Chambers, David",1,1726,,,,,1.0,704
+"Champagne, Claudia",1,1726,,,,,1.0,704
+"Chan, Justin S P",2,743,0.0,305,,,1.0,704
+"Chan, Kalok",2,743,,,,,1.0,704
+"Chan, Konan",5,96,0.08439469367787977,38,,,2.0,256
+"Chan, Louis Kuo Chi",2,743,0.0,305,,,1.0,704
+"Chandar, Nandini",2,743,,,,,1.0,704
+"Chaney, Thomas",1,1726,,,,,1.0,704
+"Chang, Charles",2,743,,,,,1.0,704
+"Chang, Chuang Chang",2,743,,,,,1.0,704
+"Chang, Eric C.",6,51,,,,,3.0,97
+"Chang, Juin-Jen",3,352,,,,,1.0,704
+"Chang, Rosita P.",3,352,,,,,1.0,704
+"Chang, Shaochi",3,352,,,,,1.0,704
+"Chang, Wenya",3,352,,,,,1.0,704
+"Chang, Xin",1,1726,0.0,305,,,1.0,704
+"Chang, Yongsung",2,743,,,,,1.0,704
+"Chapelle, Ariane",3,352,,,,,1.0,704
+"Chaplinsky, Susan",1,1726,,,,,1.0,704
+"Chapman, David A.",1,1726,,,,,1.0,704
+"Chari, Anusha",2,743,0.003389830508474576,202,,,3.0,97
+"Chari, Varadarajan V.",1,1726,,,,,1.0,704
+"Charlebois, Maxime",1,1726,,,,,1.0,704
+"Charlier, Erwin",1,1726,,,,,1.0,704
+"Chatfield, Robert Evans",1,1726,,,,,1.0,704
+"Chatrath, Arjun",3,352,,,,,1.0,704
+"Chau, Minh",1,1726,,,,,1.0,704
+"Chava, Sudheer",3,352,0.054023100595934175,54,,,3.0,97
+"Chay, Jong Bom",1,1726,,,,,1.0,704
+"Chelley-Steeley, Patrìcia Lorraine",0,2582,,,,,1.0,704
+"Chemmanur, Thomas J.",3,352,,,,,2.0,256
+"Chen, An Sing",2,743,,,,,1.0,704
+"Chen, Been-Lon",0,2582,,,,,1.0,704
+"Chen, Catherinehuirong",1,1726,,,,,1.0,704
+"Chen, Chen",2,743,,,,,1.0,704
+"Chen, Fan",1,1726,0.0,305,,,1.0,704
+"Chen, Gongmeng",2,743,,,,,1.0,704
+"Chen, Hsuanchi",2,743,,,,,1.0,704
+"Chen, Li W.",4,185,0.0034588932692584387,201,,,2.0,256
+"Chen, Long",8,19,0.027939238684253208,95,,,6.0,8
+"Chen, Mark A.",1,1726,,,,,1.0,704
+"Chen, Qi",2,743,,,,,2.0,256
+"Chen, Ren Raw",3,352,,,,,1.0,704
+"Chen, Rong",2,743,,,,,1.0,704
+"Chen, Sheng-Syan",3,352,,,,,1.0,704
+"Chen, Shiusheng",0,2582,,,,,2.0,256
+"Chen, Tsungkang",2,743,,,,,1.0,704
+"Chen, Xia",2,743,0.001694915254237288,244,,,1.0,704
+"Chen, Xuanjuan",2,743,,,,,1.0,704
+"Chen, Yinghsiu",1,1726,,,,,1.0,704
+"Chen, Zhaohui",1,1726,0.0,305,,,1.0,704
+"Chen, Zhiping",1,1726,,,,,1.0,704
+"Cheng, Joseph W.",2,743,,,,,1.0,704
+"Cheng, Kuang F.",2,743,,,,,1.0,704
+"Cheng, Lee Young",2,743,,,,,1.0,704
+"Cheng, Louis T.W.",2,743,,,,,1.0,704
+"Cheng, Shijun",2,743,,,,,2.0,256
+"Cheon, Youngsoonsusan",2,743,,,,,1.0,704
+"Cheridito, Patrick",2,743,,,,,1.0,704
+"Cherkes, Martin",2,743,,,,,1.0,704
+"Chern, Keh Yiing",3,352,,,,,1.0,704
+"Chernobai, Anna",1,1726,,,,,1.0,704
+"Chernov, Mikhail",3,352,,,,,3.0,97
+"Cherny, Alexander S.",1,1726,,,,,1.0,704
+"Chernykh, Lucy",0,2582,,,,,1.0,704
+"Cheung, Yanleung",6,51,0.010134960145031797,145,,,2.0,256
+"Chhaochharia, Vidhi",2,743,0.003389830508474576,202,,,3.0,97
+"Chi, Jianxin(Daniel)",1,1726,,,,,1.0,704
+"Chiang, Yi Chein",2,743,,,,,1.0,704
+"Chiesa, Gabriella",0,2582,,,,,1.0,704
+"Chng, Michael T.",0,2582,,,,,1.0,704
+"Cho, Jinwan",0,2582,,,,,1.0,704
+"Choi, Byeongyongpaul",1,1726,,,,,1.0,704
+"Choi, Darwin",2,743,,,,,1.0,704
+"Choi, Hyung Suk",3,352,1.0071652614313256e-05,293,,,1.0,704
+"Choi, James J.",3,352,,,,,1.0,704
+"Choi, Jongmoo Jay",1,1726,,,,,1.0,704
+"Choi, Nicole",1,1726,,,,,1.0,704
+"Choi, Wooseok",1,1726,,,,,1.0,704
+"Chong, Byunguk",2,743,,,,,1.0,704
+"Chordia, Tarun",6,51,,,,,5.0,18
+"Chortareas, Georgios E.",1,1726,,,,,1.0,704
+"Chou, Ray Yeutien",2,743,,,,,1.0,704
+"Chou, Robin K.",3,352,,,,,1.0,704
+"Christiansen, Charlotte",1,1726,,,,,1.0,704
+"Christie, William Gary",1,1726,,,,,1.0,704
+"Christie-David, Rohan A.",3,352,,,,,1.0,704
+"Christoffersen, Peter F.",3,352,,,,,1.0,704
+"Christoffersen, Susan E.K.",4,185,0.03013054780198172,89,,,2.0,256
+"Christopoulos, Dimitris K.",1,1726,,,,,1.0,704
+"Chua, Choongtze",6,51,,,,,3.0,97
+"Chuang, Chiachang",2,743,,,,,1.0,704
+"Chue, Timothy K.",1,1726,,,,,1.0,704
+"Chun, Hyunbae",3,352,0.0008445800120859831,264,,,1.0,704
+"Chung, Hess",2,743,,,,,1.0,704
+"Chung, Kee H.",4,185,,,,,4.0,29
+"Chung, San-Lin",2,743,,,,,2.0,256
+"Chuwonganant, Chairat",2,743,,,,,3.0,97
+"Chávez, Gonzalo Arturo",1,1726,,,,,1.0,704
+"Ciccarelli, Matteo",1,1726,,,,,1.0,704
+"Cicero, David C.",0,2582,,,,,1.0,704
+"Cici, Gjergji",2,743,,,,,1.0,704
+"Claessens, Stijn",2,743,0.0,305,,,1.0,704
+"Clarke, Jonathan E.",6,51,0.03339040603148111,81,,,2.0,256
+"Claus, Iris",0,2582,,,,,1.0,704
+"Clements, Adam E.",3,352,,,,,2.0,256
+"Cocco, João F.",2,743,,,,,1.0,704
+"Coccorese, Paolo",0,2582,,,,,1.0,704
+"Cochrane, John H.",2,743,0.0,305,,,2.0,256
+"Cogley, Timothy W.",3,352,,,,,2.0,256
+"Cohen, Alma",2,743,,,,,1.0,704
+"Cohen, Lauren H.",4,185,0.01014647060516244,137,,,4.0,29
+"Cohen, Randolph B.",2,743,0.0,305,,,1.0,704
+"Colacito, Riccardo",3,352,,,,,2.0,256
+"Colaco, Hugh M.J.",3,352,,,,,1.0,704
+"Colak, Gonul",3,352,0.0067681505568185085,167,,,2.0,256
+"Cole, Rebel A.",4,185,,,,,2.0,256
+"Coleman, Thomas F.",2,743,,,,,1.0,704
+"Coles, Jeffrey L.",2,743,0.0,305,,,1.0,704
+"Collard, Fabrice",1,1726,,,,,1.0,704
+"Collin-Dufresne, Pierre",4,185,0.0033811976633765935,233,,,4.0,29
+"Collins, Michael Cary",2,743,,,,,1.0,704
+"Comer, George",2,743,,,,,1.0,704
+"Connolly, Robert A.",2,743,,,,,1.0,704
+"Conover, C. Mitchell",2,743,,,,,1.0,704
+"Conrad, Jennifer S.",2,743,0.0,305,,,1.0,704
+"Consigli, Giorgio",4,185,,,,,1.0,704
+"Constantinides, George M.",2,743,,,,,1.0,704
+"Cook, David E.",1,1726,,,,,1.0,704
+"Cooney, John W.",2,743,,,,,1.0,704
+"Cooper, Ilan",1,1726,,,,,1.0,704
+"Cooper, Michael J.",2,743,0.0,305,,,1.0,704
+"Core, John E.",2,743,,,,,1.0,704
+"Cornaggia, Kimberly J.",5,96,,,,,2.0,256
+"Cornett, Marcia Millon",4,185,0.0016891600241719662,247,,,3.0,97
+"Corwin, Shane A.",1,1726,,,,,1.0,704
+"Cosemans, Mathijs",2,743,,,,,1.0,704
+"Cosset, Jean Claude",2,743,,,,,1.0,704
+"Coughenour, Jay F.",1,1726,,,,,1.0,704
+"Cousot, Laurent",0,2582,,,,,1.0,704
+"Coval, Joshua D.",3,352,0.036655060286034935,77,,,2.0,256
+"Covitz, Daniel M.",1,1726,,,,,1.0,704
+"Cox, Steven R.",2,743,,,,,2.0,256
+"Craig, Ben R.",2,743,,,,,2.0,256
+"Craig, Steven G.",1,1726,,,,,1.0,704
+"Crama, Yves",3,352,,,,,1.0,704
+"Cremers, K. J. Martijn",8,19,0.023831899471294125,101,,,6.0,8
+"Croci, Ettore",1,1726,,,,,1.0,704
+"Cronqvist, Henrik",5,96,0.351667577911427,5,,,2.0,256
+"Csóka, Péter",2,743,,,,,1.0,704
+"Cull, Robert",2,743,,,,,1.0,704
+"Cumby, Robert E.",3,352,,,,,2.0,256
+"Cummins, J. David",1,1726,,,,,1.0,704
+"Curry, Timothy J.",2,743,,,,,2.0,256
+"Cuñat, Vicente",1,1726,,,,,2.0,256
+"Cvitanić, Jakša",2,743,,,,,1.0,704
+"Cyree, Ken B.",3,352,,,,,1.0,704
+"Cysne, Rubens Penha",1,1726,,,,,1.0,704
+"Câmara, António",0,2582,,,,,1.0,704
+"D'Mello, Ranjan",4,185,,,,,2.0,256
+"Da Rin, Marco",2,743,,,,,2.0,256
+"Da, Zhi",1,1726,,,,,2.0,256
+"Daal, Elton A.",2,743,,,,,1.0,704
+"Daglish, Toby",0,2582,,,,,1.0,704
+"Dahiya, Sandeep",5,96,0.22326497924783484,11,,,2.0,256
+"Dahya, Jay",2,743,,,,,1.0,704
+"Dai, Qiang",2,743,0.0,305,,,1.0,704
+"Dai, Zhonglan",3,352,,,,,1.0,704
+"Daigler, Robert T.",2,743,,,,,1.0,704
+"Dailami, Mansoor",1,1726,,,,,1.0,704
+"Daltung, Sonja",2,743,,,,,1.0,704
+"Dangl, Thomas",2,743,,,,,1.0,704
+"Daniel, Naveen D.",4,185,0.04641017524675549,61,,,2.0,256
+"Danielsen, Bartley R.",3,352,0.0,305,,,1.0,704
+"Danzon, Patricia Munch",2,743,,,,,1.0,704
+"Darolles, Serge",2,743,,,,,1.0,704
+"Darrat, Ali F.",2,743,,,,,1.0,704
+"Darvas, Zsolt",0,2582,,,,,1.0,704
+"Das, Sanjiv Ranjan",5,96,0.007439210382434955,164,,,3.0,97
+"Dasgupta, Sudipto",6,51,0.013519035423441052,120,,,4.0,29
+"Daskalakis, George",2,743,,,,,1.0,704
+"Dass, Nishant",2,743,,,,,1.0,704
+"Dastidar, Siddhartha G.",2,743,,,,,1.0,704
+"Datta, Sudip",2,743,,,,,1.0,704
+"David, Alexander",0,2582,,,,,2.0,256
+"Davig, Troy",2,743,,,,,1.0,704
+"Davis, Gerald F.",1,1726,0.0,305,,,1.0,704
+"Davis, Kevin",1,1726,,,,,1.0,704
+"Davydenko, Sergei A.",2,743,,,,,2.0,256
+"De Bodt, Eric",3,352,,,,,2.0,256
+"De Francisco, Eva",2,743,,,,,1.0,704
+"De Giuli, Maria Elena",2,743,,,,,1.0,704
+"De Graeve, Ferre",2,743,,,,,1.0,704
+"De Grauwe, Paul",2,743,,,,,1.0,704
+"De Jong, Abe",2,743,,,,,1.0,704
+"De Jong, Frank",3,352,,,,,1.0,704
+"De Jong, Pieter J.",1,1726,,,,,1.0,704
+"De Jonghe, Olivier",3,352,,,,,3.0,97
+"De La O González, María",3,352,,,,,1.0,704
+"De La Torre, Augusto",2,743,1.7265690195965584e-05,290,,,1.0,704
+"De Mello, Luiz R.",1,1726,,,,,1.0,704
+"De Motta, Adolfo",2,743,,,,,1.0,704
+"De Nicoló, Gianni",2,743,0.0,305,,,1.0,704
+"De Palma, André",1,1726,,,,,1.0,704
+"De Veirman, Emmanuel",0,2582,,,,,1.0,704
+"DeLong, Gayle L.",1,1726,,,,,1.0,704
+"DeYoung, Robert E.",5,96,,,,,3.0,97
+"Degeorge, François",2,743,,,,,1.0,704
+"Degryse, Hans",3,352,,,,,2.0,256
+"Deidda, Luca G.",1,1726,,,,,1.0,704
+"Deis, Donald R.",3,352,,,,,1.0,704
+"Del Guercio, Diane",2,743,,,,,1.0,704
+"Delgado, Javier",2,743,,,,,1.0,704
+"Delis, Manthos D.",3,352,,,,,2.0,256
+"Dell'Ariccia, Giovanni",4,185,0.005800591742291173,189,,,2.0,256
+"Della Corte, Pasquale",3,352,,,,,2.0,256
+"DellaVigna, Stefano",1,1726,,,,,1.0,704
+"Dellas, Harris",3,352,,,,,2.0,256
+"Demarzo, Peter M.",3,352,0.003389830508474576,202,,,4.0,29
+"Demery, David",1,1726,,,,,1.0,704
+"Demiguel, Victor",2,743,0.004466058530689734,195,,,1.0,704
+"Demiralp, Selva",1,1726,,,,,1.0,704
+"Demirgüç-Kunt, Asli",9,8,0.028846929754529523,92,,,6.0,8
+"Demirtas, K. Ozgur",2,743,0.0,305,,,1.0,704
+"Dempster, Michael A.H.",2,743,,,,,1.0,704
+"Demyanyk, Yuliya S.",2,743,,,,,1.0,704
+"Deng, Saiying(Esther)",2,743,,,,,2.0,256
+"Deng, ZiYin",2,743,0.0,305,,,1.0,704
+"Denis, David J.",1,1726,,,,,1.0,704
+"Derigs, Ulrich",1,1726,,,,,1.0,704
+"Derrien, François",3,352,,,,,2.0,256
+"Derwall, Jeroen",1,1726,,,,,1.0,704
+"Desai, Mihir A.",5,96,0.03994033744832283,72,,,3.0,97
+"Detragiache, Enrica",5,96,0.002421172968207544,240,,,3.0,97
+"Deuskar, Prachi",2,743,0.0,305,,,1.0,704
+"Devos, Erik",2,743,,,,,1.0,704
+"Dhawan, Rajeev",1,1726,,,,,1.0,704
+"Di Giorgio, Giorgio",1,1726,,,,,1.0,704
+"Diacon, Stephen R.",4,185,,,,,1.0,704
+"Diba, Behzad T.",3,352,,,,,2.0,256
+"Dick, Astrid A.",3,352,0.0,305,,,4.0,29
+"Diether, Karl B.",4,185,0.0067681505568185085,167,,,3.0,97
+"Dimitrov, Orlin V.",2,743,,,,,1.0,704
+"Dimitrov, Valentin",4,185,,,,,1.0,704
+"Dimitrova, Lora",2,743,,,,,1.0,704
+"Dimmock, Stephen G.",2,743,0.0,305,,,1.0,704
+"Dimson, Elroy",1,1726,,,,,1.0,704
+"Ding, Bill",2,743,,,,,1.0,704
+"Dionne, Georges",2,743,,,,,1.0,704
+"Diop, Awa Hélène",4,185,,,,,1.0,704
+"Dittmann, Ingolf",1,1726,,,,,1.0,704
+"Dittmar, Amy K.",3,352,0.036712612586688155,76,,,3.0,97
+"Dittmar, Robert F.",6,51,0.030232223533135736,88,,,4.0,29
+"Djankov, Simeon",4,185,,,,,2.0,256
+"Do, Quy Toan",1,1726,,,,,1.0,704
+"Doh, Taeyoung",2,743,,,,,1.0,704
+"Doidge, Craig",4,185,0.0,305,,,3.0,97
+"Doran, James S.",3,352,,,,,2.0,256
+"Dorn, Daniel",2,743,,,,,1.0,704
+"Dorobantu, Florin",2,743,,,,,1.0,704
+"Dos Santos, Marcelo B.",2,743,0.0,305,,,1.0,704
+"Dotsis, George",2,743,,,,,1.0,704
+"Douglas J. Cumming, Douglas",1,1726,,,,,2.0,256
+"Doukas, John A.",1,1726,,,,,1.0,704
+"Dow, Sandra",1,1726,,,,,1.0,704
+"Downing, Christopher",4,185,,,,,3.0,97
+"Doyle, John R.",1,1726,,,,,1.0,704
+"Doyle, Matthew",1,1726,,,,,1.0,704
+"Dridi, Ramdan",1,1726,,,,,1.0,704
+"Driesprong, Gerben",2,743,,,,,1.0,704
+"Driessen, Joost",5,96,0.011496383811967832,133,,,4.0,29
+"Drucker, Steven",1,1726,,,,,1.0,704
+"Dryburgh, Paul R.",2,743,,,,,1.0,704
+"Duan, Jinchuan",1,1726,0.0,305,,,1.0,704
+"Duarte, Jefferson",5,96,0.22058861265732996,12,,,4.0,29
+"Duck, Nigel W.",1,1726,,,,,1.0,704
+"Duck, Peter W.",3,352,,,,,1.0,704
+"Dueker, Michael J.",1,1726,,,,,1.0,704
+"Duffie, J. Darrell",8,19,0.02684814825472648,97,,,4.0,29
+"Duffy, John",1,1726,,,,,1.0,704
+"Dumas, Bernard",2,743,0.0,305,,,1.0,704
+"Dunbar, Craig G.",1,1726,,,,,1.0,704
+"Dunham, Lee M.",2,743,,,,,1.0,704
+"Duong, Huu Nhan",1,1726,,,,,1.0,704
+"Dupačová, Jitka",4,185,,,,,1.0,704
+"Dupoyet, Brice V.",2,743,,,,,1.0,704
+"Durham, Garland B.",0,2582,,,,,1.0,704
+"Duru, Augustine I.",2,743,,,,,1.0,704
+"Dutordoir, Marie",1,1726,,,,,1.0,704
+"Dutta, Shantanu",1,1726,,,,,1.0,704
+"Dybvig, Philip H.",1,1726,,,,,1.0,704
+"Dyck, Alexander",3,352,0.0016661391039106787,250,,,2.0,256
+"Dziuda, Wioletta",1,1726,,,,,1.0,704
+"Díaz, Antonio",3,352,,,,,1.0,704
+"Døskeland, Trond M.",1,1726,,,,,1.0,704
+"Easley, David A.",1,1726,0.0,305,,,1.0,704
+"Eaves, James",1,1726,,,,,1.0,704
+"Ebnöther, Silvan",1,1726,,,,,1.0,704
+"Eckbo, B. Espen",2,743,,,,,2.0,256
+"Eckner, Andreas",3,352,0.0006710598256165185,272,,,1.0,704
+"Ederington, Louis H.",1,1726,,,,,1.0,704
+"Edirisinghe, N. Chanaka P.",1,1726,,,,,1.0,704
+"Edmans, Alex",4,185,0.0067681505568185085,167,,,3.0,97
+"Edwards, Amy K.",2,743,,,,,1.0,704
+"Efendi, Jap",2,743,,,,,1.0,704
+"Egloff, Daniel",2,743,,,,,1.0,704
+"Ehling, Paul",1,1726,,,,,1.0,704
+"Ehrmann, Michael",1,1726,,,,,1.0,704
+"Eichholtz, Piet M.A.",2,743,,,,,1.0,704
+"Eichler, Stefan",2,743,,,,,1.0,704
+"Eisdorfer, Assaf",0,2582,,,,,1.0,704
+"Eisfeldt, Andrea L.",1,1726,,,,,2.0,256
+"Eitrheim, Øyvind",1,1726,,,,,1.0,704
+"Eleswarapu, Venkat R.",1,1726,,,,,1.0,704
+"Eling, Martin",1,1726,,,,,1.0,704
+"Elliott, William B.",4,185,,,,,2.0,256
+"Ellul, Andrew",2,743,,,,,1.0,704
+"Elton, Edwin J.",2,743,,,,,1.0,704
+"Elul, Ronel",0,2582,,,,,1.0,704
+"Elyasiani, Elyas",5,96,,,,,4.0,29
+"Emanuel, David M.",2,743,,,,,1.0,704
+"Engel, Dirk",1,1726,,,,,1.0,704
+"Engle, Robert F.",3,352,,,,,2.0,256
+"Engstrom, Eric",2,743,,,,,1.0,704
+"Entrop, Oliver",2,743,,,,,1.0,704
+"Episcopos, Athanasios",0,2582,,,,,1.0,704
+"Epstein, Andrew J.",2,743,,,,,1.0,704
+"Epstein, Larry G.",1,1726,,,,,1.0,704
+"Erel, Isil",3,352,0.0,305,,,1.0,704
+"Errunza, Vihang R.",3,352,0.003389830508474576,202,,,2.0,256
+"Erwin, Gayle R.",1,1726,,,,,1.0,704
+"Eun, Cheol S.",2,743,,,,,1.0,704
+"Evanoff, Douglas D.",1,1726,,,,,1.0,704
+"Evans, Charles L.",1,1726,,,,,1.0,704
+"Evans, George W.",1,1726,,,,,1.0,704
+"Evans, Martin D.D.",1,1726,,,,,1.0,704
+"Evans, Richard B.",3,352,3.6449790413705126e-05,286,,,1.0,704
+"Evren Damar, H.",0,2582,,,,,1.0,704
+"Fabozzi, Frank J.",6,51,,,,,3.0,97
+"Faccio, Mara",1,1726,,,,,1.0,704
+"Faff, Robert W.",2,743,,,,,1.0,704
+"Fahlenbrach, Rüdiger",2,743,0.35351500676239533,4,,,2.0,256
+"Faia, Ester",1,1726,,,,,2.0,256
+"Faig, Miquel",1,1726,,,,,1.0,704
+"Faleye, Olubunmi",0,2582,,,,,1.0,704
+"Falk, Barry L.",1,1726,,,,,1.0,704
+"Fama, Eugene F.",1,1726,,,,,3.0,97
+"Fan, Elliott",1,1726,,,,,1.0,704
+"Fan, Joseph",2,743,,,,,1.0,704
+"Fan, Longzhen",1,1726,,,,,1.0,704
+"Fang, Lily",2,743,,,,,2.0,256
+"Fang, Vivian W.",2,743,,,,,1.0,704
+"Farhi, Emmanuel",1,1726,,,,,1.0,704
+"Farinelli, Simone",4,185,,,,,1.0,704
+"Fattouh, Bassam A.",1,1726,,,,,1.0,704
+"Fatum, Rasmus",1,1726,0.0,305,,,1.0,704
+"Fatás, Antonio",2,743,,,,,1.0,704
+"Fauver, Larry",4,185,,,,,2.0,256
+"Fazzari, Steven M.",2,743,,,,,1.0,704
+"Fecht, Falko",3,352,,,,,2.0,256
+"Fee, C. Edward",2,743,,,,,1.0,704
+"Feenstra, Robert C.",1,1726,,,,,1.0,704
+"Fehle, Frank R.",1,1726,,,,,1.0,704
+"Feijen, Erik",2,743,0.0,305,,,1.0,704
+"Feldhütter, Peter",1,1726,,,,,1.0,704
+"Feng, Shui",3,352,0.0,305,,,1.0,704
+"Fenn, Paul T.",4,185,,,,,1.0,704
+"Fernandes, Nuno",1,1726,,,,,2.0,256
+"Fernando, Chitru S.",2,743,,,,,1.0,704
+"Fernández de Guevara, Juan",1,1726,,,,,1.0,704
+"Ferraris, Leo",1,1726,,,,,1.0,704
+"Ferreira, Cândida",2,743,,,,,1.0,704
+"Ferreira, Daniel",1,1726,,,,,2.0,256
+"Ferreira, Manuel",4,185,,,,,1.0,704
+"Ferreira, Miguel Ângelo",4,185,,,,,5.0,18
+"Ferrell, Allen",2,743,,,,,1.0,704
+"Ferri, Giovanni",0,2582,,,,,1.0,704
+"Ferris, Stephen P.",5,96,0.02184109809789646,104,,,3.0,97
+"Ferson, Wayne E.",1,1726,,,,,1.0,704
+"Fich, Eliezer M.",1,1726,,,,,1.0,704
+"Field, Laura Casares",3,352,,,,,1.0,704
+"Fields, L. Paige",2,743,0.0011280250928030783,255,,,1.0,704
+"Filipovic, Damir",2,743,,,,,1.0,704
+"Finkelstein, Amy N.Y.",2,743,,,,,1.0,704
+"Fiordelisi, Franco",0,2582,,,,,1.0,704
+"Fisher, Adlai J.",1,1726,,,,,1.0,704
+"Fishman, Michael J.",1,1726,0.0,305,,,2.0,256
+"Fisman, Raymond J.",2,743,,,,,1.0,704
+"Fissel, Gary S.",2,743,,,,,2.0,256
+"Fleming, Michael J.",1,1726,,,,,1.0,704
+"Fluck, Zsuzsanna",2,743,0.0,305,,,1.0,704
+"Focarelli, Dario",1,1726,,,,,1.0,704
+"Foerster, Stephen R.",1,1726,,,,,1.0,704
+"Fogel, Kathy S.",2,743,0.0008445800120859831,264,,,1.0,704
+"Fonseca, Ana Rosa",1,1726,,,,,1.0,704
+"Forbes, Kristin J.",2,743,0.014365054243043344,117,,,1.0,704
+"Forte, Santiago",1,1726,,,,,1.0,704
+"Foster, Dean P.",3,352,,,,,1.0,704
+"Foster, Michael E.",2,743,,,,,1.0,704
+"Foucault, Thierry",4,185,,,,,3.0,97
+"Frame, W. Scott",1,1726,0.0,305,,,1.0,704
+"Francis, Bill B.",5,96,0.00026999601677498103,280,,,4.0,29
+"Francis, Neville R.",1,1726,,,,,1.0,704
+"Franks, Julian R.",4,185,,,,,3.0,97
+"Franzen, Laurel A.",2,743,,,,,1.0,704
+"Franzoni, Francesco",0,2582,,,,,1.0,704
+"Fraser, Donald R.",3,352,2.8776150326609306e-06,301,,,2.0,256
+"Fraser, Stuart",2,743,,,,,1.0,704
+"Fratzscher, Marcel",2,743,,,,,2.0,256
+"Frauendorfer, Karl",2,743,,,,,1.0,704
+"Frazzini, Andrea",2,743,0.003389830508474576,202,,,2.0,256
+"Freixas, Xavier",5,96,0.01014647060516244,137,,,3.0,97
+"French, Kenneth R.",1,1726,,,,,4.0,29
+"Friberg, Richard",1,1726,,,,,1.0,704
+"Friesen, Geoffrey C.",4,185,,,,,3.0,97
+"Frino, Alex",3,352,,,,,2.0,256
+"Fritz Foley, C.",8,19,0.14862159163963426,23,,,4.0,29
+"Froot, Kenneth A.",2,743,0.003389830508474576,202,,,2.0,256
+"Frydman, Halina",1,1726,,,,,1.0,704
+"Fu, Fangjian",0,2582,,,,,1.0,704
+"Fu, Lawrence J.",2,743,,,,,1.0,704
+"Fu, Xiaoqing (Maggie)",1,1726,,,,,1.0,704
+"Fukunaga, Ichiro",0,2582,,,,,1.0,704
+"Fulghieri, Paolo",1,1726,,,,,1.0,704
+"Fuller, Kathleen P.",2,743,0.0,305,,,1.0,704
+"Fung, William",3,352,0.0,305,,,1.0,704
+"Fusai, Gianluca",3,352,,,,,2.0,256
+"Fève, Patrick",1,1726,,,,,1.0,704
+"Gabaix, Xavier",4,185,0.010134960145031797,145,,,2.0,256
+"Gagliardini, Patrick",2,743,,,,,1.0,704
+"Gajewski, Jean François",1,1726,,,,,1.0,704
+"Galai, Dan",2,743,,,,,1.0,704
+"Galema, Rients",2,743,,,,,1.0,704
+"Gali, Jordi",1,1726,,,,,1.0,704
+"Gamba, Andrea",1,1726,,,,,1.0,704
+"Gambetti, Luca",2,743,,,,,1.0,704
+"Gan, Jie",1,1726,,,,,3.0,97
+"Ganslandt, Mattias",1,1726,,,,,1.0,704
+"Garbade, Kenneth D.",1,1726,,,,,1.0,704
+"Garcia, René",2,743,,,,,1.0,704
+"García, Diego",2,743,0.0,305,,,1.0,704
+"García-Herrero, Alicia",3,352,0.0067681505568185085,167,,,2.0,256
+"García-Peñalosa, Cecilia",1,1726,,,,,1.0,704
+"Garlappi, Lorenzo",5,96,0.030105608471698655,90,,,3.0,97
+"Garmaise, Mark J.",1,1726,0.0,305,,,2.0,256
+"Garner, Jacqueline L.",2,743,,,,,1.0,704
+"Gasbarro, Dominic",3,352,,,,,1.0,704
+"Gaspar, José Miguel",1,1726,,,,,1.0,704
+"Gatev, Evan",2,743,,,,,2.0,256
+"Gatzert, Nadine",1,1726,,,,,1.0,704
+"Gavilá, Sergio",2,743,0.0,305,,,1.0,704
+"Ge, Ying",1,1726,0.0,305,,,1.0,704
+"Gehrig, Thomas P.",1,1726,,,,,1.0,704
+"Geman, Hélyette",2,743,,,,,2.0,256
+"George, Thomas J.",1,1726,,,,,1.0,704
+"Gerace, Dionigi",2,743,,,,,1.0,704
+"Gerdesmeier, Dieter",2,743,,,,,1.0,704
+"Gerlach-Kristen, Petra",0,2582,,,,,1.0,704
+"Germain, Laurent",1,1726,,,,,1.0,704
+"Gersbach, Hans",1,1726,,,,,2.0,256
+"Gertler, Mark L.",4,185,,,,,2.0,256
+"Gervais, Simon",1,1726,,,,,1.0,704
+"Getmansky, Mila",2,743,,,,,1.0,704
+"Geyfman, Victoria",1,1726,,,,,1.0,704
+"Ghosh, Chinmoy",5,96,,,,,2.0,256
+"Ghysels, Eric",2,743,,,,,1.0,704
+"Giaccotto, Carmelo",2,743,,,,,1.0,704
+"Giambona, Erasmo",1,1726,,,,,1.0,704
+"Giamouridis, Daniel",2,743,,,,,2.0,256
+"Giannetti, Mariassunta",1,1726,0.0,305,,,2.0,256
+"Giannopoulos, Kostas",0,2582,,,,,1.0,704
+"Gibson, Rajna",4,185,,,,,1.0,704
+"Gibson, Scott",2,743,,,,,1.0,704
+"Gil-Bazo, Javier",1,1726,,,,,1.0,704
+"Gilchrist, Simon G.",2,743,,,,,1.0,704
+"Gillan, Stuart L.",2,743,0.0,305,,,1.0,704
+"Ginglinger, Edith",1,1726,,,,,1.0,704
+"Giot, Pierre",1,1726,,,,,1.0,704
+"Glasserman, Paul",1,1726,,,,,1.0,704
+"Gleason, Kimberly C.",2,743,,,,,1.0,704
+"Glegg, Charmaine",1,1726,,,,,1.0,704
+"Glennon, Dennis C.",2,743,,,,,1.0,704
+"Gnabo, Jean Yves",3,352,,,,,1.0,704
+"Gnocchi, Stefano",0,2582,,,,,1.0,704
+"Gobbi, Giorgio",1,1726,,,,,1.0,704
+"Goddard, John A.",4,185,,,,,3.0,97
+"Godridge, Ben",3,352,,,,,1.0,704
+"Goel, Anand Mohan",1,1726,0.0,305,,,1.0,704
+"Goettler, Ronald L.",2,743,,,,,1.0,704
+"Goetzmann, William Nelson",8,19,0.09797703663203937,34,,,3.0,97
+"Gokcan, Suleyman",2,743,0.0,305,,,1.0,704
+"Goldberg, Gerson M.",2,743,,,,,1.0,704
+"Goldberg, Lawrence G.",5,96,0.007890420419556262,159,,,2.0,256
+"Goldfarb, Brent",2,743,,,,,1.0,704
+"Goldman, Eitan Moshe",2,743,,,,,1.0,704
+"Goldstein, Itay",2,743,,,,,2.0,256
+"Goldstein, Michael A.",5,96,,,,,2.0,256
+"Goldstein, Robert S.",4,185,0.0033811976633765935,233,,,4.0,29
+"Golec, Joseph H.",1,1726,,,,,1.0,704
+"Gomes, Francisco J.",3,352,,,,,3.0,97
+"Gompers, Paul A.",3,352,0.0,305,,,1.0,704
+"Gondat-Larralde, Céline",1,1726,,,,,1.0,704
+"Gong, Guojin",2,743,,,,,1.0,704
+"Gonzalez, Angelica",1,1726,,,,,1.0,704
+"Gonzalez, Francisco M.",1,1726,,,,,2.0,256
+"Gonzalez, Laura",1,1726,,,,,1.0,704
+"Gonçalves, Paulo Miguel Marques Gama",1,1726,,,,,1.0,704
+"Goodell, John W.",1,1726,,,,,1.0,704
+"Gopalan, Radhakrishnan",4,185,0.052856032919915974,56,,,2.0,256
+"Gorton, Gary B.",2,743,0.0,305,,,1.0,704
+"Goto, Shingo",2,743,,,,,1.0,704
+"Gottesman, Aron A.",3,352,,,,,1.0,704
+"Gottfries, Nils",3,352,,,,,1.0,704
+"Gottschalg, Oliver F.",1,1726,,,,,1.0,704
+"Gottschalk, Katrin",2,743,,,,,1.0,704
+"Goyal, Amit",5,96,0.02687116917498777,96,,,4.0,29
+"Goyal, Vidhan K.",1,1726,0.0,305,,,1.0,704
+"Goyenko, Ruslan Y.",2,743,,,,,1.0,704
+"Gozzi, Juan Carlos",3,352,0.003355299128082645,238,,,2.0,256
+"Grace, Martin F.",1,1726,,,,,1.0,704
+"Graham, John R.",2,743,0.0,305,,,1.0,704
+"Graham, Liam",1,1726,,,,,1.0,704
+"Grané, Aurea",1,1726,,,,,1.0,704
+"Grauer, Robert R.",1,1726,,,,,1.0,704
+"Gray, Philip K.",2,743,,,,,1.0,704
+"Green, Richard C.",2,743,,,,,2.0,256
+"Green, T. Clifton",1,1726,,,,,1.0,704
+"Greene, Jason T.",2,743,,,,,1.0,704
+"Greenwood, Robin M.",4,185,0.007005759340943951,165,,,5.0,18
+"Grenadier, Steven R.",1,1726,,,,,1.0,704
+"Gresse, Carole",1,1726,,,,,1.0,704
+"Grier, Kevin B.",1,1726,,,,,1.0,704
+"Griffin, John M.",5,96,0.01014647060516244,137,,,3.0,97
+"Griffiths, Mark D.",3,352,,,,,1.0,704
+"Grimaldi, Marianna",2,743,,,,,1.0,704
+"Grinblatt, Mark S.",1,1726,,,,,1.0,704
+"Grinstein, Yaniv",1,1726,0.0,305,,,2.0,256
+"Gropper, Daniel M.",2,743,,,,,1.0,704
+"Gruber, Martin J.",2,743,,,,,1.0,704
+"Grunert, Jens",1,1726,,,,,1.0,704
+"Guadalupe, Maria",1,1726,,,,,1.0,704
+"Guariglia, Alessandra",1,1726,,,,,2.0,256
+"Guay, Alain",1,1726,,,,,1.0,704
+"Guay, Wayne R.",2,743,,,,,1.0,704
+"Guedhami, Omrane",3,352,,,,,2.0,256
+"Guidolin, Massimo",2,743,,,,,2.0,256
+"Guiso, Luigi",2,743,0.0,305,,,1.0,704
+"Gulen, Huseyin",5,96,0.04641017524675549,61,,,2.0,256
+"Guo, Hui",1,1726,,,,,2.0,256
+"Gup, Benton E.",2,743,,,,,1.0,704
+"Gupta, Anurag",2,743,0.0,305,,,1.0,704
+"Gupta, Manu",1,1726,,,,,1.0,704
+"Gupta, Nandini",2,743,0.0067681505568185085,167,,,2.0,256
+"Gupta, Poonam N.",2,743,5.275627559878373e-06,298,,,1.0,704
+"Gurevich, Gregory",2,743,,,,,1.0,704
+"Gutierrez, Roberto C.",1,1726,,,,,1.0,704
+"Gârleanu, Nicolae",4,185,0.018333285373082788,109,,,3.0,97
+"Géczy, Christopher C.",6,51,0.00788466518949091,160,,,3.0,97
+"Gómez, Juan Pedro",2,743,,,,,1.0,704
+"Gómez-Valle, Lourdes",1,1726,,,,,1.0,704
+"Güner, A. Burak",2,743,,,,,1.0,704
+"Güner, Z. Nuray",2,743,,,,,1.0,704
+"Güttler, André",2,743,,,,,2.0,256
+"Ha, Joonkyung",1,1726,,,,,1.0,704
+"Habib, Michel A.",2,743,,,,,2.0,256
+"Hackbarth, Dirk",3,352,0.0067681505568185085,167,,,2.0,256
+"Hadlock, Charles J.",2,743,,,,,1.0,704
+"Hafner, Wolfgang",1,1726,,,,,1.0,704
+"Hagendorff, Jens",2,743,,,,,1.0,704
+"Hahn, Jaehoon",1,1726,,,,,1.0,704
+"Hahn, Volker",1,1726,,,,,2.0,256
+"Haigh, Michael S.",2,743,,,,,1.0,704
+"Hail, Luzi",1,1726,0.0,305,,,1.0,704
+"Hale Shapiro, Adam",0,2582,,,,,1.0,704
+"Hale, Galina B.",1,1726,,,,,2.0,256
+"Halling, Michael",3,352,,,,,1.0,704
+"Hamao, Yasushi",2,743,0.0,305,,,1.0,704
+"Hamilton, James D.",0,2582,,,,,1.0,704
+"Hamon, Jacques",1,1726,,,,,1.0,704
+"Han, Bing",4,185,0.016834047941066445,112,,,4.0,29
+"Han, Liang",2,743,,,,,1.0,704
+"Han, Xi",3,352,0.00023596443267819635,281,,,1.0,704
+"Handley, John C.",0,2582,,,,,1.0,704
+"Hannan, Timothy H.",2,743,,,,,3.0,97
+"Hanouna, Paul",2,743,0.0,305,,,2.0,256
+"Hansen, Lars Peter",3,352,,,,,1.0,704
+"Hanweck, Gerald A.",2,743,,,,,2.0,256
+"Hao, Graceqing",0,2582,,,,,1.0,704
+"Hardee, Pauline",1,1726,,,,,1.0,704
+"Harding, John P.",2,743,,,,,1.0,704
+"Hardwick, Philip",2,743,,,,,1.0,704
+"Harford, Jarrad",9,8,0.23645886510638575,10,,,5.0,18
+"Haritchabalet, Carole",1,1726,,,,,1.0,704
+"Harper, Joel T.",1,1726,,,,,1.0,704
+"Harrington, Scott E.",2,743,,,,,1.0,704
+"Harris, Jeffrey H.",2,743,0.0,305,,,1.0,704
+"Harris, Lawrence E.",2,743,,,,,1.0,704
+"Harris, Milton",1,1726,,,,,1.0,704
+"Harris, Oneil",1,1726,,,,,1.0,704
+"Harris, Richard D.F.",1,1726,,,,,1.0,704
+"Hartarska, Valentina M.",2,743,,,,,1.0,704
+"Hartmann, Philipp",2,743,,,,,1.0,704
+"Hartmann-Wendels, Thomas",2,743,,,,,1.0,704
+"Hartzell, Jay C.",5,96,0.0067681505568185085,167,,,2.0,256
+"Harvey, Campbell R.",3,352,,,,,2.0,256
+"Hasan, Iftekhar",10,5,0.09030328344660836,36,,,7.0,4
+"Hasbrouck, Joel",0,2582,,,,,1.0,704
+"Haslag, Joseph H.",1,1726,,,,,1.0,704
+"Hasman, Augusto",1,1726,,,,,1.0,704
+"Hatch, Brian C.",3,352,0.0,305,,,1.0,704
+"Hauner, David",0,2582,,,,,1.0,704
+"Haushalter, David David",2,743,0.001963972259791085,241,,,1.0,704
+"Hauswald, Robert",1,1726,,,,,1.0,704
+"Hauten, Guido",2,743,,,,,1.0,704
+"Hayes, Rachel M.",1,1726,,,,,1.0,704
+"He, Ping",0,2582,,,,,1.0,704
+"He, Shan",2,743,,,,,1.0,704
+"He, Yan",4,185,,,,,2.0,256
+"He, Zhiguo",0,2582,,,,,2.0,256
+"Heffernan, Shelagh A.",1,1726,,,,,1.0,704
+"Hegde, Shantaram P.",4,185,,,,,2.0,256
+"Hege, Ulrich",3,352,,,,,1.0,704
+"Heid, Frank",5,96,0.0,305,,,2.0,256
+"Heimeshoff, Ulrich",1,1726,,,,,1.0,704
+"Hellerstein, Rebecca",0,2582,,,,,1.0,704
+"Hellmann, Thomas F.",4,185,,,,,3.0,97
+"Hellwig, Martin F.",0,2582,,,,,1.0,704
+"Helwege, Jean",5,96,0.01351328019337573,122,,,3.0,97
+"Hennessy, Christopher A.",5,96,0.03351845990043452,79,,,4.0,29
+"Henry, Peter Blair",1,1726,0.0,305,,,1.0,704
+"Henry, Ólan T.",0,2582,,,,,1.0,704
+"Hens, Thorsten",2,743,,,,,1.0,704
+"Herings, P. Jean-Jacques",2,743,,,,,1.0,704
+"Hernando, Ignacio",2,743,,,,,2.0,256
+"Hernández-Murillo, Rubén",3,352,,,,,1.0,704
+"Heron, Randall A.",1,1726,,,,,1.0,704
+"Herrera, Ana María",1,1726,,,,,1.0,704
+"Herring, Richard John",2,743,,,,,1.0,704
+"Hertzel, Michael G.",3,352,,,,,1.0,704
+"Heston, Steven L.",3,352,,,,,2.0,256
+"Heyman, Fredrik",4,185,0.0,305,,,1.0,704
+"Hibbert, Ann Marie",2,743,,,,,1.0,704
+"Hightower, Kenneth N.",2,743,,,,,1.0,704
+"Hilary, Gilles",1,1726,,,,,1.0,704
+"Hilscher, Jens",2,743,0.0,305,,,1.0,704
+"Hilton, Spence",2,743,,,,,1.0,704
+"Hines, James R.",2,743,0.014365054243043344,117,,,1.0,704
+"Hinnerich, Mia",0,2582,,,,,1.0,704
+"Hirose, Yasuo",0,2582,,,,,1.0,704
+"Hirshleifer, David",5,96,0.010137837760064458,144,,,3.0,97
+"Hirtle, Beverly J.",1,1726,,,,,3.0,97
+"Hjalmarsson, Erik",5,96,,,,,3.0,97
+"Hjalmarsson, Randi",1,1726,,,,,1.0,704
+"Ho, Chienwei",1,1726,,,,,1.0,704
+"Ho, Taikuang",1,1726,,,,,1.0,704
+"Ho, Wai Ming",2,743,,,,,1.0,704
+"Hoberg, Gerard",1,1726,,,,,2.0,256
+"Hochberg, Yael V.",2,743,0.0,305,,,1.0,704
+"Hodges, Charles W.",2,743,,,,,1.0,704
+"Hodges, Stewart",1,1726,,,,,1.0,704
+"Hodrick, Robert J.",4,185,,,,,2.0,256
+"Holden, Craig W.",2,743,,,,,1.0,704
+"Holderness, Clifford G.",2,743,,,,,2.0,256
+"Hollifield, Burton",2,743,,,,,2.0,256
+"Holmén, Martin",2,743,,,,,1.0,704
+"Holod, Dmytro",1,1726,,,,,1.0,704
+"Holthausen, Cornelia",1,1726,,,,,1.0,704
+"Hong, Dong",2,743,0.0,305,,,1.0,704
+"Hong, Gwangheon",1,1726,,,,,1.0,704
+"Hong, Harrison",9,8,0.19534667264574285,15,,,6.0,8
+"Hong, Yongmiao",2,743,,,,,1.0,704
+"Honig, Adam",1,1726,,,,,2.0,256
+"Honohan, Patrick",0,2582,,,,,1.0,704
+"Horel, Guillaume",3,352,0.0006710598256165185,272,,,1.0,704
+"Horneff, Wolfram J.",3,352,,,,,1.0,704
+"Hotchkiss, Edith SHWALB",2,743,,,,,1.0,704
+"Hou, Kewei",2,743,0.0011280250928030842,253,,,2.0,256
+"Houkari, Mohamed",2,743,,,,,1.0,704
+"Howitt, Peter W.",1,1726,,,,,1.0,704
+"Hribar, Paul",3,352,0.0,305,,,1.0,704
+"Hsieh, David A.",3,352,0.0,305,,,1.0,704
+"Hsieh, Peifang",2,743,,,,,1.0,704
+"Hsu, Po Hsuan",0,2582,,,,,1.0,704
+"Hu, Gang",2,743,,,,,1.0,704
+"Hu, Yifan",1,1726,,,,,1.0,704
+"Huang, Dayong",2,743,,,,,3.0,97
+"Huang, Huaxiong",1,1726,,,,,1.0,704
+"Huang, Jennifer",3,352,0.12662887398923772,28,,,3.0,97
+"Huang, Kevin X.D.",2,743,,,,,1.0,704
+"Huang, Lixin",1,1726,,,,,1.0,704
+"Huang, Pinghsun",3,352,,,,,1.0,704
+"Huang, Rocco",0,2582,,,,,1.0,704
+"Huang, Roger D.",1,1726,,,,,1.0,704
+"Huang, Taihsin",1,1726,,,,,1.0,704
+"Huang, Xin",2,743,,,,,1.0,704
+"Huang, Zhangkai",1,1726,,,,,1.0,704
+"Huberman, Gur",2,743,,,,,1.0,704
+"Hudson, Robert S.",1,1726,,,,,1.0,704
+"Hugonnier, Julien",2,743,,,,,1.0,704
+"Huh, Sahnwook",2,743,,,,,2.0,256
+"Hui, Kai Wai",1,1726,,,,,1.0,704
+"Huij, Joop",2,743,,,,,2.0,256
+"Huizinga, Harry P.",3,352,0.003389830508474576,202,,,2.0,256
+"Hummels, David L.",1,1726,,,,,1.0,704
+"Humphrey, David Burras",2,743,0.0,305,,,1.0,704
+"Humphrey, Jacquelyn E.",1,1726,,,,,1.0,704
+"Hund, John E.",2,743,,,,,1.0,704
+"Hung, Chi Hsiou Daniel",1,1726,,,,,1.0,704
+"Hunter, Delroy M.",2,743,0.0007786826278380479,269,,,1.0,704
+"Hurvich, Clifford M.",2,743,,,,,1.0,704
+"Hutson, Elaine",2,743,,,,,1.0,704
+"Hutton, Amy P.",2,743,4.316422548991396e-06,299,,,1.0,704
+"Hvidkjaer, Soeren",0,2582,,,,,1.0,704
+"Hwang, Byounghyoun",2,743,,,,,2.0,256
+"Hwang, Chuan Yang",1,1726,,,,,1.0,704
+"Hwang, Daryeh",3,352,,,,,1.0,704
+"Hwang, Soosung",2,743,,,,,1.0,704
+"Hyytinen, Ari",1,1726,,,,,1.0,704
+"Hübner, Georges",3,352,,,,,1.0,704
+"Iacoviello, Matteo",0,2582,,,,,1.0,704
+"Iannotta, Giuliano",2,743,,,,,1.0,704
+"Ibragimov, Rustam",2,743,,,,,2.0,256
+"Ibáñez, Alfredo",0,2582,,,,,1.0,704
+"Ichiue, Hibiki",1,1726,,,,,1.0,704
+"Ikenberry, David L.",2,743,0.0,305,,,1.0,704
+"Imai, Masami",1,1726,,,,,3.0,97
+"Imbs, Jean M.",1,1726,,,,,1.0,704
+"Inderst, Roman",2,743,,,,,4.0,29
+"Ingersoll, Jonathan E.",3,352,0.0,305,,,1.0,704
+"Ingram, Matthew",1,1726,,,,,1.0,704
+"Inoue, Atsushi",2,743,,,,,1.0,704
+"Inoue, Kotaro",2,743,,,,,1.0,704
+"Ireland, Peter N.",0,2582,,,,,1.0,704
+"Ironside, Brian",1,1726,,,,,1.0,704
+"Irvine, Paul J.",6,51,,,,,3.0,97
+"Iscoe, Ian",1,1726,,,,,1.0,704
+"Iskandar-Datta, Mai E.",2,743,,,,,1.0,704
+"Islam, Saiyid S.",1,1726,,,,,1.0,704
+"Ito, Takatoshi",1,1726,,,,,1.0,704
+"Ivashina, Victoria",4,185,0.0008559481725721529,261,,,2.0,256
+"Ivković, Zoran",3,352,,,,,3.0,97
+"Jackson, Howell E.",1,1726,,,,,1.0,704
+"Jackwerth, Jens Carsten",2,743,,,,,1.0,704
+"Jacobs, Kris",4,185,,,,,2.0,256
+"Jacobsen, Ben",3,352,,,,,2.0,256
+"Jacobson, Tor",3,352,,,,,1.0,704
+"Jacoby, Ulrich",2,743,,,,,1.0,704
+"Jaffee, Dwight M.",4,185,,,,,2.0,256
+"Jagannathan, Ravi",1,1726,,,,,1.0,704
+"Jaimovich, Nir",1,1726,,,,,1.0,704
+"Jain, Prem C.",4,185,,,,,1.0,704
+"James, Christopher M.",1,1726,,,,,1.0,704
+"James, Kevin R.",1,1726,,,,,1.0,704
+"Jang, Bonggyu",5,96,,,,,2.0,256
+"Jankowitsch, Rainer",4,185,,,,,2.0,256
+"Janmaat, John A.",1,1726,,,,,1.0,704
+"Jansen, Ivo Ph",3,352,,,,,1.0,704
+"Jappelli, Tullio",2,743,,,,,1.0,704
+"Jarrow, Robert A.",2,743,,,,,2.0,256
+"Jayaraman, Narayanan",4,185,0.0016747719490086616,249,,,2.0,256
+"Jašić, Teo",3,352,,,,,1.0,704
+"Jenkinson, Tim J.",1,1726,,,,,1.0,704
+"Jennings, Robert H.",4,185,,,,,2.0,256
+"Jenter, Dirk",1,1726,,,,,1.0,704
+"Jerez, Belén",1,1726,,,,,1.0,704
+"Jermakyan, Martin",1,1726,,,,,1.0,704
+"Jeske, Karsten",1,1726,,,,,1.0,704
+"Jia, Chunxin",0,2582,,,,,1.0,704
+"Jia, Jingyijane",1,1726,,,,,1.0,704
+"Jiang, Cao",1,1726,,,,,1.0,704
+"Jiang, George J.",3,352,,,,,2.0,256
+"Jiang, Guohua",2,743,,,,,1.0,704
+"Jiang, Jing",2,743,,,,,1.0,704
+"Jiang, Wei",5,96,,,,,3.0,97
+"Jiang, Xiaoquan",1,1726,,,,,1.0,704
+"Jiangli, Wenying",2,743,,,,,1.0,704
+"Jiltsov, Alexei",1,1726,,,,,1.0,704
+"Jiménez, Gabriel",3,352,,,,,2.0,256
+"Jiraporn, Pornsit",2,743,,,,,1.0,704
+"Jo, Hoje",1,1726,,,,,1.0,704
+"Jog, Vijay M.",1,1726,,,,,1.0,704
+"Johan, Sofia Atiqah Binti",1,1726,,,,,1.0,704
+"Johannes, Michael S.",5,96,,,,,4.0,29
+"John, Kose",6,51,0.04431114236208167,65,,,3.0,97
+"Johnson, Shane A.",8,19,0.030266754913527667,87,,,3.0,97
+"Johnson, Simon",5,96,0.010145031797646111,143,,,2.0,256
+"Johnson, Timothy C.",1,1726,0.0,305,,,2.0,256
+"Johnston, Mark E.",0,2582,,,,,1.0,704
+"Jokipii, Terhi",1,1726,,,,,1.0,704
+"Jones, Charles M.",2,743,,,,,1.0,704
+"Jones, Christopher S.",2,743,0.0,305,,,2.0,256
+"Jones, Howard S.",1,1726,,,,,1.0,704
+"Jordan, Bradford D.",2,743,0.0,305,,,1.0,704
+"Jordan, Thomas J.",2,743,,,,,1.0,704
+"Jorge, José",1,1726,0.0,305,,,1.0,704
+"Jorion, Philippe",1,1726,,,,,2.0,256
+"Joseph, Nathan Lael",2,743,,,,,1.0,704
+"Jostarndt, Philipp",1,1726,,,,,1.0,704
+"Jostova, Gergana",3,352,,,,,2.0,256
+"Joulmer, Joulmer",2,743,,,,,1.0,704
+"Juergens, Jennifer L.",3,352,,,,,2.0,256
+"Julliard, Christian",1,1726,0.0,305,,,1.0,704
+"Jurek, Jakub W.",2,743,0.0,305,,,1.0,704
+"Jørgensen, Peter Løchte",0,2582,,,,,1.0,704
+"Kabir, Rezaul",2,743,,,,,1.0,704
+"Kackmeister, Alan",0,2582,,,,,1.0,704
+"Kacperczyk, Marcin",4,185,0.0783459468792265,42,,,3.0,97
+"Kadam, Ashay",1,1726,,,,,1.0,704
+"Kadan, Ohad",4,185,,,,,2.0,256
+"Kadapakkam, Palani Rajan",3,352,,,,,2.0,256
+"Kadiyala, Padma",3,352,0.0,305,,,1.0,704
+"Kaeck, Andreas",1,1726,,,,,1.0,704
+"Kahl, Matthias",2,743,0.0,305,,,1.0,704
+"Kahle, Kathleen M.",5,96,0.25725452566291657,7,,,2.0,256
+"Kahn, Charles M.",1,1726,,,,,2.0,256
+"Kalay, Avner",2,743,,,,,1.0,704
+"Kalcheva, Ivalina",1,1726,0.0,305,,,1.0,704
+"Kale, Jayant R.",3,352,,,,,2.0,256
+"Kalev, Petko S.",3,352,,,,,2.0,256
+"Kallio, Markku",1,1726,,,,,1.0,704
+"Kalotay, Egon A.",2,743,,,,,1.0,704
+"Kam, Timothy",2,743,,,,,1.0,704
+"Kamara, Avraham",2,743,,,,,1.0,704
+"Kan, Ozgur B.",1,1726,,,,,1.0,704
+"Kan, Raymond",1,1726,,,,,1.0,704
+"Kanagaretnam, Kiridaran",2,743,,,,,1.0,704
+"Kanas, Angelos",0,2582,,,,,1.0,704
+"Kandel, Eugene",6,51,,,,,2.0,256
+"Kane, Edward J.",2,743,0.00047101699773565326,277,,,1.0,704
+"Kang, Jun Koo",4,185,,,,,4.0,29
+"Kaniel, Ron",5,96,0.013496014503179764,128,,,4.0,29
+"Kaniovski, Yuri M.",1,1726,,,,,1.0,704
+"Kao, Jennifer L.",2,743,,,,,1.0,704
+"Kapadia, Nikunj",3,352,0.0006710598256165185,272,,,1.0,704
+"Kapadia, Nishad",1,1726,,,,,1.0,704
+"Kapetanios, George",1,1726,,,,,2.0,256
+"Kaplan, Steven N.",3,352,,,,,2.0,256
+"Kaplanski, Guy",1,1726,0.0,305,,,1.0,704
+"Karlsson, Anders",1,1726,,,,,1.0,704
+"Karmann, Alexander J.",2,743,,,,,1.0,704
+"Karolyi, G. Andrew",6,51,0.09650147786086286,35,,,4.0,29
+"Karoui, Lotfi",1,1726,,,,,1.0,704
+"Karpoff, Jonathan M.",5,96,,,,,2.0,256
+"Kato, Hideaki Kiyoshi",2,743,,,,,1.0,704
+"Kauko, Karlo",0,2582,,,,,2.0,256
+"Kaul, Aditya",1,1726,,,,,1.0,704
+"Kaustia, Markku",1,1726,,,,,1.0,704
+"Kavajecz, Kenneth A.",2,743,0.0,305,,,1.0,704
+"Kayhan, Ayla",1,1726,0.0,305,,,1.0,704
+"Ke, Meichu",2,743,,,,,1.0,704
+"Kearney, Colm",2,743,,,,,1.0,704
+"Keasey, Kevin",2,743,,,,,1.0,704
+"Kecskés, Ambrus",1,1726,,,,,1.0,704
+"Kedia, Simi",5,96,0.01369375490616985,119,,,4.0,29
+"Keehong Bae, Kee",3,352,0.003389830508474576,202,,,2.0,256
+"Kehoe, Patrick J.",1,1726,,,,,1.0,704
+"Kelley, Eric K.",2,743,,,,,2.0,256
+"Keloharju, Matti",3,352,,,,,2.0,256
+"Kempf, Alexander",2,743,,,,,2.0,256
+"Kerins, Frank J.",2,743,,,,,1.0,704
+"Kerr, William R.",1,1726,,,,,1.0,704
+"Kessler, Denis",0,2582,,,,,1.0,704
+"Kessler, Stephan",1,1726,,,,,1.0,704
+"Keswani, Aneel",3,352,,,,,2.0,256
+"Keun Koo, Hyeng",3,352,,,,,1.0,704
+"Khaliq, Abdul",2,743,,,,,1.0,704
+"Khanna, Naveen",2,743,,,,,1.0,704
+"Khanna, Tarun",3,352,,,,,2.0,256
+"Kharoubi-Rakotomalala, Cécile",1,1726,,,,,1.0,704
+"Khokher, Zeigham",2,743,0.0,305,,,1.0,704
+"Khorana, Ajay",6,51,0.016834047941066445,112,,,4.0,29
+"Khoroshilov, Yuri",1,1726,,,,,1.0,704
+"Khurana, Inder K.",2,743,0.0,305,,,1.0,704
+"Kiesel, Rüdiger",2,743,,,,,1.0,704
+"Kiku, Dana",2,743,0.0,305,,,1.0,704
+"Kiley, Michael T.",0,2582,,,,,1.0,704
+"Kilian, Lutz",3,352,,,,,3.0,97
+"Kim, Chang Jin",2,743,,,,,1.0,704
+"Kim, Dongheon",2,743,,,,,1.0,704
+"Kim, E. Han",4,185,0.006773905786883831,166,,,3.0,97
+"Kim, Jaebeom",2,743,,,,,1.0,704
+"Kim, Jinmo",1,1726,,,,,1.0,704
+"Kim, JongHun",1,1726,,,,,1.0,704
+"Kim, Joonghyuk",3,352,0.0,305,,,1.0,704
+"Kim, Jung Wook",3,352,0.0008445800120859831,264,,,1.0,704
+"Kim, Miae",2,743,,,,,1.0,704
+"Kim, Seoyoung",1,1726,,,,,1.0,704
+"Kim, Soyoung",1,1726,,,,,2.0,256
+"Kim, Sungmin",2,743,,,,,1.0,704
+"Kim, Woojin",1,1726,,,,,1.0,704
+"Kim, Yongtae",2,743,,,,,2.0,256
+"Kim, Young Shin",3,352,,,,,1.0,704
+"Kim, Youngsang",2,743,0.0,305,,,1.0,704
+"Kim, Youngsik",1,1726,,,,,1.0,704
+"Kim, Youngsoo",1,1726,,,,,1.0,704
+"Kimball, Miles S.",1,1726,,,,,1.0,704
+"Kimmel, Robert L.",3,352,,,,,2.0,256
+"King, Michael R.",2,743,,,,,2.0,256
+"King, Robert G.",2,743,0.0,305,,,1.0,704
+"King, Tao Hsien Dolly",2,743,,,,,2.0,256
+"King, Thomas",0,2582,,,,,1.0,704
+"Kiraz, Fatma Burcu",2,743,,,,,1.0,704
+"Kirsanova, Tatiana",3,352,,,,,1.0,704
+"Kirsch, David A.",2,743,,,,,1.0,704
+"Kiser, K. Elizabeth",2,743,,,,,1.0,704
+"Kisgen, Darren J.",2,743,,,,,1.0,704
+"Kish, Andrew A.",2,743,,,,,1.0,704
+"Klapper, Leora F.",5,96,0.23845708541351154,9,,,2.0,256
+"Klasa, Sandy",7,35,0.007482374607924951,163,,,4.0,29
+"Klein, April",1,1726,,,,,1.0,704
+"Kliger, Doron",3,352,,,,,2.0,256
+"Klingebiel, Daniela",2,743,0.0,305,,,1.0,704
+"Klumpes, Paul J.M.",4,185,,,,,1.0,704
+"Knopf, John D.",5,96,,,,,2.0,256
+"Knot, Klaas H.W.",1,1726,,,,,1.0,704
+"Knyazeva, Anzhela",2,743,,,,,1.0,704
+"Knyazeva, Diana",2,743,,,,,1.0,704
+"Knüpfer, Samuli",3,352,,,,,2.0,256
+"Ko, K. Jeremy",1,1726,,,,,1.0,704
+"Kobayashi, Teruyoshi",0,2582,,,,,1.0,704
+"Koch, Paul D.",4,185,,,,,1.0,704
+"Kocherlakota, Narayana R.",1,1726,,,,,1.0,704
+"Koedijk, Kees G.",2,743,,,,,1.0,704
+"Koekebakker, Steen",1,1726,,,,,1.0,704
+"Koetter, Michael",8,19,0.047952576904261746,59,,,3.0,97
+"Kogan, Leonid",2,743,0.0,305,,,1.0,704
+"Kogan, Shimon",0,2582,,,,,1.0,704
+"Kohli, Ulrich R.",2,743,,,,,1.0,704
+"Koijen, Ralph Sj",4,185,0.026796351184138586,99,,,2.0,256
+"Kolari, James W.",10,5,0.02355903427239504,102,,,4.0,29
+"Kolasinski, Adam C.",0,2582,,,,,1.0,704
+"Kole, Erik",4,185,,,,,2.0,256
+"Kondor, Imre",2,743,,,,,1.0,704
+"Kondor, Péter",0,2582,,,,,1.0,704
+"Kongsted, Hans Christian",2,743,,,,,1.0,704
+"Koning, Ruud H.",2,743,,,,,1.0,704
+"Konstantinidi, Eirini",2,743,,,,,1.0,704
+"Kool, Clemens J.M.",5,96,0.0,305,,,1.0,704
+"Koop, Gary M.",2,743,,,,,1.0,704
+"Korajczyk, Robert A.",1,1726,,,,,1.0,704
+"Korenok, Oleg",1,1726,,,,,1.0,704
+"Korkie, Bob M.B.",2,743,,,,,1.0,704
+"Korniotis, George M.",0,2582,,,,,1.0,704
+"Koskinen, Yrjö",2,743,0.0,305,,,1.0,704
+"Kosowski, Robert",2,743,0.0,305,,,1.0,704
+"Kotomin, Vladimir",2,743,,,,,1.0,704
+"Koutsomanoli-Filippaki, Anastasia I.",3,352,,,,,2.0,256
+"Kouwenberg, Roy",2,743,,,,,2.0,256
+"Kovacs, Tunde",2,743,,,,,1.0,704
+"Kovner, Anna",3,352,0.0,305,,,1.0,704
+"Koziol, Christian",1,1726,,,,,1.0,704
+"Koëter-Kant, Johanna",2,743,,,,,1.0,704
+"Kočenda, Evžen",1,1726,0.0,305,,,1.0,704
+"Kraft, Holger",1,1726,,,,,1.0,704
+"Kreinin, Alexander Y.",1,1726,,,,,1.0,704
+"Kremer, Ilan",3,352,5.755230065321861e-06,296,,,3.0,97
+"Kreuz, Claudia",2,743,,,,,1.0,704
+"Krink, Thiemo",2,743,,,,,1.0,704
+"Krishnamurthy, Arvind",3,352,0.003389830508474576,202,,,2.0,256
+"Krishnamurthy, Srinivasan",2,743,,,,,1.0,704
+"Krishnan, Gopal V.",2,743,,,,,1.0,704
+"Krishnaswami, Sudha",3,352,,,,,2.0,256
+"Krohmer, Philipp",2,743,,,,,1.0,704
+"Kroszner, Randall S.",2,743,0.0,305,,,1.0,704
+"Kryzanowski, Lawrence",1,1726,,,,,1.0,704
+"Kuan, Chung-Ming",2,743,,,,,1.0,704
+"Kubik, Jeffrey D.",2,743,0.016991646761725317,110,,,1.0,704
+"Kudryavtsev, Andrey",1,1726,,,,,1.0,704
+"Kuhnen, Camelia M.",0,2582,,,,,1.0,704
+"Kumar, Alok",0,2582,,,,,1.0,704
+"Kumar, Manmohan S.",1,1726,,,,,1.0,704
+"Kumar, P. C.",4,185,0.003389830508474576,202,,,2.0,256
+"Kurov, Alexander A.",1,1726,,,,,1.0,704
+"Kurshev, Alexander",2,743,0.0,305,,,1.0,704
+"Kutsuna, Kenji",3,352,,,,,3.0,97
+"Kwok, Chuck C.Y.",1,1726,,,,,1.0,704
+"Kóczy, László Á",2,743,,,,,1.0,704
+"Köppl, Thorsten V.",1,1726,,,,,1.0,704
+"LIN, JI CHAI",6,51,0.11186440677966102,31,,,3.0,97
+"La Porta, Rafael",3,352,,,,,1.0,704
+"Labégorre, Florence",1,1726,,,,,1.0,704
+"Laeven, Luc",16,2,0.05157720196094332,57,,,13.0,1
+"Laforte, Jean Philippe",0,2582,,,,,1.0,704
+"Lagoarde-Segot, Thomas",0,2582,,,,,1.0,704
+"Lai, Ching-Chong",3,352,,,,,1.0,704
+"Lai, Hungneng",2,743,,,,,1.0,704
+"Lai, Sandy",3,352,,,,,2.0,256
+"Laibson, David I.",3,352,,,,,1.0,704
+"Lakonishok, Josef",5,96,0.0067681505568185085,167,,,2.0,256
+"Lam, Herbert Y. T.",2,743,,,,,1.0,704
+"Lam, Poksang",1,1726,,,,,1.0,704
+"Lambrecht, Bart M.",1,1726,,,,,2.0,256
+"Lamont, Owen A.",1,1726,0.0,305,,,1.0,704
+"Lancaster, Carol J.",2,743,,,,,1.0,704
+"Landier, Augustin",5,96,0.06933325659693246,46,,,3.0,97
+"Lando, David",1,1726,,,,,1.0,704
+"Landon, Stuart",0,2582,,,,,1.0,704
+"Landschoot, Astrid Van",0,2582,,,,,1.0,704
+"Landskroner, Yoram",1,1726,,,,,1.0,704
+"Lang, William W.",4,185,,,,,2.0,256
+"Langberg, Nisan S.",0,2582,,,,,1.0,704
+"Lanne, Markku",1,1726,,,,,1.0,704
+"Larcker, David F.",2,743,,,,,1.0,704
+"Large, Jeremy",0,2582,,,,,1.0,704
+"Larkin, Patrick J.",2,743,,,,,1.0,704
+"Larrain, Borja",2,743,,,,,2.0,256
+"Larrymore, Norris L.",2,743,,,,,1.0,704
+"Laurent, Jean Paul",2,743,,,,,1.0,704
+"Lauterbach, Rainer",2,743,,,,,1.0,704
+"Laux, Paul A.",1,1726,,,,,1.0,704
+"Lawrenz, Jochen",1,1726,,,,,1.0,704
+"Le Fol, Gaëlle",2,743,,,,,1.0,704
+"Leary, Mark T.",0,2582,,,,,1.0,704
+"Lecourt, Christelle",3,352,,,,,1.0,704
+"Lee, BongSoo",2,743,,,,,2.0,256
+"Lee, Chengfew",2,743,,,,,1.0,704
+"Lee, Chun I.",2,743,,,,,1.0,704
+"Lee, D. Scott",2,743,,,,,1.0,704
+"Lee, Eunjung",2,743,,,,,1.0,704
+"Lee, Gemma",1,1726,,,,,1.0,704
+"Lee, Hangyong",1,1726,,,,,1.0,704
+"Lee, Hoseok",2,743,,,,,1.0,704
+"Lee, Inmoo",5,96,0.07817904520733217,43,,,2.0,256
+"Lee, Junsoo",2,743,,,,,1.0,704
+"Lee, Kinwai",2,743,,,,,1.0,704
+"Lee, Kiseop",3,352,,,,,1.0,704
+"Lee, Kuan Hui",2,743,0.0,305,,,2.0,256
+"Lee, Manjong",1,1726,,,,,1.0,704
+"Lee, Sangwoo",2,743,,,,,1.0,704
+"Lee, Sunglyong",2,743,,,,,1.0,704
+"Lee, Suzanne",1,1726,,,,,1.0,704
+"Lee, Yitsung",4,185,0.1120946159822739,30,,,2.0,256
+"Leeper, Eric M.",2,743,,,,,1.0,704
+"Lees, Kirdan",2,743,,,,,1.0,704
+"Lehavy, Reuven",2,743,0.0,305,,,1.0,704
+"Lehner, Maria",0,2582,,,,,1.0,704
+"Lei, Adam Y C",3,352,0.0,305,,,1.0,704
+"Leippold, Markus",3,352,,,,,2.0,256
+"Lel, Uǧur",1,1726,0.0,305,,,1.0,704
+"Leland, Hayne E.",2,743,0.0,305,,,2.0,256
+"Lemmon, Michael L.",9,8,0.19701139044676,14,,,5.0,18
+"Lenk, Peter J.",1,1726,,,,,1.0,704
+"Lensink, Robert",4,185,,,,,2.0,256
+"Lepetit, Lætitia",3,352,,,,,2.0,256
+"Lepone, Andrew",3,352,,,,,2.0,256
+"Lerner, Josh",6,51,0.013507524963310409,125,,,3.0,97
+"Lesmond, David A.",2,743,0.0,305,,,1.0,704
+"Lettau, Martin",3,352,0.010134960145031797,145,,,3.0,97
+"Leuz, Christian",3,352,0.003389830508474576,202,,,2.0,256
+"Levchenko, Andrei A.",1,1726,,,,,1.0,704
+"Levchenkov, Dmitriy",2,743,,,,,1.0,704
+"Levine, Ross L.",6,51,0.028801633206398433,93,,,7.0,4
+"Levy Yeyati, Eduardo",3,352,0.010134960145031797,145,,,2.0,256
+"Levy, Amnon",2,743,0.008417023970533222,155,,,1.0,704
+"Levy, Haim K.",6,51,0.013519035423441052,120,,,4.0,29
+"Levy, Moshe",1,1726,0.0,305,,,1.0,704
+"Levy, Ori",2,743,,,,,1.0,704
+"Lewis, Danielle",1,1726,,,,,1.0,704
+"Lewis, Melissa F.",3,352,,,,,1.0,704
+"León, Ángel",3,352,,,,,2.0,256
+"Li, Bingguang",3,352,,,,,1.0,704
+"Li, C. Wei",3,352,,,,,3.0,97
+"Li, Dan",2,743,,,,,1.0,704
+"Li, Erica X.N.",2,743,0.009763049318241594,153,,,1.0,704
+"Li, George",0,2582,,,,,1.0,704
+"Li, Haitao",7,35,,,,,4.0,29
+"Li, Hang",1,1726,,,,,1.0,704
+"Li, Kai",2,743,0.0,305,,,2.0,256
+"Li, Mingsheng",2,743,,,,,1.0,704
+"Li, Si",2,743,0.0,305,,,1.0,704
+"Li, Wenli",1,1726,,,,,1.0,704
+"Li, Xiafei",3,352,,,,,1.0,704
+"Li, Xiaoming",1,1726,,,,,1.0,704
+"Li, Yang",1,1726,,,,,1.0,704
+"Li, Yuying",2,743,,,,,1.0,704
+"Li, Zhi",3,352,,,,,1.0,704
+"Liang, Bing",5,96,0.04316998071997928,67,,,2.0,256
+"Liang, Nellie",2,743,,,,,1.0,704
+"Liao, Hsienhsing",2,743,,,,,1.0,704
+"Liao, Tung Liang",2,743,,,,,1.0,704
+"Liberti, José María",1,1726,,,,,1.0,704
+"Lie, Erik",1,1726,,,,,1.0,704
+"Liebig, Thilo",3,352,0.0,305,,,1.0,704
+"Lien, Da Hsiang Donald",1,1726,,,,,1.0,704
+"Lilian Ng, Lilian",3,352,,,,,2.0,256
+"Lim, Sonya Seongyeon",2,743,0.0011280250928030842,253,,,1.0,704
+"Lin, Chen",6,51,,,,,2.0,256
+"Lin, Chenmiao",2,743,,,,,1.0,704
+"Lin, Hai",3,352,,,,,1.0,704
+"Lin, Hsin Yi",2,743,,,,,1.0,704
+"Lin, J. Barry",2,743,,,,,1.0,704
+"Lin, Jungchu",3,352,,,,,1.0,704
+"Lin, Ping",3,352,,,,,1.0,704
+"Lin, Xiaochi",1,1726,,,,,1.0,704
+"Lin, Yuehhsiang",3,352,,,,,1.0,704
+"Linck, James S.",2,743,,,,,2.0,256
+"Lindsey, Laura A.",3,352,,,,,3.0,97
+"Lindström, Tomas",3,352,,,,,1.0,704
+"Lindé, Jesper",3,352,,,,,1.0,704
+"Linn, Scott C.",2,743,,,,,1.0,704
+"Lins, Karl V.",7,35,0.05867670184840925,51,,,3.0,97
+"Linzert, Tobias",2,743,,,,,1.0,704
+"Lipponer, Alexander",1,1726,,,,,1.0,704
+"Lipson, Marc L.",2,743,,,,,1.0,704
+"List, John A.",2,743,,,,,1.0,704
+"Litov, Lubomir P.",2,743,0.0,305,,,1.0,704
+"Liu, Hong",4,185,,,,,2.0,256
+"Liu, Jun",1,1726,,,,,2.0,256
+"Liu, Lauraxiaolei",1,1726,0.0,305,,,1.0,704
+"Liu, Minghua",2,743,,,,,1.0,704
+"Liu, Philip",2,743,,,,,1.0,704
+"Liu, Ping",3,352,,,,,1.0,704
+"Liu, Pu",2,743,,,,,1.0,704
+"Liu, Sheen X.",5,96,,,,,2.0,256
+"Liu, Tingjun",1,1726,,,,,1.0,704
+"Liu, Wei Lin",1,1726,,,,,2.0,256
+"Liu, Weimin",1,1726,,,,,1.0,704
+"Liu, Xiaoquan",3,352,,,,,1.0,704
+"Liu, Yi",2,743,,,,,1.0,704
+"Liu, Yuan Chi",0,2582,,,,,1.0,704
+"Liu, Yujane",6,51,0.03736870881413484,73,,,3.0,97
+"Liu, Zugang",3,352,,,,,1.0,704
+"Livdan, Dmitry",8,19,0.06486619509331082,49,,,5.0,18
+"Livingston, Miles",3,352,,,,,2.0,256
+"Ljungqvist, Alexander P.",8,19,0.04630600558257317,64,,,4.0,29
+"Llosa, Luis Gonzalo",1,1726,,,,,1.0,704
+"Lobo, Gerald J.",2,743,,,,,1.0,704
+"Lobo, Miguel Sousa",2,743,,,,,1.0,704
+"Lochstoer, Lars A.",0,2582,,,,,1.0,704
+"Locke, Peter R.",1,1726,,,,,1.0,704
+"Loewenstein, Mark A.",5,96,,,,,2.0,256
+"Long, Michaelstuart",1,1726,,,,,1.0,704
+"Longstaff, Francis A.",7,35,0.216930204745807,13,,,4.0,29
+"Lookman, Aziz A.",0,2582,,,,,1.0,704
+"Lopes, Paula",0,2582,,,,,1.0,704
+"Lopez, Jose A.",2,743,,,,,1.0,704
+"Lou, Xiaoxia",2,743,,,,,1.0,704
+"Louis, Henock",3,352,,,,,2.0,256
+"Loutskina, Elena",1,1726,,,,,1.0,704
+"Love, Inessa",2,743,,,,,1.0,704
+"Lovo, Stefano",3,352,,,,,1.0,704
+"Low, Angie",0,2582,,,,,1.0,704
+"Lowry, Michelle",1,1726,,,,,1.0,704
+"Lu, Chiawu",2,743,,,,,1.0,704
+"Lu, Qi",1,1726,,,,,1.0,704
+"Lu, Yang",4,185,0.0067681505568185085,167,,,2.0,256
+"Luca, Alina C.",1,1726,,,,,1.0,704
+"Ludvigson, Sydney C.",3,352,0.005081868147679204,192,,,3.0,97
+"Lugovskyy, Volodymyr",1,1726,,,,,1.0,704
+"Lundblad, Christian T.",3,352,,,,,3.0,97
+"Lundin, Magnus",3,352,,,,,1.0,704
+"Luo, Jiang",2,743,,,,,1.0,704
+"Lustig, Hanno N.",1,1726,0.0,305,,,1.0,704
+"Lyandres, Evgeny",2,743,0.0,305,,,2.0,256
+"Lynch, Margaret",2,743,,,,,1.0,704
+"Lyons, Richard K.",1,1726,,,,,1.0,704
+"Léon–Ledesma, Miguel A.",1,1726,,,,,1.0,704
+"López Del Paso, Rafael",2,743,0.0,305,,,1.0,704
+"López-Salido, J. David",3,352,,,,,1.0,704
+"López-de-Silanes, Florencio",3,352,,,,,1.0,704
+"Lóránth, Gyöngyi",2,743,0.0,305,,,1.0,704
+"Lütkepohl, Helmut",1,1726,,,,,1.0,704
+"Maat, Benjamin",2,743,,,,,1.0,704
+"MacKay, Peter I.",1,1726,0.0,305,,,1.0,704
+"MacLean, Leonard C.",2,743,,,,,1.0,704
+"Macskassy, Sofus Attila",2,743,,,,,1.0,704
+"Madan, Dilip B.",1,1726,,,,,1.0,704
+"Madrian, Brigitte C.",3,352,,,,,1.0,704
+"Madura, Jeff",2,743,,,,,1.0,704
+"Madureira, Leonardo L.",4,185,,,,,2.0,256
+"Maenhout, Pascal J.",4,185,0.0002861175921271815,279,,,3.0,97
+"Maggi, Mario",2,743,,,,,1.0,704
+"Mahajan, Arvind",1,1726,,,,,1.0,704
+"Mahani, Reza S.",1,1726,,,,,1.0,704
+"Mahanti, Sriketan",4,185,0.0,305,,,1.0,704
+"Mahrt-Smith, Jan",1,1726,0.0,305,,,1.0,704
+"Maksimovic, Vojislav",4,185,0.003459167327832979,200,,,3.0,97
+"Malliaris, Anastasios G.Tassos",1,1726,,,,,1.0,704
+"Malliaris, Mary E.",1,1726,,,,,1.0,704
+"Mallik, Gaurav",4,185,0.0,305,,,1.0,704
+"Malloy, Christopher J.",6,51,0.03350694944030388,80,,,3.0,97
+"Malmendier, Ulrike",3,352,,,,,3.0,97
+"Maltritz, Dominik",2,743,,,,,1.0,704
+"Mamatzakis, Emmanuel Constantine",1,1726,,,,,1.0,704
+"Mamaysky, Harry",2,743,0.0,305,,,1.0,704
+"Mancini, Loriano",2,743,,,,,1.0,704
+"Manganelli, Simone",1,1726,,,,,2.0,256
+"Mann, Steven C.",3,352,,,,,1.0,704
+"Mann, Steven V.",1,1726,,,,,1.0,704
+"Mansi, Sattar A.",3,352,0.003389830508474576,202,,,2.0,256
+"Mansini, Renata",2,743,,,,,1.0,704
+"Mansur, Iqbal",2,743,,,,,1.0,704
+"Mantecon, Tomas P.",4,185,,,,,5.0,18
+"Mao, Connie X.",2,743,,,,,1.0,704
+"Marchetti, Domenico J.",1,1726,,,,,1.0,704
+"Marco Pagano, Marco",5,96,,,,,2.0,256
+"Marcucci, Juri",1,1726,,,,,1.0,704
+"Marcus, Alan J.",4,185,0.0016891600241719662,247,,,3.0,97
+"Marena, Marina",2,743,,,,,1.0,704
+"Margaritis, Dimitris",4,185,,,,,2.0,256
+"Mark, Nelson C.",0,2582,,,,,1.0,704
+"Markellos, Raphael N.",2,743,,,,,1.0,704
+"Markwardt, Gunther",1,1726,,,,,1.0,704
+"Markwat, Thijs",2,743,,,,,1.0,704
+"Marosi, András",1,1726,0.0,305,,,1.0,704
+"Marquering, Wessel A.",1,1726,,,,,1.0,704
+"Marques, Luis B.",2,743,,,,,1.0,704
+"Marquez, Robert",1,1726,,,,,1.0,704
+"Marshall, Ben R.",2,743,,,,,1.0,704
+"Marshall, David A.",1,1726,,,,,1.0,704
+"Marston, Felicia C.",6,51,0.032815746309458715,85,,,3.0,97
+"Martel, Frederic",2,743,,,,,1.0,704
+"Martin, Anna D.",2,743,,,,,2.0,256
+"Martin, Antoine",3,352,,,,,3.0,97
+"Martin, Gerald S.",2,743,,,,,1.0,704
+"Martin, Xiumin",2,743,0.0,305,,,1.0,704
+"Martinez, Valeria",1,1726,,,,,1.0,704
+"Martins, Nuno C.",2,743,,,,,1.0,704
+"Martynova, Marina",1,1726,,,,,1.0,704
+"Martín-Oliver, Alfredo",2,743,,,,,2.0,256
+"Martínez Pería, María Soledad",8,19,0.1226891598747198,29,,,4.0,29
+"Martínez-Rodríguez, Julia",1,1726,,,,,1.0,704
+"Marzban, Shehab",1,1726,,,,,1.0,704
+"Marín, José María",1,1726,,,,,1.0,704
+"Massa, Massimo",9,8,,,,,8.0,3
+"Massoud, Nadia",8,19,0.004222900060429915,198,,,3.0,97
+"Mastrobuoni, Giovanni",1,1726,,,,,1.0,704
+"Masulis, Ronald W.",4,185,,,,,4.0,29
+"Mateut, Simona",2,743,,,,,1.0,704
+"Matheron, Julien",1,1726,,,,,1.0,704
+"Mathews, Richmond D.",1,1726,,,,,2.0,256
+"Matos, Pedro Verga",1,1726,,,,,1.0,704
+"Mattesini, Fabrizio",1,1726,,,,,1.0,704
+"Matthews, Kent G.P.",2,743,,,,,1.0,704
+"Matvos, Gregor",1,1726,,,,,1.0,704
+"Maudos, Joaquín",2,743,,,,,2.0,256
+"Mauer, David C.",2,743,,,,,1.0,704
+"Maug, Ernst",1,1726,,,,,1.0,704
+"Maurer, Maria Rueda",3,352,,,,,1.0,704
+"Maurer, Raimond H.",3,352,,,,,1.0,704
+"Maxwell, William F.",8,19,0.2480544067214951,8,,,4.0,29
+"Maydew, Edward L.",3,352,,,,,1.0,704
+"Mayer, Colin P.",3,352,,,,,2.0,256
+"Mayes, David G.",1,1726,,,,,1.0,704
+"Mazouz, Khelifa",2,743,,,,,1.0,704
+"Mazzotta, Stefano",0,2582,,,,,1.0,704
+"McAndrew, Clare",1,1726,,,,,1.0,704
+"McBrady, Matthew R.",1,1726,0.0,305,,,1.0,704
+"McCarthy, Jonathan",1,1726,,,,,1.0,704
+"McClelland, Andrew",2,743,,,,,1.0,704
+"McConnell, John J.",2,743,,,,,1.0,704
+"McDermott, John B.",2,743,,,,,1.0,704
+"McGough, Bruce",1,1726,,,,,1.0,704
+"McGuire, Jean B.",1,1726,,,,,1.0,704
+"McKillop, Donal G.",2,743,,,,,1.0,704
+"McLiesh, Caralee",2,743,,,,,1.0,704
+"McMillan, David G.",0,2582,,,,,1.0,704
+"McNally, William J.",1,1726,,,,,1.0,704
+"McNulty, James E.",1,1726,,,,,1.0,704
+"Mcinnis, John M.",3,352,0.0,305,,,1.0,704
+"Mclean, R. David",2,743,,,,,1.0,704
+"Medema, Lydian",2,743,,,,,1.0,704
+"Medova, Elena A.",2,743,,,,,1.0,704
+"Medvedev, Alexey",1,1726,,,,,1.0,704
+"Meesters, Aljar",2,743,,,,,1.0,704
+"Megginson, William Leon Bill",1,1726,,,,,1.0,704
+"Mehran, Hamid",1,1726,0.0,305,,,1.0,704
+"Mei, Jianping P.",3,352,0.0067681505568185085,167,,,2.0,256
+"Meier, André",2,743,,,,,1.0,704
+"Mele, Antonio",0,2582,,,,,1.0,704
+"Meligkotsidou, Loukia",1,1726,,,,,1.0,704
+"Mella-Barral, Pierre",1,1726,,,,,1.0,704
+"Melvin, Michael T.",1,1726,,,,,1.0,704
+"Menkveld, Albert J.",3,352,,,,,3.0,97
+"Menn, Christian",3,352,,,,,1.0,704
+"Mercieca, Steve",2,743,,,,,1.0,704
+"Meric, Gulser",3,352,,,,,1.0,704
+"Meric, Ilhan",3,352,,,,,1.0,704
+"Merrill, Craig B.",2,743,0.0,305,,,1.0,704
+"Mersland, Roy",1,1726,,,,,1.0,704
+"Mester, Loretta J.",4,185,,,,,2.0,256
+"Metrick, Andrew",3,352,,,,,1.0,704
+"Meucci, Attilio",1,1726,,,,,1.0,704
+"Meza, Felipe",0,2582,,,,,1.0,704
+"Mian, Atif R.",1,1726,,,,,1.0,704
+"Miao, Jianjun",1,1726,,,,,1.0,704
+"Micco, Alejandro",3,352,0.0067681505568185085,167,,,2.0,256
+"Michael, Firth A.",5,96,,,,,2.0,256
+"Michaelides, Alexander",1,1726,,,,,1.0,704
+"Michaely, Roni",3,352,1.9184100217739534e-06,304,,,1.0,704
+"Middendorf, Torge",1,1726,,,,,1.0,704
+"Miffre, Joëlle",4,185,,,,,2.0,256
+"Mihov, Ilian",2,743,,,,,1.0,704
+"Mihov, Vassil T.",3,352,,,,,1.0,704
+"Miles, Linda L.",2,743,,,,,1.0,704
+"Milevsky, Moshe A.",1,1726,,,,,1.0,704
+"Miller, Darius P.",7,35,0.05867670184840922,52,,,3.0,97
+"Miller, David A.",2,743,,,,,1.0,704
+"Milne, Alistair",1,1726,,,,,1.0,704
+"Minenna, Marcello",1,1726,,,,,1.0,704
+"Minetti, Raoul",2,743,,,,,2.0,256
+"Miniane, Jacques",1,1726,,,,,1.0,704
+"Minton, Bernadette A.",2,743,0.0,305,,,1.0,704
+"Mishkin, Frederic S.",1,1726,,,,,2.0,256
+"Mitchell, Olivia",3,352,,,,,1.0,704
+"Mitra, Kaushik",1,1726,,,,,1.0,704
+"Mitton, Todd",3,352,0.003389830508474576,202,,,2.0,256
+"Mixon, Scott",0,2582,,,,,1.0,704
+"Miyajima, Hideaki",1,1726,,,,,1.0,704
+"Mizen, Paul",2,743,,,,,1.0,704
+"Mizrach, Bruce",1,1726,,,,,1.0,704
+"Mo, Hengyong",2,743,0.0,305,,,1.0,704
+"Moccero, Diego Nicolas",1,1726,,,,,1.0,704
+"Moeller, Sara B.",3,352,0.004232971713044229,197,,,2.0,256
+"Moeller, Thomas",2,743,,,,,1.0,704
+"Moffitt, Jacquelyn Sue",3,352,,,,,1.0,704
+"Moinas, Sophie",2,743,,,,,1.0,704
+"Mola, Simona",1,1726,,,,,1.0,704
+"Moller, Nicholas",1,1726,,,,,1.0,704
+"Molyneux, Philip M.",3,352,,,,,1.0,704
+"Monacelli, Tommaso",2,743,,,,,2.0,256
+"Mongelli, Francesco Paolo",2,743,,,,,1.0,704
+"Monnet, Cyril",1,1726,,,,,1.0,704
+"Monroe, Gary S.",3,352,,,,,1.0,704
+"Moore, William T.",3,352,,,,,1.0,704
+"Moorman, Theodore C.",2,743,0.0,305,,,1.0,704
+"Mora, Nada",0,2582,,,,,1.0,704
+"Morck, Randall K.",4,185,5.755230065321861e-06,296,,,2.0,256
+"Morellec, Erwan",2,743,0.003389830508474576,202,,,2.0,256
+"Moreno, David",1,1726,,,,,1.0,704
+"Moretto, Michele",1,1726,,,,,1.0,704
+"Morey, Matthew R.",3,352,,,,,1.0,704
+"Moriggia, Vittorio",4,185,,,,,1.0,704
+"Morley, James C.",0,2582,,,,,1.0,704
+"Morrison, Alan D.",4,185,0.02019510229921441,107,,,3.0,97
+"Morse, Adair",2,743,0.0,305,,,1.0,704
+"Mortal, Sandra C.",2,743,,,,,1.0,704
+"Moshirian, Fariborz",2,743,,,,,7.0,4
+"Moskowitz, Tobias J.",3,352,0.003389830508474576,202,,,2.0,256
+"Mozumdar, Abon",2,743,,,,,2.0,256
+"Mulherin, J. Harold",1,1726,,,,,3.0,97
+"Muller, Aline",1,1726,,,,,1.0,704
+"Mumtaz, Haroon",1,1726,,,,,1.0,704
+"Munk, Claus",1,1726,,,,,1.0,704
+"Murinde, Victor",2,743,,,,,1.0,704
+"Murphy, Austin",1,1726,,,,,1.0,704
+"Murphy, Kevin J.",1,1726,,,,,1.0,704
+"Musto, David K.",6,51,0.011251474777704284,135,,,3.0,97
+"Myers, Stewart C.",1,1726,,,,,2.0,256
+"Mykland, Per Aslak",1,1726,,,,,1.0,704
+"Mählmann, Thomas",2,743,,,,,2.0,256
+"Männasoo, Kadri",1,1726,,,,,1.0,704
+"Müller, Gerhard J.",2,743,,,,,1.0,704
+"Müller, Holger M.",2,743,,,,,4.0,29
+"Münnich, Felix",2,743,,,,,1.0,704
+"Naaborg, Ilko",2,743,,,,,1.0,704
+"Nabar, Sandeep",1,1726,,,,,1.0,704
+"Nagar, Venky",2,743,,,,,1.0,704
+"Nagel, Stefan",1,1726,0.0,305,,,1.0,704
+"Nagy, Gábor",2,743,,,,,1.0,704
+"Nahata, Rajarishi",1,1726,,,,,2.0,256
+"Naik, Narayan Y.",7,35,0.040033380334378865,69,,,3.0,97
+"Nain, Amrita S.",2,743,0.0,305,,,1.0,704
+"Nair, Vinay B.",9,8,0.13356701908008714,26,,,4.0,29
+"Naka, Atsuyuki",2,743,,,,,1.0,704
+"Nakagawa, Ryuichi",1,1726,,,,,1.0,704
+"Nakamura, Leonard I.",2,743,,,,,1.0,704
+"Nanda, Ramana",1,1726,,,,,1.0,704
+"Nanda, Vikram K.",4,185,0.00035106903398463354,278,,,2.0,256
+"Naranjo, Andy",2,743,,,,,1.0,704
+"Narayanan, M. P.",2,743,,,,,2.0,256
+"Narayanan, Rajesh P.",2,743,,,,,1.0,704
+"Nardari, Federico",2,743,0.0,305,,,1.0,704
+"Nashikkar, Amrut",4,185,0.0,305,,,1.0,704
+"Natalucci, Fabio M.",3,352,,,,,2.0,256
+"Natvik, Gisle James",0,2582,,,,,1.0,704
+"Nautz, Dieter",3,352,,,,,2.0,256
+"Navarro, Eliseo",3,352,,,,,1.0,704
+"Nave, Juan M.",2,743,,,,,1.0,704
+"Naveen, Lalitha",4,185,0.05395336345237067,55,,,2.0,256
+"Neanidis, Kyriakos C.",1,1726,,,,,1.0,704
+"Neely, Christopher J.",2,743,,,,,2.0,256
+"Netter, Jeffry M.",2,743,,,,,2.0,256
+"Neukirchen, Max",2,743,,,,,1.0,704
+"Newman, Andrew F.",1,1726,0.0,305,,,1.0,704
+"Newton, David P.",3,352,,,,,1.0,704
+"Ng, Serena",1,1726,0.0,305,,,2.0,256
+"Nguyen, Anh H.",2,743,,,,,1.0,704
+"Nguyen, Thuy Thu",2,743,,,,,1.0,704
+"Nguyen, Vanthuan",3,352,,,,,1.0,704
+"Ni, Sophiexiaoyan",2,743,0.0,305,,,1.0,704
+"Nicodano, Giovanna",3,352,,,,,1.0,704
+"Nicodème, Gaëtan",2,743,0.0,305,,,1.0,704
+"Nicolaievsky, Daniel",1,1726,,,,,1.0,704
+"Nicolò, Antonio",1,1726,,,,,1.0,704
+"Nielsen, Kasper Meisner",2,743,,,,,1.0,704
+"Niemann, Martin",2,743,,,,,1.0,704
+"Nieto, María J.",2,743,,,,,2.0,256
+"Nigro, Peter J.",2,743,,,,,1.0,704
+"Niinimäki, Juha Pekka",0,2582,,,,,1.0,704
+"Nikitin, Maxim",1,1726,,,,,1.0,704
+"Nikolaou, Kleopatra",0,2582,,,,,1.0,704
+"Nilsson, Mattias",6,51,0.3441627579062473,6,,,2.0,256
+"Nilsson, Roland",0,2582,,,,,1.0,704
+"Nimalendran, Mahendrarajah",2,743,0.001694915254237288,244,,,1.0,704
+"Nini, Greg P.",3,352,0.003389830508474576,202,,,2.0,256
+"Nishikawa, Takeshi",2,743,,,,,1.0,704
+"Nisticò, Salvatore",1,1726,,,,,1.0,704
+"Niu, Jijun",0,2582,,,,,1.0,704
+"Nocera, Giacomo",2,743,,,,,1.0,704
+"Noe, Thomas H.",4,185,,,,,3.0,97
+"Nogueira, Leonardo M.",1,1726,,,,,1.0,704
+"Nolle, Daniel E.",2,743,,,,,1.0,704
+"Nomikos, Nikos K.",2,743,,,,,1.0,704
+"Nordahl, Helge A.",1,1726,,,,,1.0,704
+"Nordén, Lars L.",2,743,,,,,2.0,256
+"Norli, Øyvind",2,743,0.0,305,,,1.0,704
+"Normandin, Michel",1,1726,,,,,1.0,704
+"Norton, Seth W.",1,1726,,,,,1.0,704
+"Novy-Marx, Robert",0,2582,,,,,1.0,704
+"Nucci, Francesco",1,1726,,,,,1.0,704
+"Nyborg, Kjell G.",2,743,,,,,1.0,704
+"Nys, Emmanuelle",3,352,,,,,2.0,256
+"O'Brien, Christopher D.",4,185,,,,,1.0,704
+"O'Connell, Paul G.J.",1,1726,0.0,305,,,1.0,704
+"O'Hara, Maureen",3,352,0.003389830508474576,202,,,3.0,97
+"O'Sullivan, Niall",3,352,,,,,1.0,704
+"Odders-White, Elizabeth R.",1,1726,,,,,1.0,704
+"Odean, Terrance",4,185,0.07726588203696777,44,,,3.0,97
+"Officer, Micah S.",3,352,,,,,2.0,256
+"Ogaki, Masao",2,743,,,,,1.0,704
+"Oh, Natalie Y.",2,743,,,,,1.0,704
+"Ohana, Steve",1,1726,,,,,1.0,704
+"Oikarinen, Elias",0,2582,,,,,1.0,704
+"Okimoto, Tatsuyoshi",1,1726,,,,,1.0,704
+"Oliner, Stephen D.",1,1726,,,,,1.0,704
+"Olivier, Jacques P.",1,1726,,,,,1.0,704
+"Onayev, Zhan",1,1726,,,,,1.0,704
+"Ongena, Steven",1,1726,,,,,1.0,704
+"Ono, Arito",1,1726,,,,,1.0,704
+"Ornthanalai, Chayawat",3,352,,,,,1.0,704
+"Ors, Evren",1,1726,,,,,1.0,704
+"Ortiz-Molina, Hernán",2,743,0.001963972259791085,241,,,1.0,704
+"Ortobelli Lozza, Sergio",3,352,,,,,1.0,704
+"Osborn, Denise R.",2,743,,,,,1.0,704
+"Osobov, Igor",1,1726,,,,,1.0,704
+"Osselaer, Sofieke Van",2,743,,,,,1.0,704
+"Ostergaard, Charlotte",2,743,,,,,1.0,704
+"Ostrovsky, Michael",1,1726,,,,,1.0,704
+"Oswald, Dennis R.",1,1726,,,,,1.0,704
+"Otchere, Isaac",1,1726,,,,,2.0,256
+"Ou-Yang, Hui",1,1726,,,,,1.0,704
+"Ouimet, Paige Parker",2,743,0.0,305,,,1.0,704
+"Owyang, Michael T.",3,352,,,,,1.0,704
+"Oyer, Paul",0,2582,,,,,1.0,704
+"Ozdenoren, Emre",1,1726,0.0,305,,,1.0,704
+"Ozoguz, Arzu",0,2582,,,,,1.0,704
+"Pacelli, Graziella",2,743,,,,,1.0,704
+"Packer, Frank",2,743,0.003389830508474576,202,,,2.0,256
+"Paeglis, Imants",2,743,,,,,1.0,704
+"Pafka, Szilárd",2,743,,,,,1.0,704
+"Pagano, Michael S.",2,743,,,,,1.0,704
+"Paiella, Monica",0,2582,,,,,1.0,704
+"Pajarinen, Mika",1,1726,,,,,1.0,704
+"Pak, Tamara",3,352,,,,,1.0,704
+"Palia, Darius N.",3,352,0.003389830508474576,202,,,2.0,256
+"Palmon, Oded",3,352,,,,,1.0,704
+"Pan, Jun",3,352,0.010134960145031797,145,,,2.0,256
+"Panageas, Stavros",2,743,,,,,2.0,256
+"Panayides, Marios A.",2,743,0.0,305,,,2.0,256
+"Panchapagesan, Venkatesh",2,743,0.0,305,,,1.0,704
+"Panchenko, Valentyn",1,1726,,,,,1.0,704
+"Panetta, Fabio",2,743,,,,,1.0,704
+"Pang, Jiaren",1,1726,,,,,1.0,704
+"Panizza, Ugo",2,743,0.0,305,,,1.0,704
+"Pantzalis, Christos",2,743,,,,,2.0,256
+"Paolella, Marc S.",1,1726,,,,,1.0,704
+"Papageorgiou, Chris",1,1726,,,,,1.0,704
+"Papanikolaou, Nikolaos I.",2,743,,,,,1.0,704
+"Pappa, Evi",2,743,,,,,1.0,704
+"Paravisini, Daniel",0,2582,,,,,1.0,704
+"Parigi, Bruno M.",1,1726,,,,,1.0,704
+"Paris, Francesco Maria",2,743,,,,,1.0,704
+"Park, Jungchul",2,743,,,,,2.0,256
+"Park, Kwangwoo",3,352,,,,,2.0,256
+"Park, Sangkyun",1,1726,0.0,305,,,1.0,704
+"Parlour, Christine A.",4,185,,,,,3.0,97
+"Parrino, Robert",2,743,0.0,305,,,1.0,704
+"Partnoy, Frank",3,352,,,,,1.0,704
+"Pasquariello, Paolo",3,352,0.003389830508474576,202,,,4.0,29
+"PastÉn, Ernesto S.",2,743,0.0,305,,,1.0,704
+"Patel, Ajay",3,352,0.0,305,,,1.0,704
+"Paterlini, Sandra",2,743,,,,,1.0,704
+"Patgiri, Rajdeep",2,743,,,,,2.0,256
+"Pathan, Shams",0,2582,,,,,1.0,704
+"Patro, Dilip Kumar",2,743,,,,,1.0,704
+"Patton, Andrew J.",0,2582,,,,,1.0,704
+"Paudyal, Krishna",2,743,,,,,1.0,704
+"Paulsen, Dirk",1,1726,0.0,305,,,1.0,704
+"Pavlova, Anna",3,352,,,,,3.0,97
+"Pearson, Neil D.",3,352,0.0,305,,,1.0,704
+"Pedersen, Lasse Heje",4,185,0.021711605421426722,105,,,3.0,97
+"Peek, Joe",1,1726,,,,,1.0,704
+"Pelizzon, Loriana",3,352,,,,,3.0,97
+"Pemy, Moustapha",2,743,,,,,1.0,704
+"Pennacchi, George G.",1,1726,,,,,1.0,704
+"Peress, Joël",1,1726,,,,,1.0,704
+"Pericoli, Marcello",1,1726,,,,,1.0,704
+"Peristiani, Stavros C.",2,743,0.003389830508474576,202,,,2.0,256
+"Perotti, Enrico C.",1,1726,,,,,1.0,704
+"Perrakis, Stylianos",2,743,,,,,1.0,704
+"Perry, Tod",2,743,,,,,1.0,704
+"Persons, John C.",2,743,0.0,305,,,1.0,704
+"Perst, Achim",1,1726,,,,,1.0,704
+"Petajisto, Antti",1,1726,0.0,305,,,1.0,704
+"Peters, Jean Philippe",3,352,,,,,1.0,704
+"Petersen, Bruce C.",2,743,,,,,2.0,256
+"Petersen, Mitchell A.",0,2582,,,,,1.0,704
+"Peterson, David R.",2,743,,,,,1.0,704
+"Peterson, Mark",1,1726,,,,,1.0,704
+"Peterson, Stefan",2,743,,,,,1.0,704
+"Petkova, Ralitsa",2,743,0.0027258057473015336,239,,,1.0,704
+"Petrova, Iva",1,1726,,,,,1.0,704
+"Peyer, Urs C.",1,1726,,,,,1.0,704
+"Peña, Juan Ignacio",1,1726,,,,,1.0,704
+"Pfleiderer, Paul",1,1726,,,,,1.0,704
+"Pflug, Georg",1,1726,,,,,1.0,704
+"Phalippou, Ludovic",1,1726,,,,,1.0,704
+"Pham, Peter Kien",2,743,,,,,1.0,704
+"Pham, Toan My",2,743,,,,,1.0,704
+"Phani, B. V.",2,743,,,,,1.0,704
+"Philipov, Alexander",3,352,,,,,2.0,256
+"Philippatos, George C.",1,1726,,,,,1.0,704
+"Philippon, Thomas",2,743,0.0056515060363188895,190,,,2.0,256
+"Phillips, Gordon Michael",1,1726,0.0,305,,,1.0,704
+"Phillips, Peter C.B.",1,1726,,,,,1.0,704
+"Phillips, Richard D.",3,352,,,,,2.0,256
+"Piazzesi, Monika",2,743,,,,,1.0,704
+"Picard, Pierre M.",2,743,,,,,1.0,704
+"Picconi, Marc P.",3,352,0.0,305,,,1.0,704
+"Pichler, Pegaret",2,743,,,,,1.0,704
+"Pichler, Stefan",2,743,,,,,1.0,704
+"Pierce, Joshua R.",2,743,,,,,1.0,704
+"Piger, Jeremy M.",5,96,,,,,2.0,256
+"Pilloff, Steven J.",1,1726,,,,,1.0,704
+"Piplack, Jan",2,743,,,,,1.0,704
+"Pirinsky, Christo A.",2,743,0.0,305,,,1.0,704
+"Pirrong, Craig",1,1726,,,,,1.0,704
+"Pittman, Jeffrey A.",1,1726,,,,,1.0,704
+"Piwowar, Michael S.",2,743,,,,,1.0,704
+"Plantin, Guillaume",1,1726,,,,,1.0,704
+"Plantinga, Auke",2,743,,,,,1.0,704
+"Pliska, Stanley R.",1,1726,,,,,1.0,704
+"Poghosyan, Tigran",2,743,0.003389830508474576,202,,,2.0,256
+"Polk, Christopher",3,352,0.0067681505568185085,167,,,2.0,256
+"Polkovnichenko, Valery",1,1726,,,,,2.0,256
+"Pollet, Joshua M.",2,743,,,,,2.0,256
+"Polson, Nicholas G.",2,743,,,,,1.0,704
+"Pontiff, Jeffrey",4,185,,,,,3.0,97
+"Pool, Veronika Krepely",1,1726,,,,,1.0,704
+"Poon, Percy S.",1,1726,,,,,1.0,704
+"Poon, Winnie P.H.",2,743,,,,,1.0,704
+"Porath, Daniel",8,19,0.00018992259215562141,282,,,2.0,256
+"Porchia, Paolo",2,743,,,,,1.0,704
+"Post, Thierry Thierry",2,743,0.0,305,,,2.0,256
+"Poterba, James M.",2,743,,,,,1.0,704
+"Poteshman, Allen M.",7,35,0.06285286754338004,50,,,3.0,97
+"Potter, Simon M.",2,743,,,,,1.0,704
+"Pouget, Sébastien",0,2582,,,,,1.0,704
+"Pouliasis, Panos K.",2,743,,,,,1.0,704
+"Pouyet, Jérôme",2,743,,,,,1.0,704
+"Povel, Paul",2,743,,,,,1.0,704
+"Powell, John Gregory",3,352,,,,,1.0,704
+"Powers, Eric A.",1,1726,,,,,1.0,704
+"Pozzolo, Alberto Franco",1,1726,,,,,1.0,704
+"Prabhala, Nagpurnanand R.",1,1726,,,,,1.0,704
+"Prager, Robin A.",1,1726,,,,,1.0,704
+"Prati, Alessandro",2,743,,,,,1.0,704
+"Preve, Lorenzo A.",2,743,,,,,1.0,704
+"Prevost, Andrew K.",2,743,,,,,1.0,704
+"Priestley, Richard",3,352,,,,,2.0,256
+"Prigent, Jean Luc",1,1726,,,,,1.0,704
+"Psychoyios, Dimitris",4,185,,,,,2.0,256
+"Puckett, Andy",2,743,,,,,1.0,704
+"Pukthuanthong, Kuntara",1,1726,,,,,1.0,704
+"Pullirsch, Rainer",2,743,,,,,1.0,704
+"Puri, Manju",5,96,,,,,4.0,29
+"Purnanandam, Amiyatosh K.",2,743,0.0,305,,,3.0,97
+"Pástor, Ľuboš",5,96,,,,,3.0,97
+"Pérez Sebastián, Fidel",1,1726,,,,,1.0,704
+"Pérignon, Christophe",5,96,0.01351328019337573,122,,,3.0,97
+"Qi, Min",1,1726,,,,,1.0,704
+"Qi, Yuehua",3,352,0.0,305,,,1.0,704
+"Qian, Jun",3,352,,,,,2.0,256
+"Qin, Duo",1,1726,,,,,1.0,704
+"Qiu, Jiaping",4,185,0.01014647060516244,137,,,3.0,97
+"Quagliariello, Mario",1,1726,,,,,1.0,704
+"Quaranta, Anna Grazia",1,1726,,,,,1.0,704
+"Quinn, Dennis P.",1,1726,,,,,1.0,704
+"Rabanal, Pau",0,2582,,,,,1.0,704
+"Rachev, Svetlozar T.",9,8,,,,,4.0,29
+"Raddatz, Claudio E.",1,1726,,,,,1.0,704
+"Raheja, Charu G.",3,352,,,,,1.0,704
+"Rahi, Rohit",1,1726,,,,,1.0,704
+"Rajan, Arvind",1,1726,0.0,305,,,1.0,704
+"Rajan, Madhav V.",2,743,,,,,1.0,704
+"Rajan, Raghuram G.",2,743,0.0,305,,,1.0,704
+"Rajan, Uday",2,743,,,,,1.0,704
+"Rajgopal, Shivaram",1,1726,0.0,305,,,1.0,704
+"Rakowski, David A.",4,185,,,,,3.0,97
+"Rallis, Georgios",1,1726,,,,,1.0,704
+"Ramadorai, Tarun",6,51,0.023544646197231733,103,,,3.0,97
+"Ramaswamy, K. V.",3,352,,,,,1.0,704
+"Ramey, Valerie A.",1,1726,,,,,1.0,704
+"Ramirez, Carlos D.",0,2582,,,,,1.0,704
+"Rampini, Adriano A.",1,1726,,,,,2.0,256
+"Ranaldo, Angelo",1,1726,,,,,2.0,256
+"Randl, Otto",3,352,,,,,1.0,704
+"Rangan, Kasturi P.",2,743,,,,,1.0,704
+"Rangan, Nanda K.",2,743,,,,,1.0,704
+"Rangel, José Gonzalo",1,1726,,,,,1.0,704
+"Rantapuska, Elias",0,2582,,,,,1.0,704
+"Rao, Ramesh P.",2,743,,,,,1.0,704
+"Rasmusen, Eric Bennett",0,2582,,,,,1.0,704
+"Ratnovski, Lev",0,2582,,,,,1.0,704
+"Ratti, Ronald Andrew",2,743,,,,,1.0,704
+"Rau, P. Raghavendra",9,8,0.07880061005438692,41,,,3.0,97
+"Rauh, Joshua D.",0,2582,,,,,1.0,704
+"Ravenna, Federico",1,1726,,,,,1.0,704
+"Ravid, S. Abraham",4,185,0.010134960145031797,145,,,2.0,256
+"Raviv, Alon",2,743,,,,,1.0,704
+"Raviv, Artur",1,1726,,,,,1.0,704
+"Ready, Mark J.",1,1726,,,,,1.0,704
+"Rebelo, Sérgio T.",1,1726,,,,,1.0,704
+"Reeb, David M.",2,743,,,,,1.0,704
+"Reed, Adam V.",4,185,0.001116514632672424,258,,,2.0,256
+"Rehman, Zahid",2,743,,,,,2.0,256
+"Reis, Ebru",2,743,,,,,1.0,704
+"Reisel, Natalia",2,743,0.0,305,,,1.0,704
+"Ren, Jinjuan",2,743,,,,,1.0,704
+"Renault, Micheline",2,743,,,,,1.0,704
+"Renault, Éric",2,743,,,,,1.0,704
+"Renneboog, Luc D.R.",4,185,,,,,3.0,97
+"Resti, Andrea",3,352,,,,,2.0,256
+"Rhee, Ghon",4,185,,,,,2.0,256
+"Rhodes-Kropf, Matthew",1,1726,,,,,1.0,704
+"Riboni, Alessandro",1,1726,,,,,1.0,704
+"Richardson, Matthew P.",5,96,0.0033783200483439324,235,,,3.0,97
+"Riddick, Leigh A.",1,1726,0.0,305,,,1.0,704
+"Riddiough, Timothy J.",1,1726,,,,,1.0,704
+"Rigobon, Roberto",1,1726,,,,,1.0,704
+"Rime, Dagfinn",2,743,,,,,1.0,704
+"Rindisbacher, Marcel",2,743,,,,,1.0,704
+"Ritter, Jay R.",4,185,0.0067681505568185085,167,,,3.0,97
+"Riyanto, Yohanes Eko",1,1726,,,,,1.0,704
+"Roberds, William T.",1,1726,,,,,2.0,256
+"Roberts, Michael R.",7,35,0.08454446589097506,37,,,5.0,18
+"Robinson, David T.",3,352,,,,,4.0,29
+"Robotti, Cesare",1,1726,,,,,1.0,704
+"Rocheteau, Guillaume",1,1726,,,,,1.0,704
+"Rocholl, Jörg",3,352,,,,,3.0,97
+"Rockafellar, R. Tyrrell",2,743,,,,,1.0,704
+"Roden, Dianne M.",2,743,,,,,2.0,256
+"Rodríguez Mendizábal, Hugo",1,1726,,,,,1.0,704
+"Rodríguez, Javier",2,743,,,,,1.0,704
+"Rodríguez, Mauricio P.",3,352,,,,,1.0,704
+"Rodríguez, Rosa",1,1726,,,,,1.0,704
+"Rodríguez-Fernández, Francisco",4,185,0.0008559481725721529,261,,,2.0,256
+"Roe, Mark J.",1,1726,,,,,1.0,704
+"Roffia, Barbara",2,743,,,,,1.0,704
+"Rogers, John H.",1,1726,,,,,1.0,704
+"Roll, Richard",4,185,,,,,4.0,29
+"Romero-Ávila, Diego",0,2582,,,,,1.0,704
+"Roncoroni, Andrea",2,743,,,,,1.0,704
+"Ronn, Ehud Ehud",1,1726,,,,,1.0,704
+"Roosenboom, Peter",1,1726,,,,,1.0,704
+"Ropele, Tiziano",1,1726,,,,,1.0,704
+"Rosazza Gianin, Emanuela",1,1726,,,,,1.0,704
+"Rose, Andrew K.",3,352,,,,,2.0,256
+"Rosen, Richard J.",4,185,0.0067681505568185085,167,,,3.0,97
+"Rosenberg, Joshua V.",1,1726,,,,,1.0,704
+"Rossello, Damiano",4,185,,,,,1.0,704
+"Rossetto, Silvia",1,1726,,,,,1.0,704
+"Rossi, Stefania Patrizia Sonia",2,743,,,,,1.0,704
+"Rossi, Stefano",3,352,,,,,2.0,256
+"Roszbach, Kasper",3,352,,,,,1.0,704
+"Rothschild, Casey G.",2,743,,,,,1.0,704
+"Rou, Ioanid",0,2582,,,,,1.0,704
+"Rountree, Brian R.",2,743,,,,,1.0,704
+"Rous, Philippe",3,352,,,,,2.0,256
+"Rousseau, Peter L.",1,1726,,,,,1.0,704
+"Rubin, Amir",1,1726,0.0,305,,,1.0,704
+"Rubio, Gonzalo",2,743,,,,,1.0,704
+"Rudd, Jeremy B.",1,1726,,,,,1.0,704
+"Rudebusch, Glenn D.",1,1726,,,,,1.0,704
+"Ruenzi, Stefan",2,743,,,,,2.0,256
+"Ruge-Murciá, Francisco J.",1,1726,,,,,1.0,704
+"Ruiz-Verdú, Pablo",1,1726,,,,,1.0,704
+"Ruthenberg, David",1,1726,,,,,1.0,704
+"Saar, Gideon",5,96,0.19481238299747122,16,,,3.0,97
+"Saar-Tsechansky, Maytal",2,743,,,,,1.0,704
+"Sabherwal, Sanjiv",2,743,1.0071652614313256e-05,293,,,1.0,704
+"Sadka, Gil",1,1726,,,,,1.0,704
+"Sadka, Ronnie",6,51,,,,,5.0,18
+"Sager, Michael J.",1,1726,,,,,1.0,704
+"Sagi, Jacob S.",3,352,,,,,2.0,256
+"Saita, Leandro",6,51,4.0286610457253026e-05,285,,,3.0,97
+"Sala, Luca",3,352,,,,,2.0,256
+"Salas, Jm Ian S.",1,1726,,,,,1.0,704
+"Salas, Vicente",3,352,,,,,2.0,256
+"Salas-Fumás, Vicente",2,743,,,,,2.0,256
+"Samartín, Margarita",1,1726,,,,,1.0,704
+"Samphantharak, Krislert",3,352,1.0071652614313256e-05,293,,,1.0,704
+"Santa-Clara, Pedro",4,185,0.19327237235729075,18,,,2.0,256
+"Santabárbara, Daniel",2,743,0.0,305,,,1.0,704
+"Santaló, Juan",1,1726,,,,,1.0,704
+"Santor, Eric",1,1726,,,,,1.0,704
+"Santos, João A.C.",2,743,,,,,3.0,97
+"Sapienza, Paola",3,352,0.010134960145031797,145,,,2.0,256
+"Sapp, Travis R.A.",1,1726,,,,,1.0,704
+"Sapriza, Horacio",2,743,0.009763049318241594,153,,,1.0,704
+"Saretto, Alessio",1,1726,0.0,305,,,1.0,704
+"Sargent, Thomas J.",3,352,,,,,2.0,256
+"Sarin, Atulya",2,743,0.001694915254237288,244,,,1.0,704
+"Sarkar, Asani",1,1726,,,,,1.0,704
+"Sarkar, Sudipto",1,1726,,,,,2.0,256
+"Sarkissian, Sergei",2,743,0.0333803343788668,82,,,2.0,256
+"Sarno, Lucio",5,96,,,,,3.0,97
+"Sarria-Allende, Virginia",2,743,,,,,1.0,704
+"Satchi, Mathan",3,352,,,,,1.0,704
+"Sato, Kiyotaka",1,1726,,,,,1.0,704
+"Saunders, Anthony",13,3,0.17414207618704206,19,,,4.0,29
+"Saunders, Drew",0,2582,,,,,1.0,704
+"Saurina, Jesús",6,51,,,,,4.0,29
+"Sautner, Zacharias",1,1726,,,,,1.0,704
+"Savickas, Robert",1,1726,,,,,2.0,256
+"Savor, Pavel G.",1,1726,,,,,1.0,704
+"Savva, Christos S.",1,1726,,,,,1.0,704
+"Sawada, Yasuyuki",1,1726,,,,,1.0,704
+"Scaillet, Olivier",1,1726,,,,,1.0,704
+"Schabert, Andreas",1,1726,,,,,1.0,704
+"Schaeck, Klaus",3,352,,,,,2.0,256
+"Schaefer, Scott",1,1726,,,,,1.0,704
+"Schaefer, Stephen M.",1,1726,,,,,1.0,704
+"Schaling, Eric",1,1726,,,,,1.0,704
+"Scharfstein, David S.",3,352,0.0,305,,,1.0,704
+"Scheinkman, José A.",2,743,0.0,305,,,1.0,704
+"Schenk-Hoppé, Klaus Reiner",2,743,,,,,1.0,704
+"Scherbina, Anna",1,1726,,,,,1.0,704
+"Scherer, Bernd",1,1726,,,,,1.0,704
+"Schiantarelli, Fabio",2,743,,,,,1.0,704
+"Schill, Michael J.",4,185,0.03998158326379097,71,,,3.0,97
+"Schindele, Ibolya",3,352,,,,,1.0,704
+"Schivardi, Fabiano",2,743,,,,,1.0,704
+"Schlag, Christian",2,743,,,,,1.0,704
+"Schlingemann, Frederik P.",4,185,1.1510460130643722e-05,291,,,2.0,256
+"Schmeiser, Hato",1,1726,,,,,1.0,704
+"Schmid, Markus M.",1,1726,,,,,1.0,704
+"Schmidt, Breno",1,1726,0.0,305,,,1.0,704
+"Schmidt, Jan Hendrik",2,743,,,,,1.0,704
+"Schmidt, Sandra",1,1726,,,,,1.0,704
+"Schmiedel, Heiko",1,1726,0.0,305,,,1.0,704
+"Schmukler, Sergio L.",5,96,0.016834047941066445,112,,,4.0,29
+"Schneider, Eva",2,743,,,,,1.0,704
+"Schneider, Jan",0,2582,,,,,1.0,704
+"Schneider, Martin",5,96,,,,,3.0,97
+"Schneller, Meir I.",2,743,,,,,1.0,704
+"Schoar, Antoinette",6,51,0.028482633593277892,94,,,3.0,97
+"Scholnick, Barry",5,96,0.004250095103595719,196,,,2.0,256
+"Scholtens, Bert",2,743,,,,,1.0,704
+"Scholz, Hendrik",2,743,,,,,1.0,704
+"Schor, Michael",1,1726,0.0,305,,,1.0,704
+"Schorfheide, Frank",2,743,,,,,1.0,704
+"Schotter, Andrew",1,1726,0.0,305,,,1.0,704
+"Schrand, Catherine M.",2,743,0.0,305,,,1.0,704
+"Schuermann, Til",3,352,,,,,2.0,256
+"Schuhmacher, Frank",1,1726,,,,,1.0,704
+"Schultz, Paul Harvey",0,2582,,,,,1.0,704
+"Schwaiger, Markus S.",2,743,,,,,1.0,704
+"Schwaiger, Walter S.A.",2,743,,,,,1.0,704
+"Schwartz, Allie",2,743,0.0,305,,,1.0,704
+"Schwartz, Eduardo S.",3,352,,,,,4.0,29
+"Schwartz, Robert A.",1,1726,,,,,1.0,704
+"Schwarz, Christopher G.",3,352,0.0,305,,,1.0,704
+"Schwendener, Alvin",2,743,,,,,1.0,704
+"Schwienbacher, Armin",2,743,,,,,2.0,256
+"Schürhoff, Norman",2,743,,,,,2.0,256
+"Seasholes, Mark S.",3,352,,,,,2.0,256
+"Seery, Laura",2,743,,,,,1.0,704
+"Segal, Dan",1,1726,,,,,1.0,704
+"Sembenelli, Alessandro",2,743,,,,,1.0,704
+"Sengmueller, Paul",2,743,,,,,1.0,704
+"Sengupta, Kunal",1,1726,0.0,305,,,1.0,704
+"Sengupta, Rajdeep",0,2582,,,,,1.0,704
+"Sensoy, Berk A.",2,743,,,,,2.0,256
+"Seol, Youn",2,743,,,,,1.0,704
+"Sercu, Piet",2,743,,,,,1.0,704
+"Serifsoy, Baris",1,1726,,,,,2.0,256
+"Seru, Amit",3,352,0.05725302868982188,53,,,2.0,256
+"Servaes, Henri",3,352,0.0,305,,,2.0,256
+"Sevilir, Merih",1,1726,,,,,1.0,704
+"Seyhun, H. Nejat",1,1726,,,,,1.0,704
+"Shackelford, Douglas A.",3,352,,,,,1.0,704
+"Shackleton, Mark B.",5,96,,,,,2.0,256
+"Shahrur, Husayn",1,1726,,,,,1.0,704
+"Shanken, Jay",1,1726,,,,,1.0,704
+"Shanthikumar, Devin M.",1,1726,,,,,1.0,704
+"Shao, Yingying",2,743,,,,,1.0,704
+"Shapira, Zur B.",1,1726,,,,,1.0,704
+"Shapiro, Alexander",3,352,,,,,1.0,704
+"Shapiro, Alexander",2,743,,,,,2.0,256
+"Shapiro, Joel",2,743,0.0,305,,,1.0,704
+"Sharma, Vivek",2,743,,,,,1.0,704
+"Shawky, Hany A.",2,743,,,,,1.0,704
+"Sheedy, Elizabeth A.",1,1726,,,,,1.0,704
+"Sheehan, Dennis P.",2,743,,,,,1.0,704
+"Shen, Y. (J )",3,352,0.001696833664259062,243,,,1.0,704
+"Shi, Jian",3,352,,,,,1.0,704
+"Shi, Jing",5,96,,,,,2.0,256
+"Shi, Qi",2,743,,,,,1.0,704
+"Shie, Fu Shuen",3,352,,,,,1.0,704
+"Shih, PaiTa",1,1726,,,,,1.0,704
+"Shim, Ilhyock",1,1726,,,,,1.0,704
+"Shimizutani, Satoshi",1,1726,,,,,1.0,704
+"Shin, Hyun Han",2,743,,,,,1.0,704
+"Shin, Hyun Song",0,2582,,,,,1.0,704
+"Shinki, Kazuhiko",1,1726,,,,,1.0,704
+"Shivdasani, Anil",1,1726,,,,,1.0,704
+"Shleifer, Andrei",4,185,,,,,2.0,256
+"Shu, Tao",2,743,0.0,305,,,1.0,704
+"Shum, Clement",4,185,,,,,1.0,704
+"Shum, Matthew",2,743,,,,,1.0,704
+"Shumway, Tyler",1,1726,0.0,305,,,1.0,704
+"Sialm, Clemens",4,185,0.0067681505568185085,167,,,2.0,256
+"Sias, Richard W.",1,1726,,,,,1.0,704
+"Siegel, Andrew F.",1,1726,,,,,1.0,704
+"Siegel, Stephan",3,352,,,,,1.0,704
+"Siklos, Pierre L.",2,743,,,,,1.0,704
+"Silva, Ana Cristina",1,1726,,,,,1.0,704
+"Simin, Timothy T.",4,185,,,,,2.0,256
+"Simonov, Andrei",3,352,,,,,2.0,256
+"Sin, Samantha",2,743,,,,,1.0,704
+"Singh, Ajai K.",5,96,0.10578688383068113,32,,,2.0,256
+"Singh, Manohar",2,743,,,,,1.0,704
+"Singh, Rajdeep",2,743,,,,,1.0,704
+"Singhal, Rajeev",2,743,,,,,1.0,704
+"Singleton, Kenneth J.",3,352,0.0067681505568185085,167,,,2.0,256
+"Sinha, Meenakshi",2,743,,,,,1.0,704
+"Sironi, Andrea",3,352,,,,,2.0,256
+"Sirri, Erik R.",2,743,,,,,1.0,704
+"Sivakumar, Ranjini",2,743,,,,,1.0,704
+"Sivaramakrishnan, Konduru",1,1726,0.0,305,,,1.0,704
+"Skeie, David R.",0,2582,,,,,1.0,704
+"Skiadopoulos, George",4,185,,,,,2.0,256
+"Skinner, Douglas J.",0,2582,,,,,1.0,704
+"Skinner, Frank S.",3,352,,,,,1.0,704
+"Slovin, Myron B.",4,185,,,,,2.0,256
+"Smallwood, Aaron D.",1,1726,,,,,1.0,704
+"Smith, Brian Frederick",1,1726,,,,,1.0,704
+"Smith, Daniel R.",2,743,0.003389830508474576,202,,,2.0,256
+"Smith, David C.",2,743,0.0,305,,,1.0,704
+"Smith, Janet Kiholm",2,743,,,,,2.0,256
+"Smith, Paul A.",3,352,,,,,1.0,704
+"Smith, R. Todd",1,1726,,,,,1.0,704
+"Smith, Richard L.",3,352,,,,,3.0,97
+"Smith, Stanley D.",2,743,,,,,1.0,704
+"Smith, Stephen D.",2,743,,,,,1.0,704
+"Smith, Tom",3,352,,,,,1.0,704
+"Smith, William T.",2,743,,,,,1.0,704
+"Snower, Dennis J.",1,1726,,,,,1.0,704
+"So, Jongil",2,743,,,,,1.0,704
+"Solís, Liliana",1,1726,,,,,1.0,704
+"Song, Fenghua",1,1726,0.0,305,,,1.0,704
+"Song, Frank M.",3,352,,,,,1.0,704
+"Song, Weihong",2,743,,,,,1.0,704
+"Sonia Man Lai, Wong M.Sonia",7,35,,,,,2.0,256
+"Sonney, Frédéric",0,2582,,,,,1.0,704
+"Sonti, Ramana",2,743,,,,,1.0,704
+"Sorescu, Sorin M.",5,96,0.013490259273114442,130,,,2.0,256
+"Spagnolo, Giancarlo",2,743,,,,,1.0,704
+"Spaliara, Marina Eliza",0,2582,,,,,1.0,704
+"Spencer, Peter D.",0,2582,,,,,1.0,704
+"Speranza, M. Grazia",2,743,,,,,1.0,704
+"Spiegel, Mark M.",2,743,,,,,2.0,256
+"Spiegel, Matthew",5,96,0.0067681505568185085,167,,,2.0,256
+"Spong, Kenneth R.",1,1726,,,,,1.0,704
+"Srinivasan, Anand",4,185,0.03286759501997669,84,,,2.0,256
+"Srivastava, Anup",2,743,,,,,1.0,704
+"St-Amour, Pascal",1,1726,,,,,1.0,704
+"Stafford, Erik",3,352,0.0333803343788668,82,,,2.0,256
+"Staikouras, Christos K.",2,743,,,,,1.0,704
+"Stambaugh, Robert F.",1,1726,,,,,1.0,704
+"Stamos, Michael Z.",3,352,,,,,1.0,704
+"Stango, Victor",1,1726,,,,,1.0,704
+"Stanhouse, Bryan E.",1,1726,,,,,1.0,704
+"Stanton, Richard Henry",3,352,,,,,2.0,256
+"Starks, Laura T.",4,185,1.9567782222094333e-05,288,,,1.0,704
+"Startz, Richard",2,743,,,,,1.0,704
+"Staten, Michael E.",2,743,,,,,1.0,704
+"Steeley, James M.",0,2582,,,,,1.0,704
+"Stegemoller, Mike A.",2,743,,,,,1.0,704
+"Stein, Jeremy C.",6,51,0.07532870935190293,45,,,4.0,29
+"Stein, Jerome L.",0,2582,,,,,1.0,704
+"Stiglitz, Joseph E.",2,743,,,,,1.0,704
+"Stine, Robert A.",3,352,,,,,1.0,704
+"Stiroh, Kevin J.",1,1726,,,,,1.0,704
+"Stock, James H.",1,1726,,,,,1.0,704
+"Stoimenov, Pavel A.",1,1726,,,,,1.0,704
+"Stojanovic, Dusan",2,743,,,,,1.0,704
+"Stolin, David",1,1726,,,,,1.0,704
+"Stolper, Anno",0,2582,,,,,1.0,704
+"Stomper, Alex",2,743,,,,,1.0,704
+"Stone, Gregory R.",3,352,,,,,1.0,704
+"Storey, David J.",2,743,,,,,1.0,704
+"Stoughton, Neal M.",1,1726,,,,,1.0,704
+"Stouraitis, Aris",3,352,0.0,305,,,1.0,704
+"Stover, Roger D.",4,185,0.0008559481725721529,261,,,1.0,704
+"Stoyanov, Stoyan V.",4,185,,,,,2.0,256
+"Strachan, Rodney W.",2,743,,,,,1.0,704
+"Straetmans, Stefan T.M.",2,743,,,,,1.0,704
+"Strahan, Philip E.",4,185,,,,,4.0,29
+"Strebulaev, Ilya A.",4,185,,,,,4.0,29
+"Stremme, Alexander",2,743,,,,,1.0,704
+"Strong, Norman C.",1,1726,,,,,1.0,704
+"Stroud, Jonathan R.",2,743,,,,,1.0,704
+"Strum, Brad E.",0,2582,,,,,1.0,704
+"Strömberg, Per",5,96,,,,,3.0,97
+"Stuart, Nathan V.",3,352,,,,,1.0,704
+"Stulz, René M.",21,1,0.642094313432477,1,,,12.0,2
+"Sturm, Jan-Egbert",1,1726,,,,,1.0,704
+"Su, Xiaojing",2,743,0.0,305,,,1.0,704
+"Subrahmanyam, Avanidhar",6,51,,,,,6.0,8
+"Subrahmanyam, Marti G.",8,19,0.01351328019337573,122,,,3.0,97
+"Subrahmanyam, Vijaya",2,743,,,,,1.0,704
+"Subramanian, Krishnamurthy V.",1,1726,0.0,305,,,1.0,704
+"Suchard, Jo Ann C.",0,2582,,,,,1.0,704
+"Suchintabandid, Sira",1,1726,,,,,1.0,704
+"Sufi, Amir",3,352,0.010134960145031797,145,,,6.0,8
+"Suh, Jungwon",1,1726,,,,,1.0,704
+"Sullivan, Richard J.",1,1726,,,,,1.0,704
+"Sun, Amy",2,743,,,,,1.0,704
+"Sun, Jerry",2,743,,,,,1.0,704
+"Sun, Le",2,743,0.0,305,,,1.0,704
+"Sun, Xian",2,743,0.0007786826278380479,269,,,1.0,704
+"Sundaram, Rangarajan K.",1,1726,,,,,1.0,704
+"Sundaresan, Suresh M.",4,185,,,,,3.0,97
+"Surico, Paolo",1,1726,,,,,1.0,704
+"Sushka, Marie Elizabeth",4,185,,,,,2.0,256
+"Svaleryd, Helena",4,185,0.0,305,,,1.0,704
+"Swaminathan, Bhaskaran",2,743,,,,,1.0,704
+"Swanson, Edward P.",2,743,,,,,1.0,704
+"Swanson, Norman Rasmus",1,1726,,,,,1.0,704
+"Sweeney, Richard James",2,743,0.0,305,,,1.0,704
+"Swift, Christopher",1,1726,,,,,1.0,704
+"Swinkels, Jeroen M.",1,1726,,,,,1.0,704
+"Szakmary, Andrew C.",2,743,,,,,1.0,704
+"Szewczyk, Samuel H.",2,743,,,,,1.0,704
+"Szilagyi, Jan",2,743,0.0,305,,,1.0,704
+"SØrensen, Morten",0,2582,,,,,1.0,704
+"Sápp, Stephen G.",2,743,,,,,2.0,256
+"Sørensen, Bent E.",2,743,,,,,1.0,704
+"Taboga, Marco",1,1726,,,,,1.0,704
+"Taffler, Richard J.",1,1726,,,,,1.0,704
+"Tagg, Stephen K.",3,352,,,,,1.0,704
+"Takamizawa, Hideyuki",0,2582,,,,,1.0,704
+"Talay, Denis",4,185,,,,,1.0,704
+"Tamborini, Roberto",1,1726,,,,,1.0,704
+"Tan, Hongping",2,743,0.0,305,,,1.0,704
+"Tan, Tao",1,1726,,,,,1.0,704
+"Tandon, Kishore",3,352,,,,,1.0,704
+"Tang, Ke",2,743,,,,,1.0,704
+"Tang, Ning",3,352,,,,,1.0,704
+"Tang, Tony T.",0,2582,,,,,1.0,704
+"Tang, Yi",2,743,0.0,305,,,1.0,704
+"Tanré, Etienne",4,185,,,,,1.0,704
+"Tapking, Jens",1,1726,,,,,1.0,704
+"Tarazi, Amine",3,352,,,,,2.0,256
+"Tartaroglu, Semih",1,1726,,,,,1.0,704
+"Taschini, Luca",1,1726,,,,,1.0,704
+"Tashjian, Elizabeth",2,743,,,,,1.0,704
+"Tate, Geoffrey",2,743,,,,,2.0,256
+"Taub, Bart",1,1726,,,,,1.0,704
+"Tauchen, George E.",2,743,,,,,1.0,704
+"Tavakoli, Manouche",3,352,,,,,1.0,704
+"Tayler, William B.",3,352,1.1510460130643722e-05,291,,,2.0,256
+"Taylor, Lucian A.",2,743,,,,,1.0,704
+"Taylor, Mark P.",1,1726,,,,,1.0,704
+"Taylor, Stephen J.",5,96,,,,,2.0,256
+"Teall, John L.",3,352,,,,,1.0,704
+"Tehranian, Hassan",5,96,0.0033840752784092543,232,,,4.0,29
+"Teo, Melvyn",2,743,0.0,305,,,2.0,256
+"Teoh, Siewhong Hong",3,352,2.8776150326609306e-06,301,,,2.0,256
+"Ter Horst, Jenke R.",2,743,,,,,1.0,704
+"Tetlock, Paul C.",2,743,,,,,2.0,256
+"Tetlow, Robert J.",1,1726,,,,,1.0,704
+"Thakor, Anjan V.",5,96,0.046554055998388535,60,,,4.0,29
+"Theissen, Erik",2,743,,,,,1.0,704
+"Theobald, Michael F.",2,743,,,,,1.0,704
+"Thesmar, David J.",3,352,0.04318005237259359,66,,,2.0,256
+"Thiele, Tanja",2,743,,,,,1.0,704
+"Thoeny, Markus",4,185,,,,,1.0,704
+"Thomas, Catherine",1,1726,,,,,1.0,704
+"Thomas, Randall S.",3,352,,,,,1.0,704
+"Thompson, Rex Steve",2,743,,,,,2.0,256
+"Thompson, Samuel B.",1,1726,0.0,305,,,2.0,256
+"Thorburn, Karin S.",2,743,,,,,2.0,256
+"Thornton, Daniel L.",2,743,,,,,1.0,704
+"Tian, Jianbo",2,743,,,,,1.0,704
+"Tian, Weidong",3,352,0.0,305,,,1.0,704
+"Tibiletti, Luisa",4,185,,,,,1.0,704
+"Tice, Sheri",6,51,,,,,2.0,256
+"Tillmann, Peter",0,2582,,,,,1.0,704
+"Timmermann, Allan G.",2,743,,,,,2.0,256
+"Titman, Sheridan D.",10,5,0.16937426610874848,21,,,5.0,18
+"Tiwari, Ashish",1,1726,,,,,1.0,704
+"Tomal, Annette",1,1726,,,,,1.0,704
+"Tong, Zhenxu",0,2582,,,,,1.0,704
+"Tookes, Heather E.",2,743,,,,,2.0,256
+"Toolsema, Linda A.",1,1726,,,,,1.0,704
+"Topaloglou, Nikolas",2,743,,,,,1.0,704
+"Topaloglu, Selim",2,743,0.0,305,,,1.0,704
+"Torous, Walter N.",2,743,0.0,305,,,1.0,704
+"Torstila, Sami",2,743,,,,,1.0,704
+"Tourani-Rad, Alireza",2,743,,,,,1.0,704
+"Toyoda, A. Maria",1,1726,,,,,1.0,704
+"Tressel, Thierry",3,352,0.0011672129775205742,252,,,2.0,256
+"Triantis, Alexander J.",1,1726,,,,,1.0,704
+"Trigari, Antonella",2,743,,,,,2.0,256
+"Triki, Thouraya",2,743,,,,,1.0,704
+"Trindade, Alexander Alexandre",3,352,,,,,1.0,704
+"Tristani, Oreste",0,2582,,,,,1.0,704
+"Trojani, Fabio",4,185,,,,,2.0,256
+"Trolle, Anders B.",1,1726,,,,,2.0,256
+"Trueman, Brett",2,743,0.0,305,,,1.0,704
+"Trzcinka, Charles A.",2,743,,,,,1.0,704
+"Trück, Stefan",3,352,,,,,1.0,704
+"Tserlukevich, Yuri",1,1726,,,,,2.0,256
+"Tsiakas, Ilias",2,743,,,,,2.0,256
+"Tsionas, Mike G.",1,1726,,,,,1.0,704
+"Tsyplakov, Sergey",0,2582,,,,,1.0,704
+"Tu, Jun",2,743,,,,,1.0,704
+"Tuesta, Vicente",1,1726,,,,,1.0,704
+"Tufano, Peter",5,96,0.0067681505568185085,167,,,3.0,97
+"Turchick, David",1,1726,,,,,1.0,704
+"Turnovsky, Stephen J.",1,1726,,,,,1.0,704
+"Turtle, Harry J.",2,743,,,,,1.0,704
+"Twite, Garry J.",3,352,0.0,305,,,1.0,704
+"Tynaev, Nurlanbek",3,352,,,,,1.0,704
+"Tzagkaraki, Emilia",2,743,,,,,1.0,704
+"Tüzel, Şelale",2,743,,,,,1.0,704
+"Uchida, Hirofumi",1,1726,,,,,1.0,704
+"Udell, Gregory F.",2,743,0.0,305,,,1.0,704
+"Ueda, Kenichi",2,743,0.0,305,,,1.0,704
+"Uesugi, Iichiro",1,1726,,,,,1.0,704
+"Uhde, Andr",1,1726,,,,,1.0,704
+"Underwood, Shane E.",1,1726,,,,,1.0,704
+"Unlu, Emre",1,1726,0.0,305,,,1.0,704
+"Uppal, Raman",6,51,0.010157981065293085,136,,,4.0,29
+"Uryasev, Stan",5,96,,,,,2.0,256
+"Uysal, Vahap Bülent",2,743,0.0,305,,,1.0,704
+"Vaello-Sebastià, Antoni",1,1726,,,,,1.0,704
+"Vaihekoski, Mika",1,1726,,,,,1.0,704
+"Valkanov, Rossen",4,185,0.16941924582855777,20,,,2.0,256
+"Vallelado, Eleuterio",1,1726,,,,,1.0,704
+"Van Achter, Mark",2,743,,,,,1.0,704
+"Van Binsbergen, Jules H.",2,743,0.0,305,,,1.0,704
+"Van Bommel, Jos",1,1726,,,,,1.0,704
+"Van Cayseele, Patrick J.G.",1,1726,,,,,1.0,704
+"Van De Gucht, Linda M.",1,1726,,,,,1.0,704
+"Van Dijk, Dick",2,743,,,,,1.0,704
+"Van Dijk, Mathijs A.",1,1726,,,,,1.0,704
+"Van Hemert, Otto",2,743,0.0,305,,,1.0,704
+"Van Horen, Neeltje",2,743,0.0,305,,,1.0,704
+"Van Lelyveld, Iman",1,1726,,,,,1.0,704
+"Van Ness, Robert A.",3,352,,,,,1.0,704
+"Van Nieuwerburgh, Stijn G.",5,96,0.0202181232194757,106,,,4.0,29
+"Van Oppens, Hervé",2,743,,,,,1.0,704
+"Van Tassel, Eric",1,1726,,,,,1.0,704
+"Van Vliet, Pim",2,743,0.0,305,,,1.0,704
+"Van Wincoop, Eric",1,1726,,,,,1.0,704
+"VanHoose, David D.",0,2582,,,,,1.0,704
+"Vanden, Joel M.",0,2582,,,,,1.0,704
+"Vander Vennet, Rudi",3,352,,,,,3.0,97
+"Vanini, Paolo",4,185,,,,,3.0,97
+"Vaughan, Mark D.",2,743,,,,,1.0,704
+"Vayanos, Dimitri",2,743,,,,,2.0,256
+"Vega, Clara",1,1726,0.0,305,,,2.0,256
+"Veiga, Helena",1,1726,,,,,1.0,704
+"Veldkamp, Laura L.",1,1726,0.0,305,,,1.0,704
+"Vencappa, Dev",4,185,,,,,1.0,704
+"Venezia, Itzhak",4,185,,,,,2.0,256
+"Venkataraman, Kumar",2,743,0.0,305,,,1.0,704
+"Venkateswaran, Anand",2,743,,,,,1.0,704
+"Verbeek, Marno",3,352,,,,,2.0,256
+"Vermaelen, Theo J.",3,352,,,,,2.0,256
+"Vermilyea, Todd A.",4,185,,,,,2.0,256
+"Veronesi, Pietro",2,743,,,,,1.0,704
+"Verschoor, Willem FC",1,1726,,,,,1.0,704
+"Versen, Tobias",2,743,,,,,1.0,704
+"Verstraete, Bert",2,743,,,,,1.0,704
+"Verzella, Paolo",1,1726,,,,,1.0,704
+"Vesala, Timo",0,2582,,,,,1.0,704
+"Veža, Tanja",2,743,,,,,1.0,704
+"Viale, Ariel M.",2,743,0.0011280250928030783,255,,,1.0,704
+"Vicente, José Valentim Machado",1,1726,,,,,3.0,97
+"Vickery, James",0,2582,,,,,1.0,704
+"Vigneron, Olivier",2,743,0.0,305,,,1.0,704
+"Vijh, Anand M.",1,1726,,,,,1.0,704
+"Vilkov, Grigory",2,743,0.0005353671967582358,276,,,1.0,704
+"Villa, Christophe",2,743,0.0,305,,,1.0,704
+"Villalonga, Belén",1,1726,,,,,1.0,704
+"Villaplana, Pablo",1,1726,,,,,1.0,704
+"Villatoro, Félix",0,2582,,,,,1.0,704
+"Vines, David A.",3,352,,,,,1.0,704
+"Vishwasrao, Sharmila",1,1726,,,,,1.0,704
+"Vissing-Jørgensen, Annette",2,743,0.0,305,,,1.0,704
+"Viswanathan, Sridhar",4,185,,,,,3.0,97
+"Vlachos, Jonas",4,185,0.0,305,,,1.0,704
+"Vladimirou, Hercules",2,743,,,,,1.0,704
+"Voget, Johannes",1,1726,0.0,305,,,1.0,704
+"Vogt, Bodo",2,743,,,,,1.0,704
+"Volchkova, Natalya",2,743,1.9184100217739538e-05,289,,,1.0,704
+"Von Eije, Henk",1,1726,,,,,1.0,704
+"Von Hagen, Jürgen",1,1726,,,,,1.0,704
+"Von Thadden, Leopold",1,1726,,,,,1.0,704
+"Vorkink, Keith P.",1,1726,0.0,305,,,1.0,704
+"Vos, Ed",3,352,,,,,1.0,704
+"Voss, David Albert",2,743,,,,,1.0,704
+"Vrontos, Ioannis D.",3,352,,,,,3.0,97
+"Vrontos, Spyridon D.",2,743,,,,,1.0,704
+"Vuolteenaho, Tuomo",2,743,0.0,305,,,1.0,704
+"Wachtel, Paul A.",2,743,5.870334666628295e-05,283,,,1.0,704
+"Wachter, Jessica A.",2,743,0.0,305,,,2.0,256
+"Wagner, Wolf",1,1726,,,,,3.0,97
+"Wagster, John D.",0,2582,,,,,1.0,704
+"Wahal, Sunil",1,1726,0.0,305,,,1.0,704
+"Wahrenburg, Mark",1,1726,,,,,1.0,704
+"Walcott, Nathan G.",2,743,0.0,305,,,1.0,704
+"Wald, John K.",1,1726,,,,,1.0,704
+"Walden, Johan",2,743,,,,,2.0,256
+"Walkling, Ralph A.",2,743,,,,,1.0,704
+"Wall, Larry D.",2,743,,,,,1.0,704
+"Wallace, Nancy E.",2,743,,,,,1.0,704
+"Walter, Ingo",1,1726,,,,,1.0,704
+"Wang Beardsley, Xiaoxin",1,1726,,,,,1.0,704
+"Wang, Cong",2,743,,,,,3.0,97
+"Wang, Fang",1,1726,,,,,1.0,704
+"Wang, Fenghua",3,352,0.0,305,,,1.0,704
+"Wang, Haizhi",2,743,0.0007786826278380479,269,,,1.0,704
+"Wang, Hefei",0,2582,,,,,1.0,704
+"Wang, Jia",3,352,,,,,1.0,704
+"Wang, Jiang",3,352,0.12977372353793176,27,,,2.0,256
+"Wang, Jianxin",1,1726,,,,,1.0,704
+"Wang, Junbo",7,35,,,,,4.0,29
+"Wang, Ke",2,743,0.0006710598256165185,272,,,1.0,704
+"Wang, Kehluh",3,352,,,,,1.0,704
+"Wang, Neng",3,352,,,,,3.0,97
+"Wang, Ping",3,352,,,,,1.0,704
+"Wang, Qinghai",2,743,,,,,1.0,704
+"Wang, Rong",3,352,,,,,1.0,704
+"Wang, Tan",5,96,0.014601018675721488,116,,,2.0,256
+"Wang, Wei",2,743,0.0,305,,,1.0,704
+"Wang, Xiaoxin",1,1726,,,,,1.0,704
+"Wang, Yaping",2,743,,,,,1.0,704
+"Wang, Yaw-Huei",3,352,,,,,2.0,256
+"Wang, Yi",3,352,,,,,2.0,256
+"Wang, Ying",2,743,,,,,1.0,704
+"Wang, Yintian",3,352,,,,,1.0,704
+"Wang, Yong",1,1726,,,,,1.0,704
+"Wang, Z. Jay",2,743,0.0,305,,,1.0,704
+"Wang, Zhenyu",1,1726,,,,,1.0,704
+"Wang, Zhi Jun",2,743,0.0,305,,,1.0,704
+"Wang, Zijun",2,743,0.0,305,,,1.0,704
+"Warachka, Mitch Craig",1,1726,,,,,1.0,704
+"Warga, Arthur D.",2,743,0.0,305,,,1.0,704
+"Warnock, Francis E.",2,743,0.0,305,,,1.0,704
+"Warr, Richard S.",2,743,,,,,1.0,704
+"Warusawitharana, Missaka",0,2582,,,,,1.0,704
+"Watanabe, Akiko",3,352,,,,,2.0,256
+"Watanabe, Masahiro",3,352,,,,,3.0,97
+"Watanabe, Wako",0,2582,,,,,1.0,704
+"Watson, Mark W.",1,1726,,,,,1.0,704
+"Webb, Elizabeth R.",2,743,,,,,1.0,704
+"Webb, Gwendolyn P.",3,352,,,,,1.0,704
+"Webb, James R.",1,1726,,,,,1.0,704
+"Weber, Guglielmo",1,1726,,,,,1.0,704
+"Weber, Martin",1,1726,,,,,1.0,704
+"Weder Di Mauro, Beatrice",3,352,0.0,305,,,1.0,704
+"Wedge, Lei",3,352,0.0,305,,,2.0,256
+"Wedow, Michael",5,96,0.008247244683606226,158,,,2.0,256
+"Wei, Bin",1,1726,,,,,1.0,704
+"Wei, Chenyang",2,743,0.007483425174087327,162,,,1.0,704
+"Wei, Jason Z.",3,352,0.003389830508474576,202,,,2.0,256
+"Wei, Kelsey D.",5,96,0.04281603407096199,68,,,2.0,256
+"Wei, Li",2,743,,,,,1.0,704
+"Wei, Min",2,743,,,,,1.0,704
+"Weil, Philippe",1,1726,,,,,1.0,704
+"Weill, Pierre Olivier",1,1726,,,,,1.0,704
+"Weinbaum, David",3,352,0.0053840252128733584,191,,,1.0,704
+"Weisbach, Michael S.",3,352,,,,,2.0,256
+"Weisbenner, Scott J.",4,185,,,,,4.0,29
+"Weise, Charles L.",0,2582,,,,,1.0,704
+"Weiss, Mary A.",1,1726,,,,,1.0,704
+"Weiß, Marco",1,1726,,,,,1.0,704
+"Welch, Ivo V.O.",4,185,0.030094098011568014,91,,,2.0,256
+"Weller, Paul A.",2,743,,,,,1.0,704
+"Wells, Martin T.",2,743,,,,,1.0,704
+"Wen, Yi",1,1726,,,,,1.0,704
+"Werner, Ingrid M.",2,743,0.0,305,,,2.0,256
+"Werner, Thomas",2,743,,,,,1.0,704
+"Westelius, Niklas J.",1,1726,,,,,1.0,704
+"Westerfield, Mark M.",2,743,,,,,2.0,256
+"Weston, James P.",2,743,,,,,1.0,704
+"Whaley, Robert E.",4,185,,,,,2.0,256
+"Whelan, Karl T.",1,1726,,,,,1.0,704
+"Whitby, Ryan J.",2,743,0.0010973305324546924,259,,,1.0,704
+"White, Halbert L.",1,1726,,,,,1.0,704
+"White, Lawrence H.",0,2582,,,,,1.0,704
+"White, Lawrence J.",4,185,0.004512100371212364,194,,,2.0,256
+"White, Lucy",1,1726,0.0,305,,,1.0,704
+"White, Scott I.",2,743,,,,,1.0,704
+"Whited, Toni M.",4,185,0.013507524963310409,125,,,4.0,29
+"Whitelaw, Robert F.",3,352,0.0,305,,,2.0,256
+"Whyte, Ann Marie",2,743,,,,,1.0,704
+"Wickens, Michael R.",1,1726,,,,,1.0,704
+"Widdicks, Martin",3,352,,,,,1.0,704
+"Wiener, Zvi",7,35,,,,,3.0,97
+"Wihlborg, Clas G.",2,743,0.0,305,,,1.0,704
+"Wilhelm, William J.",4,185,0.02684239302466116,98,,,3.0,97
+"Wilkens, Marco",2,743,,,,,1.0,704
+"Wilkens, Sascha",1,1726,,,,,1.0,704
+"Wilkins, Roger",1,1726,,,,,1.0,704
+"Willard, Gregory A.",2,743,,,,,1.0,704
+"Williams, Barry",1,1726,,,,,1.0,704
+"Williams, Glenn",1,1726,,,,,1.0,704
+"Williams, Jeffrey C.",1,1726,,,,,1.0,704
+"Williams, Jonathan M.",2,743,,,,,1.0,704
+"Williamson, Rohan",3,352,0.0,305,,,1.0,704
+"Wilson, John O.S.",4,185,,,,,3.0,97
+"Wilson, Mungo",1,1726,,,,,1.0,704
+"Winkler, Gerhard",2,743,,,,,1.0,704
+"Winters, Drew B.",5,96,,,,,2.0,256
+"Winton, Andrew",4,185,,,,,3.0,97
+"Wisniewski, Tomasz Piotr",2,743,,,,,1.0,704
+"Wiwattanakantang, Yupana",1,1726,,,,,1.0,704
+"Woidtke, Tracie",2,743,,,,,1.0,704
+"Wolfe, Simon",3,352,,,,,2.0,256
+"Womack, Kent L.",2,743,,,,,1.0,704
+"Wong, Brad",2,743,,,,,1.0,704
+"Wong, T. J.",2,743,,,,,1.0,704
+"Wong, Woonkong",0,2582,,,,,1.0,704
+"Wongsunwai, Wan",2,743,0.0,305,,,1.0,704
+"Woodford, Michael",0,2582,,,,,1.0,704
+"Woodgate, Artemiza",1,1726,,,,,1.0,704
+"Wren-Lewis, Simon",3,352,,,,,1.0,704
+"Wright, Jonathan H.",1,1726,,,,,1.0,704
+"Wu, Chunchi",9,8,,,,,5.0,18
+"Wu, Congsheng",1,1726,,,,,1.0,704
+"Wu, Donghui",2,743,,,,,1.0,704
+"Wu, Eliza",1,1726,,,,,1.0,704
+"Wu, Fei",1,1726,,,,,1.0,704
+"Wu, Guojun",2,743,0.0,305,,,1.0,704
+"Wu, Haibin",1,1726,,,,,1.0,704
+"Wu, Liansheng",3,352,,,,,2.0,256
+"Wu, Liuren",2,743,,,,,4.0,29
+"Wu, Qiongbing",2,743,,,,,1.0,704
+"Wu, Shu",0,2582,,,,,1.0,704
+"Wu, Tao L.",2,743,,,,,1.0,704
+"Wu, Xueping",2,743,,,,,1.0,704
+"Wu, Yangru",2,743,,,,,1.0,704
+"Wu, Youchang",2,743,,,,,1.0,704
+"Wulf, Julie",2,743,0.0,305,,,1.0,704
+"Wurgler, Jeffrey",3,352,0.003945210209778136,199,,,2.0,256
+"Wuyts, Christophe",1,1726,,,,,1.0,704
+"Wuyts, Gunther",2,743,,,,,1.0,704
+"Wójcik, Cezary",1,1726,,,,,1.0,704
+"Xiao, Jason Zezhong",2,743,,,,,1.0,704
+"Xiao, Wei",1,1726,,,,,1.0,704
+"Xie, Fei",2,743,,,,,3.0,97
+"Xie, Xiaoying",1,1726,,,,,1.0,704
+"Xie, Yanalice",3,352,,,,,1.0,704
+"Xing, Yuhang",5,96,,,,,3.0,97
+"Xiong, Jun",4,185,,,,,1.0,704
+"Xiong, Wei",3,352,0.003389830508474576,202,,,2.0,256
+"Xu, Danielle",3,352,0.0,305,,,1.0,704
+"Xu, Jianguo",0,2582,,,,,1.0,704
+"Xu, Jin",1,1726,0.0,305,,,1.0,704
+"Xu, Liping",2,743,,,,,1.0,704
+"Xu, Lixincolin",2,743,,,,,1.0,704
+"Xu, Xijia",0,2582,,,,,1.0,704
+"Xu, Xinzhong",4,185,,,,,2.0,256
+"Xu, Yan",2,743,,,,,1.0,704
+"Xu, Yexiao J.",2,743,0.0,305,,,1.0,704
+"Xuan, Yuhai",0,2582,,,,,1.0,704
+"Xue, Hui",2,743,,,,,2.0,256
+"Yadav, Pradeep K.",2,743,,,,,1.0,704
+"Yafeh, Yishay P.",1,1726,,,,,1.0,704
+"Yalcin, Atakan",2,743,4.316422548991396e-06,299,,,1.0,704
+"Yaman, Devrim",1,1726,,,,,1.0,704
+"Yamori, Nobuyoshi",1,1726,,,,,1.0,704
+"Yan, An",1,1726,,,,,1.0,704
+"Yan, Hong",7,35,0.07947109435699692,40,,,3.0,97
+"Yan, Jun",4,185,,,,,1.0,704
+"Yan, Shu",3,352,,,,,2.0,256
+"Yan, Xuemin Sterling (Sterling)",3,352,0.01685706886132773,111,,,3.0,97
+"Yang, Jian",4,185,0.0067681505568185085,167,,,2.0,256
+"Yang, Liu",0,2582,,,,,1.0,704
+"Yang, Minseok",2,743,,,,,1.0,704
+"Yang, PeiChing",2,743,,,,,1.0,704
+"Yang, Song",1,1726,,,,,1.0,704
+"Yang, Tina",2,743,,,,,2.0,256
+"Yang, Wei",2,743,0.0,305,,,1.0,704
+"Yang, Xiaolong",1,1726,,,,,1.0,704
+"Yang, Yunhong",2,743,,,,,1.0,704
+"Yang, Zhifeng",2,743,,,,,1.0,704
+"Yang, Zhishu",2,743,,,,,1.0,704
+"Yao, Jun",2,743,,,,,1.0,704
+"Yao, Rui",1,1726,,,,,1.0,704
+"Yao, Tong",3,352,,,,,2.0,256
+"Yaron, Amir",2,743,0.0,305,,,1.0,704
+"Yasuda, Ayako",1,1726,,,,,2.0,256
+"Yañez, Monica",2,743,0.0,305,,,1.0,704
+"Ye, Jinchun",1,1726,,,,,1.0,704
+"Yeager, Timothy J.",5,96,,,,,3.0,97
+"Yeh, Andy Jia Yuh",3,352,,,,,1.0,704
+"Yeo, Gillian Hian Heng",2,743,,,,,1.0,704
+"Yermack, David L.",1,1726,,,,,2.0,256
+"Yerramilli, Vijay",1,1726,,,,,1.0,704
+"Yeung, Bernard Y.",6,51,0.013496014503179764,128,,,3.0,97
+"Yeung, Eric",2,743,0.0,305,,,1.0,704
+"Yezegel, Ari",2,743,,,,,1.0,704
+"Yildirim, H. Semih",1,1726,,,,,1.0,704
+"Yildirim, Yildiray",1,1726,,,,,1.0,704
+"Yilmaz, Bilge",2,743,0.0,305,,,1.0,704
+"Yilmaz, Fatih",1,1726,,,,,1.0,704
+"Yin, George George",2,743,,,,,1.0,704
+"Yogo, Motohiro",1,1726,,,,,1.0,704
+"Yom, Chiwon",2,743,,,,,1.0,704
+"Yorulmazer, Tanju",2,743,0.003389830508474576,202,,,3.0,97
+"Young, Lance",3,352,0.0,305,,,2.0,256
+"Young, Steven",1,1726,,,,,1.0,704
+"Yousuf, Muhammad Salman",2,743,,,,,1.0,704
+"Yu, Cindy",2,743,,,,,1.0,704
+"Yu, Fan",3,352,0.013490259273114442,130,,,2.0,256
+"Yu, Frank",0,2582,,,,,1.0,704
+"Yu, Jialin",3,352,0.03443626213503339,78,,,2.0,256
+"Yu, Jun",1,1726,,,,,1.0,704
+"Yu, Jungsuk",2,743,,,,,1.0,704
+"Yu, Susana",3,352,,,,,1.0,704
+"Yu, Tong",3,352,,,,,2.0,256
+"Yu, Wen",2,743,0.0,305,,,1.0,704
+"Yu, Xiaoyun",1,1726,,,,,1.0,704
+"Yu, Yinghui",2,743,,,,,1.0,704
+"Yuan, Kathy",3,352,0.013507524963310409,125,,,3.0,97
+"Yuan, Rongli",2,743,,,,,1.0,704
+"Yue, Heng",3,352,,,,,2.0,256
+"Yun, Hayong",0,2582,,,,,1.0,704
+"Yung, Chris",2,743,0.0,305,,,1.0,704
+"Yuyama, Tomonori",1,1726,,,,,1.0,704
+"Zabarankin, Michael",2,743,,,,,1.0,704
+"Zach, Tzachi",3,352,,,,,1.0,704
+"Zaffaroni, Alberto",1,1726,,,,,1.0,704
+"Zaiats, Nataliya",2,743,,,,,1.0,704
+"Zaidi, Rida",3,352,0.0,305,,,1.0,704
+"Zakamulin, Valeriy",1,1726,,,,,1.0,704
+"Zakrajšek, Egon",1,1726,,,,,1.0,704
+"Zantout, Zaher Z.",2,743,,,,,1.0,704
+"Zapatero, Fernando",4,185,,,,,2.0,256
+"Zazzaro, Alberto",2,743,,,,,1.0,704
+"Zechner, Josef",6,51,,,,,3.0,97
+"Zehnder, Christian",1,1726,,,,,1.0,704
+"Zender, Jaime F.",2,743,0.0,305,,,1.0,704
+"Zeng, Jinli",2,743,,,,,1.0,704
+"Zenios, Stavros A.",2,743,,,,,1.0,704
+"Zhang, Benjamin Yibin",2,743,,,,,1.0,704
+"Zhang, Chendi",2,743,,,,,1.0,704
+"Zhang, Chengsi",2,743,,,,,1.0,704
+"Zhang, Chu",1,1726,,,,,1.0,704
+"Zhang, Donghang",2,743,0.0,305,,,2.0,256
+"Zhang, Gaiyan",1,1726,,,,,2.0,256
+"Zhang, Harold H.",3,352,,,,,1.0,704
+"Zhang, Hong",2,743,0.0,305,,,1.0,704
+"Zhang, Jie",2,743,,,,,1.0,704
+"Zhang, Lei",1,1726,,,,,1.0,704
+"Zhang, Lu",9,8,0.037251948202063685,74,,,6.0,8
+"Zhang, Qing",2,743,,,,,1.0,704
+"Zhang, Tianyu",2,743,,,,,1.0,704
+"Zhang, X. Frank",2,743,,,,,1.0,704
+"Zhang, Xiaoyan",6,51,,,,,3.0,97
+"Zhang, Xinan",1,1726,,,,,1.0,704
+"Zhang, Yan",3,352,,,,,1.0,704
+"Zhang, Yi",1,1726,,,,,1.0,704
+"Zhang, Zhe",1,1726,0.0,305,,,1.0,704
+"Zhang, Zhengjun",1,1726,,,,,1.0,704
+"Zhao, Feng",2,743,,,,,2.0,256
+"Zhao, Jing",2,743,,,,,1.0,704
+"Zhao, Longkai",2,743,,,,,1.0,704
+"Zhao, Ruoyun",1,1726,,,,,1.0,704
+"Zhao, Tianshu",2,743,,,,,1.0,704
+"Zhao, Xinlei",1,1726,0.0,305,,,1.0,704
+"Zhao, Yonggan",0,2582,,,,,1.0,704
+"Zhdanov, Alexei",1,1726,0.0,305,,,1.0,704
+"Zheng, Lu U.",4,185,0.005076112917613881,193,,,2.0,256
+"Zhong, Maosen",2,743,,,,,1.0,704
+"Zhou, Flora",2,743,0.001122269862737743,257,,,1.0,704
+"Zhou, Guofu",4,185,,,,,3.0,97
+"Zhou, Hao",6,51,,,,,4.0,29
+"Zhou, Lei",2,743,,,,,1.0,704
+"Zhou, Mingming",3,352,0.001573654300770067,251,,,2.0,256
+"Zhou, Xianming",1,1726,,,,,1.0,704
+"Zhou, Yinggang",2,743,0.0,305,,,1.0,704
+"Zhu, Haibin",3,352,,,,,2.0,256
+"Zhu, Ning",4,185,0.16658513424074128,22,,,2.0,256
+"Zhu, Tian",2,743,,,,,1.0,704
+"Zhu, Yingzi",1,1726,,,,,1.0,704
+"Zhu, Yun(Ellen)",1,1726,,,,,1.0,704
+"Zia, Bilal H.",0,2582,,,,,1.0,704
+"Ziegler, Alexandre",1,1726,,,,,2.0,256
+"Ziemba, William T.",4,185,,,,,3.0,97
+"Zigrand, Jean Pierre",1,1726,,,,,1.0,704
+"Zilca, Shlomo",1,1726,,,,,1.0,704
+"Zimmermann, Heinz D.",1,1726,,,,,1.0,704
+"Zingales, Luigi",7,35,0.031875341716785126,86,,,4.0,29
+"Zinman, Jonathan",1,1726,,,,,2.0,256
+"Zirilli, Francesco",2,743,,,,,1.0,704
+"Zou, Hong",8,19,,,,,3.0,97
+"Zou, Liping",1,1726,,,,,1.0,704
+"Zrazhevsky, Grigoriy M.",3,352,,,,,1.0,704
+"Zulehner, Christine",2,743,,,,,1.0,704
+"Zumwalt, James Kenton",3,352,,,,,1.0,704
+"Zur, Emanuel",1,1726,,,,,1.0,704
+"Zutter, Chad J.",3,352,0.0008431412045696526,267,,,1.0,704
+"Zwiebel, Jeffrey",1,1726,0.0,305,,,1.0,704
+"Östberg, Per",1,1726,,,,,1.0,704
+"Österholm, Pär",2,743,,,,,1.0,704
+"Ødegaard, Bernt Arne",0,2582,,,,,1.0,704
+"Øystein Strøm, R.",1,1726,,,,,1.0,704
+"Ünal, Haluk",2,743,,,,,1.0,704
+"Čihák, Martin",2,743,,,,,1.0,704
