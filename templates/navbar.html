@@ -17,9 +17,9 @@
       <ul class="nav navbar-nav">
         <li><a href="{{ url_for('index') }}"><span class="glyphicon glyphicon-home"></span> Start</a></li>
         <li><a href="{{ url_for('bibliography') }}"><span class="glyphicon glyphicon-flash"></span> The Papers</a></li>
-        <li {% if this_site == 'rankings' %}class='active'{% endif %}><a href="{{ url_for('rankings', rtype='com', year='2011', ranking='thanks') }}"><span class="glyphicon glyphicon-list"></span> The Rankings</a></li>
+        <li {% if this_site == 'rankings' %}class='active'{% endif %}><a href="{{ url_for('rankings', rtype='both', year='2011', ranking='thanks') }}"><span class="glyphicon glyphicon-list"></span> The Rankings</a></li>
         <li {% if this_site == 'networks' %}class='active'{% endif %}><a href="{{ url_for('networks', year='2011') }}"><span class="glyphicon glyphicon-random"></span> The Networks (Graph view)</a></li>
-        <li {% if this_site == 'rings' %}class='active'{% endif %}><a href="{{ url_for('rings', year='2011', focus='MATTHEW_SPIEGEL') }}"><span class="glyphicon glyphicon-random"></span> The Networks (Ring view)</a></li>
+        <li {% if this_site == 'rings' %}class='active'{% endif %}><a href="{{ url_for('rings', year='2011', focus='Spiegel,_Matthew') }}"><span class="glyphicon glyphicon-random"></span> The Networks (Ring view)</a></li>
         <li {% if this_site == 'about' %}class='active'{% endif %}><a href="{{ url_for('about') }}"><span class="glyphicon glyphicon-user"></span> About</a></li>
       </ul>
     </div>

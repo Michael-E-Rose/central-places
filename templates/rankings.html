@@ -34,19 +34,21 @@
           {% if ranking == 'papers' %}
           the number of papers</span> an author has written in our dataset
           {% elif ranking == 'thanks' %}
-          the number of thanks</span> of an academic
+          the number of thanks</span> of a researcher received
           {% elif ranking == 'betweenness' %}
           betweenness centrality</span>
           {% elif ranking == 'eigenvector' %}
           eigenvector centrality</span>
           {% endif %}
           in
-          {% if year == '2011' %}2009-2011{% elif year == '2008'%}2008-2006{% elif year == '2005'%}2005-2003{% elif year == '2002'%}2002-2000{% elif year == '1999'%}1999-1997{% endif %}
+          {% if year=='2011' %}(2009-2011){% elif year=='2010' %}(2008-2010){% elif year=='2009' %}(2007-2009){% elif year=='2008' %}(2006-2008){% elif year=='2007' %}(2005-2007){% elif year=='2006' %}(2006-2006){% elif year=='2005' %}(2003-2005){% elif year=='2002' %}(2002-2004){% elif year=='2003' %}(2001-2003){% elif year=='2002' %}(2000-2002){% elif year=='2001' %}(1999-2001){% elif year=='2000' %}(1998-2000){% elif year=='1999' %}(1997-1999){% endif %}
           in the
           {% if rtype == 'auth' %}
-          co-author netowork
+          co-author network
+          {% elif rtype == 'com' %}
+          network of informal collaboration
           {% else %}
-          social network of informal collaboration
+          network of intellectual collaboration
           {% endif %}
         </h2>
         <p>Below you find the ranking of academics according to how
@@ -71,7 +73,7 @@
           {% endif %}
           <br />
           {% if ranking == 'betweenness' %}
-          Betweenness centrality of a researcher is the probability that she is part of shortest path between any two other researchers. Betweenness central individuals are vital for information flows since the connect different parts of the netowkr. For details see L. Freeman (1977): "A set of measures based on betweenness", <i>Sociometry</i> 40, pp. 35-41. We compute this centrality measure for the largest connected component only.<br/>
+          Betweenness centrality of a researcher is the probability that she is part of shortest path between any two other researchers. Betweenness central individuals are vital for information flows since the connect different parts of the network. For details see L. Freeman (1977): "A set of measures based on betweenness", <i>Sociometry</i> 40, pp. 35-41. We compute this centrality measure for the largest connected component only.<br/>
           {% elif ranking == 'eigenvector' %}
           Eigenvector centrality is the weighted sum of neighbors where the weights correspond to the neighbors' eigenvector centrality. It is a measure of influence in a network. It's very similar to Katz-Bonacich centrality, but without a parameter. For details see P. Bonacich (1986): "Power and Centrality: A Family of Measures", <i>American Journal of Sociology</i> 92(5), pp. 1170-1182. We compute this centrality measure for the largest connected component only.<br/>
           {% endif %}
@@ -94,18 +96,27 @@
       <div class="col-xs-4">
         Year range <select class="year" name="year" required>
           <option value="" disabled selected>Select</option>
-          <option value="2011">2011-2009</option>
-          <option value="2008">2008-2006</option>
-          <option value="2005">2005-2003</option>
-          <option value="2002">2002-2000</option>
-          <option value="1999">1999-1997</option>
+          <option value="2011">2009-2011</option>
+          <option value="2010">2008-2010</option>
+          <option value="2009">2007-2009</option>
+          <option value="2008">2006-2008</option>
+          <option value="2007">2005-2007</option>
+          <option value="2006">2004-2006</option>
+          <option value="2005">2003-2005</option>
+          <option value="2004">2002-2004</option>
+          <option value="2003">2001-2003</option>
+          <option value="2002">2000-2002</option>
+          <option value="2001">1999-2001</option>
+          <option value="2000">1998-2000</option>
+          <option value="1999">1997-1999</option>
         </select>
       </div>
       <div class="col-xs-4">
         Network type <select class="rtype" name="rtype" required>
           <option value="" disabled selected>Select</option>
           <option value="auth">co-author network</option>
-          <option value="com">co-author network with informal collaboration</option> 
+          <option value="com">network of informal collaboration</option>
+          <option value="both">network of intellectual collaboration</option>
         </select>
       </div>
       <div class="col-xs-4">

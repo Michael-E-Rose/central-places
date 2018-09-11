@@ -25,9 +25,16 @@
   <div class="jumbotron">
     <div class="row">
       <div class="col-xs-12">
-        <h2>What is the social network of informal collaboration?</h2>
-        <p>The social network of informal collaboration in financial economics shows how financial economists work together. Academics frequently discuss their work with their colleagues: at conferences, when holding a visiting position at another department, or in casual discussions with other faculty members around the water cooler.</p>
-        <p>They exchange new ideas, point to emerging trends, share new literature and critize each others work, all of which can be subsumed as social informal collaboration. Typically, authors acknowledge informal collaboration in a separate footnote in a published article. We use these acknowledgements to create the social network of informal collaboration in financial economics. It links authors and acknowledged commenters by undirected and weighted links. The network allows us to study network effects and the dissemation of information in a large scientific setting.</p>
+        <h2>What is the social network of intellectual collaboration?</h2>
+        <p>The social network of intellectual collaboration in financial economics shows how financial economists work together. Academics frequently discuss their work with their colleagues: at conferences, when holding a visiting position at another department, or in casual discussions with other faculty members around the water cooler.</p>
+        <p>They exchange new ideas, point to emerging trends, share new literature and critize each others work, all of which can be subsumed as social informal collaboration. Typically, authors acknowledge informal collaboration in a separate footnote in a published article.</p>
+        <p>These acknowledgements form the core of the <a href="https://github.com/Michael-E-Rose/CoFE">CoFE dataset</a> (Collaboration in Financial Economics). We use the CoFE dataset to create three networks:</p>
+        <ul font="font-size:normal;">
+          <li><p>In the <i>network of informal collaboration</i>, authors and acknowledged commenters are connected by undirected and weighted links.</p></li>
+          <li><p>As comparison, pure <i>co-author networks</i> connect authors whenever they jointly published a paper in our dataset.</p></li>
+          <li><p>The <i>network of intellectual collaboration</i> is the compose of the two.</p></li>
+        </ul>
+        <p>The networks allow us to study network effects and the dissemation of information in a large scientific setting.</p>
         <p>We set up this website because we thought our colleagues might be interested to learn about patterns of informal collaboration and see where they are in our data. And of course because we had fun setting up the website.</p>
       </div>
     </div>
@@ -39,20 +46,20 @@
           <img class="resize" src="{{ url_for('static', filename='images/CoPierre.jpg') }}" alt="thumbnail" align="left" style="float:left;padding-right:25px;border:none">
         <p><b>Co-Pierre Georg</b></p>
         </a>
-        <p>Co-Pierre is a Senior Lecturer at the African Institute of Financial Markets and Risk Management at University of Cape Town, a Research Economist at Deutsche Bundesbank, and a Policy Associate at Economic Research Southern Africa. He is working on financial and economic networks, agent-based modelling, and microeconomics of banking. The views on this website are not the views of Deutsche Bundesbank.</p>
+        <p>Co-Pierre is an Associate Editor at the African Institute of Financial Markets and Risk Management at University of Cape Town, a Research Economist at Deutsche Bundesbank, and a Policy Associate at Economic Research Southern Africa. He is working on financial and economic networks, agent-based modelling, and microeconomics of banking. The views on this website are not the views of Deutsche Bundesbank.</p>
         <br />
         <a href="http://michael-e-ro.se/">
           <img class="resize" src="{{ url_for('static', filename='images/Michael.jpg') }}" alt="thumbnail" align="left" style="float:left;padding-right:25px;border:none">
           <p><b>Michael E. Rose</b></p>
         </a>
-        <p>Michael E. Rose has been a PhD student at the African Institute of Financial Markets and Risk Management at University of Cape Town since April 2015. He works on social networks in financial and economic applications. He has been visiting De Nederlandsche Bank and Deutsche Bundesbank in 2016 and is also a Research Affiliate at Kiel Institute for the World Economy.</p>
+        <p>Michael E. Rose is a Post-Doctoral researcher at the Max Planck Institute for Innovation and Competition in Munich. He received his PhD from the University of Cape Town in fall 2018. He works on the Economics of Science, using social networks and machine learning. He has been visiting De Nederlandsche Bank and Deutsche Bundesbank in 2016 and is also a Research Affiliate at Kiel Institute for the World Economy.</p>
       </div>
     </div>
   <hr/>
     <div class="row">
       <div class="col-xs-12">
         <h2>The website</h2>
-        <p>This website is being developed using Flask and all the source code is hosted on a <a href="https://github.com/">private GitHub repository</a>. As soon as we make our data public, we make the repository public as well, so that everyone can suggest changes or report error issues. We also use Google Analytics (but without User ID feature) to learn about our visitor's behaviour.</p>
+        <p>This website is being developed using Flask and all the source code is hosted on a <a href="https://github.com/Michael-E-Rose/central-places">public GitHub repository</a>. The CoFE (Collaboration in Financial Economics) data used here is also availabe in <a href="https://github.com/Michael-E-Rose/CoFE">another GitHub repo</a>. We also use Google Analytics (but without User ID feature) to learn about our visitor's behaviour.</p>
       </div>
     </div>
   </div>

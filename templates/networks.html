@@ -30,7 +30,7 @@
   <div class="jumbotron">
     <div class="row">
       <div class="col-xs-12">
-        <h3>The Social Network of Intellectual Collaboration {% if year=='2011' %}(2009-2011){% elif year=='2008'%}(2008-2006){% elif year=='2005'%}(2005-2003){% elif year=='2002'%}(2002-2000){% elif year=='1999'%}(1999-1997){% endif %}</h3>
+        <h3>The Social Network of Intellectual Collaboration {% if year=='2011' %}(2009-2011){% elif year=='2010' %}(2008-2010){% elif year=='2009' %}(2007-2009){% elif year=='2008'%}(2006-2008){% elif year=='2007'%}(2005-2007){% elif year=='2006'%}(2006-2006){% elif year=='2005'%}(2003-2005){% elif year=='2002'%}(2002-2004){% elif year=='2003'%}(2001-2003){% elif year=='2002'%}(2000-2002){% elif year=='2001'%}(1999-2001){% elif year=='2000'%}(1998-2000){% elif year=='1999'%}(1997-1999){% endif %}</h3>
         <p>We assume a weighted but undirected link between two researchers whenever one acknowledges the other on a published research paper. The weight corresponds to the inverse number of authors. Additionally, we assume an undirected link of weight 1 between every pair of authors. Weights are additive.<br/>
         <br/>
         We have used all acknowledgments from all published research articles published in six journals: The Journal of Finance, The Review of Financial Studies, the Journal of Financial Economics, the Journal of Financial Intermediation, the Journal of Money, Credit & Banking, and the Journal of Banking and Finance.<br />
@@ -39,9 +39,17 @@
 
       <p>
         <a href="{{ url_for('networks', year='1999') }}" class="btn btn-success">1997-1999 &raquo;</a>
+        <a href="{{ url_for('networks', year='2000') }}" class="btn btn-success">1998-2000 &raquo;</a>
+        <a href="{{ url_for('networks', year='2001') }}" class="btn btn-success">1999-2001 &raquo;</a>
         <a href="{{ url_for('networks', year='2002') }}" class="btn btn-success">2000-2002 &raquo;</a>
+        <a href="{{ url_for('networks', year='2003') }}" class="btn btn-success">2001-2003 &raquo;</a>
+        <a href="{{ url_for('networks', year='2004') }}" class="btn btn-success">2002-2004 &raquo;</a>
         <a href="{{ url_for('networks', year='2005') }}" class="btn btn-success">2003-2005 &raquo;</a>
+        <a href="{{ url_for('networks', year='2006') }}" class="btn btn-success">2004-2006 &raquo;</a>
+        <a href="{{ url_for('networks', year='2007') }}" class="btn btn-success">2005-2007 &raquo;</a>
         <a href="{{ url_for('networks', year='2008') }}" class="btn btn-success">2006-2008 &raquo;</a>
+        <a href="{{ url_for('networks', year='2009') }}" class="btn btn-success">2007-2009 &raquo;</a>
+        <a href="{{ url_for('networks', year='2010') }}" class="btn btn-success">2008-2010 &raquo;</a>
         <a href="{{ url_for('networks', year='2011') }}" class="btn btn-success">2009-2011 &raquo;</a>
       </p>
 
@@ -51,7 +59,7 @@
   <div class="row">
     <div class="col-xs-12">
     <h1>Interactive Network</h1>
-    <p>For computational reasons, we show the giant component only and remove links that occur only once and which at the same year have a weight smaller than 1 have been removed (i.e. one-time co-author ties remain). Nodes are color-coded: red nodes are pure authors (author that are not acknowledged in the dataset), blue nodes are pure commenters (nodes that are acknowledged but have not authored a paper in the dataset) and yellow nodes are commenting authors. Node positions according to an adapted Fruchterman-Reingold algorithm. Visualization using vis.js.</p>
+    <p>For computational reasons, we show the giant component only and remove links that occur only once and which at the same year have a weight smaller than 1 (i.e. one-time co-author ties remain). Nodes are color-coded: red nodes are pure authors (authors that are not acknowledged in the dataset), blue nodes are pure commenters (acknowledged commenters not having authored a paper in the dataset), while yellow nodes are commenting authors. Node positions according to an adapted Fruchterman-Reingold algorithm. Visualization using vis.js.</p>
     <p>You can:</p>
      <ul>
       <li>Hover over a node to see metrics</li>
