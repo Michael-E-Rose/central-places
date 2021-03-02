@@ -22,11 +22,6 @@ def index(this_site):
     return render_template('index.html', this_site='index')
 
 
-@app.route('/bibliography')
-def bibliography():
-    return render_template('bibliography.html')
-
-
 @app.route('/rankings')
 def rankings():
     rtypes = ['auth', 'both', 'com']
@@ -61,10 +56,6 @@ def rings():
     else:
         return abort(404)
 
-
-@app.route('/about')
-def about():
-    return render_template('about.html', this_site='about')
 
 
 # Launch for Testing

@@ -72,11 +72,6 @@
   <div id="main">
     <div class="row">
       <div class="col-xs-4">
-        <h2><span class="glyphicon glyphicon-flash"></span> The Paper</h2>
-        <p>With the dataset advertised here, we researched the information flow in financial economics. Find out what we found out.</p>
-        <p><a href="{{ url_for('bibliography') }}" class="btn btn-success">See our papers &raquo;</a></p>
-      </div>
-      <div class="col-xs-4">
         <h2><span class="glyphicon glyphicon-list"></span> The Rankings</h2>
         <p>Who are the most central financial economists of our year? We provide rankings according to two centrality measures compared to the number of years they are acknowledged.</p>
         <p><a href="{{ url_for('rankings', rtype='com', year='2011', ranking='thanks') }}" class="btn btn-success">To the Rankings &raquo;</a></p>
@@ -85,29 +80,15 @@
         <h2><span class="glyphicon glyphicon-random"></span> The Networks</h2>
         <p>How does the social network of informal collaboration actually look like? Find out who knows whom and where you have been acknowledged.</p>
         <p><a href="{{ url_for('networks', year='2011') }}" class="btn btn-success">See the Graph view &raquo;</a></p>
-        <p><a href="{{ url_for('rings', year='2011', focus='MATTHEW_SPIEGEL') }}" class="btn btn-success">See the Ring view &raquo;</a></p>
+        <p><a href="{{ url_for('rings', year='2011', focus='Spiegel,_Matthew') }}" class="btn btn-success">See the Ring view &raquo;</a></p>
+      </div>
+      <div class="col-xs-4">
+        <h2><span class="glyphicon glyphicon-flash"></span> The Paper</h2>
+        <p>With the dataset advertised here, we researched the information flow in financial economics. Find out what we found out.</p>
+        <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107" class="btn btn-success">See our paper &raquo;</a></p>
       </div>
     </div>
 
-    <br>
-    <br>
-
-    <div class="row">
-      <div class="col-xs-4">
-        <h2><span class="glyphicon glyphicon-user"></span> About</h2>
-        <p>Find out who we are, why we set up this website and contact us.</p>
-        <p><a href="{{ url_for('about') }}" class="btn btn-success">Find out &raquo;</a></p>
-      </div>
-      <div class="col-xs-4">
-        <h2><span class="glyphicon glyphicon-education"></span> The Blog</h2>
-        <p>Surrounding our dataset are many interesting facts. Read on in our blog where we present smaller findings.</p>
-        <p><a href="http://blog.central-places.net" class="btn btn-success" target="_blank">Read more &raquo;</a></p>
-      </div>
-      <div class="col-xs-4">
-        <h2><span class="glyphicon glyphicon-comment"></span> Feedback</h2>
-        <p>Do you have a suggestion to improve the website or did you find a typo? We are happy to hear from you!</p>
-        <p><a href="mailto:contact@central-places.net"><span class="glyphicon glyphicon-envelope"></span> Drop us a note!</a></p>
-      </div>
     </div>
   </div>
 
