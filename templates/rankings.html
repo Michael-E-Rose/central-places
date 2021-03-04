@@ -31,9 +31,7 @@
       <div class="col-xs-12">
         <h2>Ranking based on
           <span style="color: #ff44aa;">
-          {% if ranking == 'papers' %}
-          the number of papers</span> an author has written in our dataset
-          {% elif ranking == 'thanks' %}
+          {% if ranking == 'thanks' %}
           the number of thanks</span> of a researcher received
           {% elif ranking == 'betweenness' %}
           betweenness centrality</span>
@@ -41,35 +39,42 @@
           eigenvector centrality</span>
           {% endif %}
           in
-          {% if year=='2011' %}(2009-2011){% elif year=='2010' %}(2008-2010){% elif year=='2009' %}(2007-2009){% elif year=='2008' %}(2006-2008){% elif year=='2007' %}(2005-2007){% elif year=='2006' %}(2006-2006){% elif year=='2005' %}(2003-2005){% elif year=='2002' %}(2002-2004){% elif year=='2003' %}(2001-2003){% elif year=='2002' %}(2000-2002){% elif year=='2001' %}(1999-2001){% elif year=='2000' %}(1998-2000){% elif year=='1999' %}(1997-1999){% endif %}
-          in the
-          {% if rtype == 'auth' %}
-          co-author network
-          {% elif rtype == 'com' %}
-          network of informal collaboration
-          {% else %}
-          network of intellectual collaboration
+          {% if year=='2011' %}
+          2009-2011
+          {% elif year=='2010' %}
+          2008-2010
+          {% elif year=='2009' %}
+          2007-2009
+          {% elif year=='2008' %}
+          2006-2008
+          {% elif year=='2007' %}
+          2005-2007
+          {% elif year=='2006' %}
+          2006-2006
+          {% elif year=='2005' %}
+          2003-2005
+          {% elif year=='2002' %}
+          2002-2004
+          {% elif year=='2003' %}
+          2001-2003
+          {% elif year=='2002' %}
+          2000-2002
+          {% elif year=='2001' %}
+          1999-2001
+          {% elif year=='2000' %}
+          1998-2000
+          {% elif year=='1999' %}
+          1997-1999
           {% endif %}
+          in the network of informal collaboration
         </h2>
-        <p>Below you find the ranking of academics according to how
-          {% if ranking == 'papers' %}
-          many papers they have authored in our dataset.
-          {% elif ranking == 'thanks' %}
-          often they are acknowledged in our data set.
+        <p>Below you find the ranking of academics according to
+          {% if ranking == 'thanks' %}
+          how often they are acknowledged in our data set.
           {% elif ranking == 'betweenness' %}
-          betweenness central they are in the social network of 
-            {% if rtype == 'auth' %}
-            co-authorship.<br/>
-            {% else %}
-            intellectual collaboration.<br/>
-            {% endif %}
+          betweenness central they are in the social network of informal collaboration.<br/>
           {% elif ranking == 'eigenvector' %}
-          eigenvector central they are in the social network of 
-            {% if rtype == 'auth' %}
-            co-authorship.<br/>
-            {% else %}
-            intellectual collaboration.<br/>
-            {% endif %}
+          eigenvector central they are in the social network of informal collaboration.<br/>
           {% endif %}
           <br />
           {% if ranking == 'betweenness' %}
@@ -84,13 +89,11 @@
       </div>
     </div>
 
-    <br/>
     <hr/>
-    <br/>
 
     <div class="row">
       <div class="col-xs-12">
-        <h3><center>Another ranking?</center></h3>
+        <h3><center>Choose your ranking</center></h3>
       </div>
       <form method="get" style="font-size: 18px;">
       <div class="col-xs-4">
@@ -112,20 +115,11 @@
         </select>
       </div>
       <div class="col-xs-4">
-        Network type <select class="rtype" name="rtype" required>
-          <option value="" disabled selected>Select</option>
-          <option value="auth">co-author network</option>
-          <option value="com">network of informal collaboration</option>
-          <option value="both">network of intellectual collaboration</option>
-        </select>
-      </div>
-      <div class="col-xs-4">
         Ranking measure <select class="ranking" name="ranking" required>
           <option value="" disabled selected>Select</option>
           <option value="betweenness">betweenness centrality</option>
           <option value="eigenvector">eigenvector centrality</option>
           <option value="thanks">number of thanks</option>
-          <option value="papers">number of articles</option>
         </select>
       </div>
       <br/>
@@ -134,20 +128,10 @@
       </form>
     </div>
   </div>
-  <script>  // Rule out specific combinations
-  document.querySelector('.rtype').addEventListener('change', function () {
-    document.querySelector('option[value="thanks"]').disabled = this.value === 'auth';
-    document.querySelector('option[value="papers"]').disabled = this.value === 'com';
-  });
-  document.querySelector('.ranking').addEventListener('change', function () {
-    document.querySelector('option[value="auth"]').disabled = this.value === 'thanks';
-    document.querySelector('option[value="com"]').disabled = this.value === 'papers';
-  });
-  </script>
 
   <div class="tab">
     <table class="table table-hover">
-      {% include 'rankings/' + rtype + '_' + year + '_' + ranking + '.html' %}
+      {% include 'rankings/' + year + '_' + ranking + '.html' %}
     </table>
   </div>
 

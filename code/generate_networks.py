@@ -1,31 +1,31 @@
 #!/usr/bin/env python3
 # Author:   Michael E. Rose <michael.ernst.rose@gmail.com>
-"""Generates five undirected weighted networks spanning three years each."""
+"""Generates weighted yearly networks with informal collaboration."""
 
-from collections import defaultdict
-from glob import glob
-from itertools import combinations, product
-from json import loads
-from os.path import basename, splitext
-from urllib.request import urlopen
+from collections import Counter, defaultdict
+from itertools import product
+from json import load
 
 import networkx as nx
 import pandas as pd
 
-ACK_FILE = "https://cdn.rawgit.com/Michael-E-Rose/CoFE/master/acks_min.json"
-EDITOR_FILE = "./editor_tenures/list.csv"
+ACK_FILE = "/home/panther/Science/Data/CoFE/acks_min.json"
+EDITOR_FILE = 'https://raw.githubusercontent.com/Michael-E-Rose/What-5-000-'\
+              'Acknowledgements-Tell-Us-About-Informal-Collaboration-in-'\
+              'Financial-Economics/master/075_editor_tenures/list.csv'
 TARGET_FOLDER = "networks/"
 
+MAX_YEAR = 2011
 SPAN = 3  # yearly 3-year rolling networks
 
 
-def add_attribute(network, items, val, attr='weight'):
-    """Creates, appends or increases attribute of edges or nodes."""
-    for entry in items:
+def add_attribute(network, item, val, attr='weight'):
+    """Creates, appends or increases attribute of edges"""
+    for entry in item:
         try:  # edge
             d = network.edges[entry[0], entry[1]]
         except KeyError:  # node
-            d = network.node[entry]
+            d = network.nodes[entry]
         try:
             if isinstance(d[attr], str):
                 d[attr] += ";" + val  # append
@@ -37,65 +37,43 @@ def add_attribute(network, items, val, attr='weight'):
 
 def main():
     # READ IN
-    # List of editors to be removed
-    editors = pd.read_csv(EDITOR_FILE).dropna(subset=['scopus_id'])
-    editors = editors[editors['managing_editor'] == 1]
-    editors['scopus_id'] = editors['scopus_id'].astype(int).astype(str)
-    # Acknowlegement data
-    data = loads(urlopen(ACK_FILE).read().decode("utf-8"))['data']
+    eds = pd.read_csv(EDITOR_FILE).dropna(subset=['scopus_id'])
+    eds = eds[eds['managing_editor'] == 1]
+    eds['scopus_id'] = eds['scopus_id'].astype(int).astype(str)
+    with open(ACK_FILE, "rb") as inf:
+        acks = load(inf)["data"]
 
     # GENERATE NETWORKS
-    A = defaultdict(lambda: nx.Graph())  # authors
-    B = defaultdict(lambda: nx.Graph())  # authors and commenters
-    C = defaultdict(lambda: nx.Graph())  # commenters
-    for item in data:
+    C = defaultdict(lambda: nx.DiGraph(name="com"))
+    for item in acks:
         pub_year = item['year']
-        # Get editors to remove
-        editor_range = range(pub_year-1, pub_year+1)  # This year and the one before
-        mask = (editors['year'].isin(editor_range)) & (editors['journal'] == item['journal'])
-        cur_editors = set(editors[mask]['scopus_id'])
+        journal = item['journal']
         # Authors
         auths = [a['label'] for a in item['authors']]
-        auths = [a.replace("*", "") for a in auths]
-        num_auth = len(auths)
+        # Editors of this and previous year
+        eds_range = range(pub_year-1, pub_year+1)
+        mask = (eds['year'].isin(eds_range)) & (eds['journal'] == item['journal'])
+        cur_editors = set(eds[mask]['scopus_id'])
         # Commenters
-        coms = [c['label'] for c in item.get('com', [])]
+        coms = [c['label'] for c in item.get('com', []) if
+                c.get('scopus_id', c['label']) not in cur_editors]
         coms.extend([c['label'] for c in item.get('dis', [])])
-        coms.extend([p['label'] for x in item['authors']
-                     for p in x.get('phd', [])])
-        coms = [c.replace("*", "") for c in coms]
-        coms = set(coms) - cur_editors
-        # Add weighted links to this and the next SPAN networks
+        coms.extend([c['label'] for c in item.get('phd', [])])
+        # Add weighted links to this and the next SPAN-1 networks
         for cur_year in range(pub_year, pub_year+SPAN):
-            if cur_year < 1997+SPAN-1 or cur_year > 2011:
+            if cur_year < 1997+SPAN-1 or cur_year > MAX_YEAR:
                 continue
-            auth_links = list(combinations(auths, 2))
             com_links = list(product(coms, auths))
-            # Author network
-            A[cur_year].add_nodes_from(auths)
-            A[cur_year].add_edges_from(auth_links)
-            add_attribute(A[cur_year], auth_links, 1.0, 'weight')
-            add_attribute(A[cur_year], auths, 1.0, 'papers')
-            # Commenter network
             C[cur_year].add_nodes_from(coms)
             C[cur_year].add_edges_from(com_links)
-            add_attribute(C[cur_year], com_links, 1.0, 'weight')
+            add_attribute(C[cur_year], com_links, 1/len(auths))
+            add_attribute(C[cur_year], com_links, journal, 'journal')
             add_attribute(C[cur_year], coms, 1.0, 'thanks')
-            # Both network
-            B[cur_year].add_nodes_from(auths)
-            B[cur_year].add_nodes_from(coms)
-            B[cur_year].add_edges_from(auth_links)
-            add_attribute(B[cur_year], auth_links, 1.0, 'weight')
-            add_attribute(B[cur_year], auths, 1.0, 'papers')
-            B[cur_year].add_edges_from(com_links)
-            add_attribute(B[cur_year], com_links, 1.0/len(auths), 'weight')
-            add_attribute(B[cur_year], coms, 1.0, 'thanks')
 
     # WRITE OUT
-    for label, dict in [('auth', A), ('both', B), ('com', C)]:
-        for year, G in dict.items():
-            ouf = "{}/{}_{}.gexf".format(TARGET_FOLDER, label, year)
-            nx.write_gexf(G, ouf)
+    for year, G in C.items():
+        ouf = f"{TARGET_FOLDER}/{year}.gexf"
+        nx.write_gexf(G, ouf)
 
 
 if __name__ == '__main__':

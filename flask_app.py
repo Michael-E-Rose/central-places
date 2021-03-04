@@ -24,24 +24,12 @@ def index(this_site):
 
 @app.route('/rankings')
 def rankings():
-    rtypes = ['auth', 'both', 'com']
     rankings = ['thanks', 'papers', 'betweenness', 'eigenvector']
-    rtype = request.args.get('rtype', default='both')
     year = request.args.get('year', default='2011')
     ranking = request.args.get('ranking', default='thanks')
-    if rtype in rtypes and year in _years and ranking in rankings:
-        return render_template('rankings.html', rtype=rtype, year=year,
-                               ranking=ranking, this_site='rankings')
-    else:
-        return abort(404)
-
-
-@app.route('/networks')
-def networks():
-    year = request.args.get('year', default='2011')
-    if year in _years:
-        return render_template('networks.html', year=year,
-                               this_site='networks')
+    if year in _years and ranking in rankings:
+        return render_template('rankings.html', year=year, ranking=ranking,
+                               this_site='rankings')
     else:
         return abort(404)
 
